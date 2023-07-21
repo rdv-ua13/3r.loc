@@ -1341,6 +1341,10 @@ input.disabled {
 		width: 36px;
 		min-height: 36px;
 		height: 36px;
+
+		&.btn {
+			background-color: transparent;
+		}
 	}
 	&:not(.input-search-wrapper-btn-outside) {
 		.input-search-btn {
