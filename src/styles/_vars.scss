@@ -1,0 +1,62 @@
+:root {
+	// base
+	--font-family-manrope: "Manrope", sans-serif;
+	--font-family-sfpro: "SF Pro Display", sans-serif;
+	--font-family-unbounded: "Unbounded", cursive;
+	--content-width: 1280px;
+	--container-offset: 80px;
+	--container-width: calc(var(--content-width) + (var(--container-offset) * 2));
+
+	// colors
+	--black-color: #000000;
+	--white-color: #FFFFFF;
+
+	--red-color: #A2342E;
+	--red2-color: #922F29;
+	--green-color: #25BC2B;
+
+	--interface1-color: #1F1D1C;
+	--interface2-color: #353433;
+	--interface3-color: #4C4A49;
+	--interface4-color: #626160;
+	--interface5-color: #797777;
+	--interface6-color: #A5A5A4;
+	--interface7-color: #A5A5A4; // repeats interface6
+	--interface8-color: #BCBBBB;
+	--interface9-color: #D2D2D2;
+	--interface10-color: #E9E8E8;
+	--interface11-color: #F8F8F8;
+
+	--surface-gray1-color: #070707;
+	--surface-gray2-color: #2B2D32;
+	--surface-gray4-color: #D5D5D6;
+	--surface-gray5-color: #EAEAEB;
+	--surface-gray6-color: #F8F8F8;
+
+	--text-secondary-color: #808185;
+
+	--card-shadow: 0 20px 40px -12px rgba(0, 0, 0, 0.06);
+	--card-shadow-hover: 0 24px 56px -8px rgba(31, 29, 28, 0.1);
+
+	// fancybox
+	--fancybox-scrollbar-compensate: 17px;
+	--fancybox-bg: rgba(0, 0, 0, 0.7);
+
+	// transition
+	--transition: 0.2s ease-out;
+}
+@media (min-width: 1440px) {
+	:root {
+		--container-offset: 80px;
+	}
+}
+@media (max-width: 991.98px) {
+	:root {
+		--container-offset: 16px;
+	}
+}
+@media (min-width: 992px) and (max-width: 1439.98px) {
+	:root {
+		--container-offset: 50px;
+	}
+}
