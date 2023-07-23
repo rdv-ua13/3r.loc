@@ -296,7 +296,7 @@
         margin-bottom: 60px !important;
     }
     .gap-xxl {
-        margin-bottom: 60px !important;
+        margin-bottom: 72px !important;
     }
 }
 <!--@media (max-width: 991.98px) {

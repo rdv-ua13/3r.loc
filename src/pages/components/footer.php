@@ -49,7 +49,7 @@
                     </div>
                 </div>
             </div>
-            <div class="gap-xl-plus">
+            <div class="gap-xl-plus desktop-only">
                 <div class="hr"></div>
             </div>
             <div class="">

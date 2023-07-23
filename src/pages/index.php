@@ -8,23 +8,23 @@
                     <div class="container">
                         <div class="main-banner">
                             <div class="main-banner__descr">
-                                <div class="main-banner__title h1">Производство, покраска швейной фурнитуры и &nbsp;поставка по всей России</div>
+                                <div class="main-banner__title h1">Производство, покраска швейной фурнитуры и&nbsp;поставка по всей России</div>
                                 <div class="main-banner__subtitle">
                                     <ul class="list-reset main-banner__list">
                                         <li>
-                                                <span class="main-banner__marker">
-                                                    <svg class="icon icon-sm">
-                                                        <use href="img/sprite.svg#search"></use>
-                                                    </svg>
-                                                </span>
+                                            <span class="main-banner__marker">
+                                                <svg class="icon icon-sm">
+                                                    <use href="img/sprite.svg#search"></use>
+                                                </svg>
+                                            </span>
                                             <span class="main-banner__content">Больше 20 лет производим фурнитуру в России</span>
                                         </li>
                                         <li>
-                                                <span class="main-banner__marker">
-                                                    <svg class="icon icon-sm">
-                                                        <use href="img/sprite.svg#search"></use>
-                                                    </svg>
-                                                </span>
+                                            <span class="main-banner__marker">
+                                                <svg class="icon icon-sm">
+                                                    <use href="img/sprite.svg#search"></use>
+                                                </svg>
+                                            </span>
                                             <span class="main-banner__content">Самый большой цех покраски под заказ</span>
                                         </li>
                                     </ul>
@@ -414,6 +414,130 @@
     </div>
 </div>
 
+<div class="block block-gray">
+    <div class="container">
+        <div class="gap-lg plus">
+            <div class="h2">О компании и <span class="red-color">сотрудничестве</span></div>
+        </div>
+        <div class="gap-xl-plus">
+            <div class="about">
+                <div class="about-item about-descr">
+                    <div class="gap-lg">
+                        <div class="h3">О нашей продукции</div>
+                    </div>
+                    <div class="gap-lg">
+                        <div class="about-descr__content">Прежде всего, укрепление и развитие внутренней структуры однозначно определяет каждого участника как способного принимать собственные решения касаемо благоприятных перспектив!</div>
+                    </div>
+                    <div class="">
+                        <div class="more-link">Узнать больше о производстве</div>
+                    </div>
+                </div>
+                <div class="about-item about-view">
+					<?/* tmp */?>
+                    <div class="about-video">
+                        <picture>
+                            <source srcset="img/video-preview.webp" type="image/webp">
+                            <img
+                                    loading="lazy"
+                                    src="img/video-preview.png"
+                                    class="image"
+                                    width="630"
+                                    height="355"
+                                    alt="Изображение блока"
+                            >
+                        </picture>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="">
+            <div class="about">
+                <div class="about-item">
+                    <div class="">
+                        <div class="h3">
+                            <span class="red-color">Сотрудничество</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-item about-descr">
+                    <div class="about-descr__content">Прежде всего, укрепление и развитие внутренней структуры однозначно определяет каждого участника как способного принимать собственные решения касаемо благоприятных перспектив! Приятно, граждане, наблюдать, как сторонники тоталитаризма в науке являются только методом политического участия и функционально разнесены на независимые элементы. Безусловно, внедрение современных методик, в своём классическом представлении, допускает внедрение системы массового участия.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="block block-border-y has-bg">
+    <div class="container">
+        <div class="gap-lg-plus">
+            <div class="h2">Новости</div>
+        </div>
+        <div class="card-list card-list--medium">
+            <div class="card card-info">
+                <div class="card__view">
+                    <picture>
+                        <source srcset="img/card-info-img-1.webp" type="image/webp">
+                        <img
+                                loading="lazy"
+                                src="img/card-info-img-1.png"
+                                class="image"
+                                width="400"
+                                height="380"
+                                alt="Изображение блока"
+                        >
+                    </picture>
+                </div>
+                <div class="card__descr">
+                    <div class="card__title h5">Не подвели!</div>
+                    <div class="card__subtitle">Спешим поделиться с вами радостью! Сегодня нам написали молодожены, которые поделились с нами своим счастьем и поблагодарили нам!</div>
+                </div>
+                <div class="card__more">
+                    <span class="more-link">Читать полностью</span>
+                </div>
+            </div>
+            <div class="card card-info">
+                <div class="card__view">
+                    <picture>
+                        <source srcset="img/card-info-img-2.webp" type="image/webp">
+                        <img
+                                loading="lazy"
+                                src="img/card-info-img-2.png"
+                                class="image"
+                                width="400"
+                                height="380"
+                                alt="Изображение блока"
+                        >
+                    </picture>
+                </div>
+                <div class="card__descr">
+                    <div class="card__title h5">Давайте знакомиться!</div>
+                    <div class="card__subtitle">Меня зовут Марина! Я основала эту фирму после того, как в самый ответственный момент меня подвела продукция YCC</div>
+                </div>
+                <div class="card__more">
+                    <span class="more-link">Читать полностью</span>
+                </div>
+            </div>
+            <div class="card card-info card-info--more">
+                <div class="card__view">
+                    <picture>
+                        <source srcset="img/card-info-img-2.webp" type="image/webp">
+                        <img
+                                loading="lazy"
+                                src="img/card-info-img-2.png"
+                                class="image"
+                                width="400"
+                                height="380"
+                                alt="Изображение блока"
+                        >
+                    </picture>
+                </div>
+                <div class="card__more">
+                    <span class="more-link">Больше новостей</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 
@@ -526,7 +650,6 @@
         </div>
     </div>
 </div>
-
 
 <div class="block">
     <div class="container">
