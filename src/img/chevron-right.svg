@@ -1,9 +1,5 @@
 <svg id="chevron-right" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g id="vuesax/linear/arrow-right">
-<g id="vuesax/linear/arrow-right_2">
-<g id="arrow-right">
-<path id="Vector" d="M8.91016 19.92L15.4302 13.4C16.2002 12.63 16.2002 11.37 15.4302 10.6L8.91016 4.07996" stroke="black" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-</g>
+<path id="Union" fill-rule="evenodd" clip-rule="evenodd" d="M8.37983 3.54963C8.67272 3.25673 9.14759 3.25673 9.44049 3.54963L15.9605 10.0696C17.0234 11.1325 17.0234 12.8674 15.9605 13.9303L9.44049 20.4503C9.14759 20.7432 8.67272 20.7432 8.37983 20.4503C8.08693 20.1574 8.08693 19.6825 8.37983 19.3896L14.8998 12.8696C15.3769 12.3925 15.3769 11.6074 14.8998 11.1303L8.37983 4.61029C8.08693 4.31739 8.08693 3.84252 8.37983 3.54963Z" fill="black"/>
 </g>
 </svg>

@@ -1,10 +1,10 @@
-<svg id="advantage-timer" width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg id="advantage-timer" width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id=".icon">
 <g id="vuesax/twotone/timer">
-<g id="vuesax/twotone/timer_2">
 <g id="timer">
-<path id="Vector" d="M51.875 33.125C51.875 45.2 42.075 55 30 55C17.925 55 8.125 45.2 8.125 33.125C8.125 21.05 17.925 11.25 30 11.25C42.075 11.25 51.875 21.05 51.875 33.125Z" stroke="#1F1D1C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-<path id="Vector_2" d="M30 20V32.5" stroke="#A2342E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-<path id="Vector_3" d="M22.5 5H37.5" stroke="#A2342E" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector" d="M41.5 26.5C41.5 36.16 33.66 44 24 44C14.34 44 6.5 36.16 6.5 26.5C6.5 16.84 14.34 9 24 9C33.66 9 41.5 16.84 41.5 26.5Z" stroke="#1F1D1C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M24 16V26" stroke="#A2342E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M18 4H30" stroke="#A2342E" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 </g>
 </g>

@@ -14,7 +14,7 @@
                                         <li>
                                             <span class="main-banner__marker">
                                                 <svg class="icon icon-sm">
-                                                    <use href="img/sprite.svg#search"></use>
+                                                    <use href="img/sprite.svg#lock"></use>
                                                 </svg>
                                             </span>
                                             <span class="main-banner__content">Больше 20 лет производим фурнитуру в России</span>
@@ -22,7 +22,7 @@
                                         <li>
                                             <span class="main-banner__marker">
                                                 <svg class="icon icon-sm">
-                                                    <use href="img/sprite.svg#search"></use>
+                                                    <use href="img/sprite.svg#lock"></use>
                                                 </svg>
                                             </span>
                                             <span class="main-banner__content">Самый большой цех покраски под заказ</span>
@@ -46,19 +46,53 @@
                                 <div class="main-banner__subtitle">
                                     <ul class="list-reset main-banner__list">
                                         <li>
-                                                <span class="main-banner__marker">
-                                                    <svg class="icon icon-sm">
-                                                        <use href="img/sprite.svg#search"></use>
-                                                    </svg>
-                                                </span>
+                                            <span class="main-banner__marker">
+                                                <svg class="icon icon-sm">
+                                                    <use href="img/sprite.svg#lock"></use>
+                                                </svg>
+                                            </span>
                                             <span class="main-banner__content">Больше 20 лет производим фурнитуру в России</span>
                                         </li>
                                         <li>
-                                                <span class="main-banner__marker">
-                                                    <svg class="icon icon-sm">
-                                                        <use href="img/sprite.svg#search"></use>
-                                                    </svg>
-                                                </span>
+                                            <span class="main-banner__marker">
+                                                <svg class="icon icon-sm">
+                                                    <use href="img/sprite.svg#lock"></use>
+                                                </svg>
+                                            </span>
+                                            <span class="main-banner__content">Самый большой цех покраски под заказ</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="main-banner__btn">
+                                    <a class="btn-reset btn btn-primary" href="javascript:;">
+                                        <span class="btn__text">Отравить запрос</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide" style="background-image: url('img/index-slider.png');">
+                    <div class="container">
+                        <div class="main-banner">
+                            <div class="main-banner__descr">
+                                <div class="main-banner__title h1">Производство, покраска швейной фурнитуры и&nbsp;поставка по всей России</div>
+                                <div class="main-banner__subtitle">
+                                    <ul class="list-reset main-banner__list">
+                                        <li>
+                                            <span class="main-banner__marker">
+                                                <svg class="icon icon-sm">
+                                                    <use href="img/sprite.svg#lock"></use>
+                                                </svg>
+                                            </span>
+                                            <span class="main-banner__content">Больше 20 лет производим фурнитуру в России</span>
+                                        </li>
+                                        <li>
+                                            <span class="main-banner__marker">
+                                                <svg class="icon icon-sm">
+                                                    <use href="img/sprite.svg#lock"></use>
+                                                </svg>
+                                            </span>
                                             <span class="main-banner__content">Самый большой цех покраски под заказ</span>
                                         </li>
                                     </ul>
@@ -73,19 +107,19 @@
                     </div>
                 </div>
             </div>
-            <div class="swiper-navigation">
-                <div class="swiper-button-next">
-                    <svg class="icon icon-md">
-                        <use href="img/sprite.svg#chevron-right"></use>
-                    </svg>
-                </div>
-                <div class="swiper-button-prev">
-                    <svg class="icon icon-md">
-                        <use href="img/sprite.svg#chevron-left"></use>
-                    </svg>
-                </div>
-            </div>
             <div class="swiper-pagination"></div>
+        </div>
+        <div class="swiper-navigation">
+            <div class="swiper-button-next swiper-navigation-button">
+                <svg class="icon icon-md">
+                    <use href="img/sprite.svg#chevron-right"></use>
+                </svg>
+            </div>
+            <div class="swiper-button-prev swiper-navigation-button">
+                <svg class="icon icon-md">
+                    <use href="img/sprite.svg#chevron-left"></use>
+                </svg>
+            </div>
         </div>
     </div>
 </div>
@@ -115,7 +149,10 @@
                     <div class="card__subtitle">Не подведут даже в самый ответственный момент</div>
                 </div>
                 <div class="card__more">
-                    <span class="more-link">Узнать больше</span>
+                    <span class="more-link">
+                        <span>Узнать больше</span>
+                        <span class="decor"><span></span></span>
+                    </span>
                 </div>
             </div>
             <div class="card">
@@ -137,7 +174,10 @@
                     <div class="card__subtitle">Останется защелкнутой, даже если рюкзак затрещит</div>
                 </div>
                 <div class="card__more">
-                    <span class="more-link">Узнать больше</span>
+                    <span class="more-link">
+                        <span>Узнать больше</span>
+                        <span class="decor"><span></span></span>
+                    </span>
                 </div>
             </div>
             <div class="card">
@@ -159,7 +199,10 @@
                     <div class="card__subtitle">Сумочка будет под надежной защитой</div>
                 </div>
                 <div class="card__more">
-                    <span class="more-link">Узнать больше</span>
+                    <span class="more-link">
+                        <span>Узнать больше</span>
+                        <span class="decor"><span></span></span>
+                    </span>
                 </div>
             </div>
             <div class="card">
@@ -181,7 +224,10 @@
                     <div class="card__subtitle">Больше не развяжутся на пробежке</div>
                 </div>
                 <div class="card__more">
-                    <span class="more-link">Узнать больше</span>
+                    <span class="more-link">
+                        <span>Узнать больше</span>
+                        <span class="decor"><span></span></span>
+                    </span>
                 </div>
             </div>
         </div>
@@ -193,167 +239,192 @@
         <div class="gap-lg-plus">
             <div class="h2">Где используют <span class="red-color">нашу продукцию</span></div>
         </div>
-        <div class="card-list card-list--small">
-            <div class="card">
-                <div class="card__view">
-                    <picture>
-                        <source srcset="img/card-img-5.webp" type="image/webp">
-                        <img
-                            loading="lazy"
-                            src="img/card-img-5.png"
-                            class="image"
-                            width="566"
-                            height="320"
-                            alt="Изображение блока"
-                        >
-                    </picture>
-                </div>
-                <div class="card__descr">
-                    <div class="card__title h5">Профессиональная форма</div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card__view">
-                    <picture>
-                        <source srcset="img/card-img-6.webp" type="image/webp">
-                        <img
-                            loading="lazy"
-                            src="img/card-img-6.png"
-                            class="image"
-                            width="566"
-                            height="320"
-                            alt="Изображение блока"
-                        >
-                    </picture>
-                </div>
-                <div class="card__descr">
-                    <div class="card__title h5">Спортивная одежда</div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card__view">
-                    <picture>
-                        <source srcset="img/card-img-7.webp" type="image/webp">
-                        <img
-                            loading="lazy"
-                            src="img/card-img-7.png"
-                            class="image"
-                            width="566"
-                            height="320"
-                            alt="Изображение блока"
-                        >
-                    </picture>
-                </div>
-                <div class="card__descr">
-                    <div class="card__title h5">Детская одежда</div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card__view">
-                    <picture>
-                        <source srcset="img/card-img-8.webp" type="image/webp">
-                        <img
-                            loading="lazy"
-                            src="img/card-img-8.png"
-                            class="image"
-                            width="566"
-                            height="320"
-                            alt="Изображение блока"
-                        >
-                    </picture>
-                </div>
-                <div class="card__descr">
-                    <div class="card__title h5">Повседневная одежка</div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card__view">
-                    <picture>
-                        <source srcset="img/card-img-9.webp" type="image/webp">
-                        <img
-                            loading="lazy"
-                            src="img/card-img-9.png"
-                            class="image"
-                            width="566"
-                            height="320"
-                            alt="Изображение блока"
-                        >
-                    </picture>
-                </div>
-                <div class="card__descr">
-                    <div class="card__title h5">Производство мебели</div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card__view">
-                    <picture>
-                        <source srcset="img/card-img-10.webp" type="image/webp">
-                        <img
-                            loading="lazy"
-                            src="img/card-img-10.png"
-                            class="image"
-                            width="566"
-                            height="320"
-                            alt="Изображение блока"
-                        >
-                    </picture>
-                </div>
-                <div class="card__descr">
-                    <div class="card__title h5">Рюкзаки и сумки</div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card__view">
-                    <picture>
-                        <source srcset="img/card-img-9.webp" type="image/webp">
-                        <img
-                            loading="lazy"
-                            src="img/card-img-9.png"
-                            class="image"
-                            width="566"
-                            height="320"
-                            alt="Изображение блока"
-                        >
-                    </picture>
-                </div>
-                <div class="card__descr">
-                    <div class="card__title h5">Тенты и чехлы</div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card__view">
-                    <picture>
-                        <source srcset="img/card-img-10.webp" type="image/webp">
-                        <img
-                            loading="lazy"
-                            src="img/card-img-10.png"
-                            class="image"
-                            width="566"
-                            height="320"
-                            alt="Изображение блока"
-                        >
-                    </picture>
-                </div>
-                <div class="card__descr">
-                    <div class="card__title h5">Специальная одежда</div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card__view">
-                    <picture>
-                        <source srcset="img/card-img-8.webp" type="image/webp">
-                        <img
-                                loading="lazy"
-                                src="img/card-img-8.png"
-                                class="image"
-                                width="566"
-                                height="320"
-                                alt="Изображение блока"
-                        >
-                    </picture>
-                </div>
-                <div class="card__descr">
-                    <div class="card__title h5">Спецпокрытия</div>
+
+        <div class="catalog-extra-slider out-container-x">
+            <div class="basic-slider-wrap">
+                <div class="basic-slider basic-slider-mobile swiper" data-basic-slider>
+                    <div class="swiper-wrapper card-list card-list--small card-list--desktop">
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="card__view">
+                                    <picture>
+                                        <source srcset="img/card-img-5.webp" type="image/webp">
+                                        <img
+                                                loading="lazy"
+                                                src="img/card-img-5.png"
+                                                class="image"
+                                                width="566"
+                                                height="320"
+                                                alt="Изображение блока"
+                                        >
+                                    </picture>
+                                </div>
+                                <div class="card__descr">
+                                    <div class="card__title h5">Профессиональная форма</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="card__view">
+                                    <picture>
+                                        <source srcset="img/card-img-6.webp" type="image/webp">
+                                        <img
+                                                loading="lazy"
+                                                src="img/card-img-6.png"
+                                                class="image"
+                                                width="566"
+                                                height="320"
+                                                alt="Изображение блока"
+                                        >
+                                    </picture>
+                                </div>
+                                <div class="card__descr">
+                                    <div class="card__title h5">Спортивная одежда</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="card__view">
+                                    <picture>
+                                        <source srcset="img/card-img-7.webp" type="image/webp">
+                                        <img
+                                                loading="lazy"
+                                                src="img/card-img-7.png"
+                                                class="image"
+                                                width="566"
+                                                height="320"
+                                                alt="Изображение блока"
+                                        >
+                                    </picture>
+                                </div>
+                                <div class="card__descr">
+                                    <div class="card__title h5">Детская одежда</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="card__view">
+                                    <picture>
+                                        <source srcset="img/card-img-8.webp" type="image/webp">
+                                        <img
+                                                loading="lazy"
+                                                src="img/card-img-8.png"
+                                                class="image"
+                                                width="566"
+                                                height="320"
+                                                alt="Изображение блока"
+                                        >
+                                    </picture>
+                                </div>
+                                <div class="card__descr">
+                                    <div class="card__title h5">Повседневная одежка</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="card__view">
+                                    <picture>
+                                        <source srcset="img/card-img-9.webp" type="image/webp">
+                                        <img
+                                                loading="lazy"
+                                                src="img/card-img-9.png"
+                                                class="image"
+                                                width="566"
+                                                height="320"
+                                                alt="Изображение блока"
+                                        >
+                                    </picture>
+                                </div>
+                                <div class="card__descr">
+                                    <div class="card__title h5">Производство мебели</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="card__view">
+                                    <picture>
+                                        <source srcset="img/card-img-10.webp" type="image/webp">
+                                        <img
+                                                loading="lazy"
+                                                src="img/card-img-10.png"
+                                                class="image"
+                                                width="566"
+                                                height="320"
+                                                alt="Изображение блока"
+                                        >
+                                    </picture>
+                                </div>
+                                <div class="card__descr">
+                                    <div class="card__title h5">Рюкзаки и сумки</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="card__view">
+                                    <picture>
+                                        <source srcset="img/card-img-9.webp" type="image/webp">
+                                        <img
+                                                loading="lazy"
+                                                src="img/card-img-9.png"
+                                                class="image"
+                                                width="566"
+                                                height="320"
+                                                alt="Изображение блока"
+                                        >
+                                    </picture>
+                                </div>
+                                <div class="card__descr">
+                                    <div class="card__title h5">Тенты и чехлы</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="card__view">
+                                    <picture>
+                                        <source srcset="img/card-img-10.webp" type="image/webp">
+                                        <img
+                                                loading="lazy"
+                                                src="img/card-img-10.png"
+                                                class="image"
+                                                width="566"
+                                                height="320"
+                                                alt="Изображение блока"
+                                        >
+                                    </picture>
+                                </div>
+                                <div class="card__descr">
+                                    <div class="card__title h5">Специальная одежда</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="card__view">
+                                    <picture>
+                                        <source srcset="img/card-img-8.webp" type="image/webp">
+                                        <img
+                                                loading="lazy"
+                                                src="img/card-img-8.png"
+                                                class="image"
+                                                width="566"
+                                                height="320"
+                                                alt="Изображение блока"
+                                        >
+                                    </picture>
+                                </div>
+                                <div class="card__descr">
+                                    <div class="card__title h5">Спецпокрытия</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -429,7 +500,10 @@
                         <div class="about-descr__content">Прежде всего, укрепление и развитие внутренней структуры однозначно определяет каждого участника как способного принимать собственные решения касаемо благоприятных перспектив!</div>
                     </div>
                     <div class="">
-                        <div class="more-link">Узнать больше о производстве</div>
+                        <span class="more-link">
+                            <span>Узнать больше о производстве</span>
+                            <span class="decor"><span></span></span>
+                        </span>
                     </div>
                 </div>
                 <div class="about-item about-view">
@@ -472,74 +546,94 @@
         <div class="gap-lg-plus">
             <div class="h2">Новости</div>
         </div>
-        <div class="card-list card-list--medium">
-            <div class="card card-info">
-                <div class="card__view">
-                    <picture>
-                        <source srcset="img/card-info-img-1.webp" type="image/webp">
-                        <img
-                                loading="lazy"
-                                src="img/card-info-img-1.png"
-                                class="image"
-                                width="400"
-                                height="380"
-                                alt="Изображение блока"
-                        >
-                    </picture>
-                </div>
-                <div class="card__descr">
-                    <div class="card__title h5">Не подвели!</div>
-                    <div class="card__subtitle">Спешим поделиться с вами радостью! Сегодня нам написали молодожены, которые поделились с нами своим счастьем и поблагодарили нам!</div>
-                </div>
-                <div class="card__more">
-                    <span class="more-link">Читать полностью</span>
-                </div>
-            </div>
-            <div class="card card-info">
-                <div class="card__view">
-                    <picture>
-                        <source srcset="img/card-info-img-2.webp" type="image/webp">
-                        <img
-                                loading="lazy"
-                                src="img/card-info-img-2.png"
-                                class="image"
-                                width="400"
-                                height="380"
-                                alt="Изображение блока"
-                        >
-                    </picture>
-                </div>
-                <div class="card__descr">
-                    <div class="card__title h5">Давайте знакомиться!</div>
-                    <div class="card__subtitle">Меня зовут Марина! Я основала эту фирму после того, как в самый ответственный момент меня подвела продукция YCC</div>
-                </div>
-                <div class="card__more">
-                    <span class="more-link">Читать полностью</span>
-                </div>
-            </div>
-            <div class="card card-info card-info--more">
-                <div class="card__view">
-                    <picture>
-                        <source srcset="img/card-info-img-2.webp" type="image/webp">
-                        <img
-                                loading="lazy"
-                                src="img/card-info-img-2.png"
-                                class="image"
-                                width="400"
-                                height="380"
-                                alt="Изображение блока"
-                        >
-                    </picture>
-                </div>
-                <div class="card__more">
-                    <span class="more-link">Больше новостей</span>
+
+        <div class="catalog-extra-slider out-container-x">
+            <div class="basic-slider-wrap">
+                <div class="basic-slider basic-slider-mobile swiper" data-basic-slider>
+                    <div class="swiper-wrapper card-list card-list--medium card-list--desktop">
+                        <div class="swiper-slide">
+                            <div class="card card-info">
+                                <div class="card__view">
+                                    <picture>
+                                        <source srcset="img/card-info-img-1.webp" type="image/webp">
+                                        <img
+                                                loading="lazy"
+                                                src="img/card-info-img-1.png"
+                                                class="image"
+                                                width="400"
+                                                height="380"
+                                                alt="Изображение блока"
+                                        >
+                                    </picture>
+                                </div>
+                                <div class="card__descr">
+                                    <div class="card__title h5">Не подвели!</div>
+                                    <div class="card__subtitle">Спешим поделиться с вами радостью! Сегодня нам написали молодожены, которые поделились с нами своим счастьем и поблагодарили нам!</div>
+                                </div>
+                                <div class="card__more">
+                    <span class="more-link">
+                        <span>Читать полностью</span>
+                        <span class="decor"><span></span></span>
+                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card card-info">
+                                <div class="card__view">
+                                    <picture>
+                                        <source srcset="img/card-info-img-2.webp" type="image/webp">
+                                        <img
+                                                loading="lazy"
+                                                src="img/card-info-img-2.png"
+                                                class="image"
+                                                width="400"
+                                                height="380"
+                                                alt="Изображение блока"
+                                        >
+                                    </picture>
+                                </div>
+                                <div class="card__descr">
+                                    <div class="card__title h5">Давайте знакомиться!</div>
+                                    <div class="card__subtitle">Меня зовут Марина! Я основала эту фирму после того, как в самый ответственный момент меня подвела продукция YCC</div>
+                                </div>
+                                <div class="card__more">
+                    <span class="more-link">
+                        <span>Читать полностью</span>
+                        <span class="decor"><span></span></span>
+                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card card-info card-info--more">
+                                <div class="card__view">
+                                    <picture>
+                                        <source srcset="img/card-info-img-2.webp" type="image/webp">
+                                        <img
+                                                loading="lazy"
+                                                src="img/card-info-img-2.png"
+                                                class="image"
+                                                width="400"
+                                                height="380"
+                                                alt="Изображение блока"
+                                        >
+                                    </picture>
+                                </div>
+                                <div class="card__more">
+                    <span class="more-link">
+                        <span>Больше новостей</span>
+                        <span class="decor"><span></span></span>
+                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
-
-
 
 <div class="block block-border-bottom">
     <div class="container">
@@ -654,153 +748,155 @@
 <div class="block">
     <div class="container">
         <div class="gap-lg-plus">
-            <div class="h2">Наши партнеры</div>
+            <div class="h2">Наши <span class="red-color">партнеры</span></div>
         </div>
-        <div class="basic-slider-wrap">
-            <div class="basic-gallery-slider swiper" data-basic-gallery-slider>
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <picture>
-                            <source srcset="img/brand-dkc.webp" type="image/webp">
-                            <img
-                                loading="lazy"
-                                src="img/brand-dkc.png"
-                                class="image"
-                                width="165"
-                                height="80"
-                                alt="Изображение блока"
-                            >
-                        </picture>
-                    </div>
-                    <div class="swiper-slide">
-                        <picture>
-                            <source srcset="img/brand-legrand.webp" type="image/webp">
-                            <img
-                                loading="lazy"
-                                src="img/brand-legrand.png"
-                                class="image"
-                                width="165"
-                                height="80"
-                                alt="Изображение блока"
-                            >
-                        </picture>
-                    </div>
-                    <div class="swiper-slide">
-                        <picture>
-                            <source srcset="img/brand-arlight.webp" type="image/webp">
-                            <img
-                                loading="lazy"
-                                src="img/brand-arlight.png"
-                                class="image"
-                                width="165"
-                                height="80"
-                                alt="Изображение блока"
-                            >
-                        </picture>
-                    </div>
-                    <div class="swiper-slide">
-                        <picture>
-                            <source srcset="img/brand-schneider-electric.webp" type="image/webp">
-                            <img
-                                loading="lazy"
-                                src="img/brand-schneider-electric.png"
-                                class="image"
-                                width="165"
-                                height="80"
-                                alt="Изображение блока"
-                            >
-                        </picture>
-                    </div>
-                    <div class="swiper-slide">
-                        <picture>
-                            <source srcset="img/brand-philips.webp" type="image/webp">
-                            <img
-                                loading="lazy"
-                                src="img/brand-philips.png"
-                                class="image"
-                                width="165"
-                                height="80"
-                                alt="Изображение блока"
-                            >
-                        </picture>
-                    </div>
-                    <div class="swiper-slide">
-                        <picture>
-                            <source srcset="img/brand-dkc.webp" type="image/webp">
-                            <img
-                                loading="lazy"
-                                src="img/brand-dkc.png"
-                                class="image"
-                                width="165"
-                                height="80"
-                                alt="Изображение блока"
-                            >
-                        </picture>
-                    </div>
-                    <div class="swiper-slide">
-                        <picture>
-                            <source srcset="img/brand-legrand.webp" type="image/webp">
-                            <img
-                                loading="lazy"
-                                src="img/brand-legrand.png"
-                                class="image"
-                                width="165"
-                                height="80"
-                                alt="Изображение блока"
-                            >
-                        </picture>
-                    </div>
-                    <div class="swiper-slide">
-                        <picture>
-                            <source srcset="img/brand-arlight.webp" type="image/webp">
-                            <img
-                                loading="lazy"
-                                src="img/brand-arlight.png"
-                                class="image"
-                                width="165"
-                                height="80"
-                                alt="Изображение блока"
-                            >
-                        </picture>
-                    </div>
-                    <div class="swiper-slide">
-                        <picture>
-                            <source srcset="img/brand-schneider-electric.webp" type="image/webp">
-                            <img
-                                loading="lazy"
-                                src="img/brand-schneider-electric.png"
-                                class="image"
-                                width="165"
-                                height="80"
-                                alt="Изображение блока"
-                            >
-                        </picture>
-                    </div>
-                    <div class="swiper-slide">
-                        <picture>
-                            <source srcset="img/brand-philips.webp" type="image/webp">
-                            <img
-                                loading="lazy"
-                                src="img/brand-philips.png"
-                                class="image"
-                                width="165"
-                                height="80"
-                                alt="Изображение блока"
-                            >
-                        </picture>
+        <div class="catalog-extra-slider out-container-x">
+            <div class="basic-slider-wrap">
+                <div class="basic-gallery-slider swiper" data-basic-gallery-slider>
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide grayscale-desktop">
+                            <picture>
+                                <source srcset="img/brand-dkc.webp" type="image/webp">
+                                <img
+                                    loading="lazy"
+                                    src="img/brand-dkc.png"
+                                    class="image"
+                                    width="165"
+                                    height="80"
+                                    alt="Изображение блока"
+                                >
+                            </picture>
+                        </div>
+                        <div class="swiper-slide grayscale-desktop">
+                            <picture>
+                                <source srcset="img/brand-legrand.webp" type="image/webp">
+                                <img
+                                    loading="lazy"
+                                    src="img/brand-legrand.png"
+                                    class="image"
+                                    width="165"
+                                    height="80"
+                                    alt="Изображение блока"
+                                >
+                            </picture>
+                        </div>
+                        <div class="swiper-slide grayscale-desktop">
+                            <picture>
+                                <source srcset="img/brand-arlight.webp" type="image/webp">
+                                <img
+                                    loading="lazy"
+                                    src="img/brand-arlight.png"
+                                    class="image"
+                                    width="165"
+                                    height="80"
+                                    alt="Изображение блока"
+                                >
+                            </picture>
+                        </div>
+                        <div class="swiper-slide grayscale-desktop">
+                            <picture>
+                                <source srcset="img/brand-schneider-electric.webp" type="image/webp">
+                                <img
+                                    loading="lazy"
+                                    src="img/brand-schneider-electric.png"
+                                    class="image"
+                                    width="165"
+                                    height="80"
+                                    alt="Изображение блока"
+                                >
+                            </picture>
+                        </div>
+                        <div class="swiper-slide grayscale-desktop">
+                            <picture>
+                                <source srcset="img/brand-philips.webp" type="image/webp">
+                                <img
+                                    loading="lazy"
+                                    src="img/brand-philips.png"
+                                    class="image"
+                                    width="165"
+                                    height="80"
+                                    alt="Изображение блока"
+                                >
+                            </picture>
+                        </div>
+                        <div class="swiper-slide grayscale-desktop">
+                            <picture>
+                                <source srcset="img/brand-dkc.webp" type="image/webp">
+                                <img
+                                    loading="lazy"
+                                    src="img/brand-dkc.png"
+                                    class="image"
+                                    width="165"
+                                    height="80"
+                                    alt="Изображение блока"
+                                >
+                            </picture>
+                        </div>
+                        <div class="swiper-slide grayscale-desktop">
+                            <picture>
+                                <source srcset="img/brand-legrand.webp" type="image/webp">
+                                <img
+                                    loading="lazy"
+                                    src="img/brand-legrand.png"
+                                    class="image"
+                                    width="165"
+                                    height="80"
+                                    alt="Изображение блока"
+                                >
+                            </picture>
+                        </div>
+                        <div class="swiper-slide grayscale-desktop">
+                            <picture>
+                                <source srcset="img/brand-arlight.webp" type="image/webp">
+                                <img
+                                    loading="lazy"
+                                    src="img/brand-arlight.png"
+                                    class="image"
+                                    width="165"
+                                    height="80"
+                                    alt="Изображение блока"
+                                >
+                            </picture>
+                        </div>
+                        <div class="swiper-slide grayscale-desktop">
+                            <picture>
+                                <source srcset="img/brand-schneider-electric.webp" type="image/webp">
+                                <img
+                                    loading="lazy"
+                                    src="img/brand-schneider-electric.png"
+                                    class="image"
+                                    width="165"
+                                    height="80"
+                                    alt="Изображение блока"
+                                >
+                            </picture>
+                        </div>
+                        <div class="swiper-slide grayscale-desktop">
+                            <picture>
+                                <source srcset="img/brand-philips.webp" type="image/webp">
+                                <img
+                                    loading="lazy"
+                                    src="img/brand-philips.png"
+                                    class="image"
+                                    width="165"
+                                    height="80"
+                                    alt="Изображение блока"
+                                >
+                            </picture>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="swiper-navigation">
-                <div class="swiper-button-next">
-                    <svg class="icon icon-md">
-                        <use href="img/sprite.svg#chevron-right"></use>
-                    </svg>
-                </div>
-                <div class="swiper-button-prev">
-                    <svg class="icon icon-md">
-                        <use href="img/sprite.svg#chevron-left"></use>
-                    </svg>
+                <div class="swiper-navigation">
+                    <div class="swiper-button-next">
+                        <svg class="icon icon-md">
+                            <use href="img/sprite.svg#chevron-right"></use>
+                        </svg>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <svg class="icon icon-md">
+                            <use href="img/sprite.svg#chevron-left"></use>
+                        </svg>
+                    </div>
                 </div>
             </div>
         </div>

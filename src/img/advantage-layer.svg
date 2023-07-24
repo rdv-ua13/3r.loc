@@ -1,10 +1,10 @@
-<svg id="advantage-layer" width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg id="advantage-layer" width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id=".icon">
 <g id="vuesax/twotone/layer">
-<g id="vuesax/twotone/layer_2">
 <g id="layer">
-<path id="Vector" d="M32.5248 7.30005L47.2748 13.85C51.5248 15.725 51.5248 18.825 47.2748 20.7L32.5248 27.25C30.8498 28 28.0998 28 26.4248 27.25L11.6748 20.7C7.4248 18.825 7.4248 15.725 11.6748 13.85L26.4248 7.30005C28.0998 6.55005 30.8498 6.55005 32.5248 7.30005Z" stroke="#1F1D1C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-<path id="Vector_2" d="M7.5 27.5C7.5 29.6 9.075 32.025 11 32.875L27.975 40.425C29.275 41 30.75 41 32.025 40.425L49 32.875C50.925 32.025 52.5 29.6 52.5 27.5" stroke="#A2342E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-<path id="Vector_3" d="M7.5 40C7.5 42.325 8.875 44.425 11 45.375L27.975 52.925C29.275 53.5 30.75 53.5 32.025 52.925L49 45.375C51.125 44.425 52.5 42.325 52.5 40" stroke="#A2342E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector" d="M26.02 5.84001L37.82 11.08C41.22 12.58 41.22 15.06 37.82 16.56L26.02 21.8C24.68 22.4 22.48 22.4 21.14 21.8L9.33998 16.56C5.93998 15.06 5.93998 12.58 9.33998 11.08L21.14 5.84001C22.48 5.24001 24.68 5.24001 26.02 5.84001Z" stroke="#1F1D1C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M6 22C6 23.68 7.26 25.62 8.8 26.3L22.38 32.34C23.42 32.8 24.6 32.8 25.62 32.34L39.2 26.3C40.74 25.62 42 23.68 42 22" stroke="#A2342E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M6 32C6 33.86 7.1 35.54 8.8 36.3L22.38 42.34C23.42 42.8 24.6 42.8 25.62 42.34L39.2 36.3C40.9 35.54 42 33.86 42 32" stroke="#A2342E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 </g>
 </g>

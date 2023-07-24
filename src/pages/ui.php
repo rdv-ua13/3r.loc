@@ -1873,7 +1873,10 @@
                                 <div class="card__subtitle">Не подведут даже в самый ответственный момент</div>
                             </div>
                             <div class="card__more">
-                                <span class="more-link">Узнать больше</span>
+                                <span class="more-link">
+                                    <span>Узнать больше</span>
+                                    <span class="decor"><span></span></span>
+                                </span>
                             </div>
                         </div>
                         <div class="card">
@@ -1895,7 +1898,10 @@
                                 <div class="card__subtitle">Останется защелкнутой, даже если рюкзак затрещит</div>
                             </div>
                             <div class="card__more">
-                                <span class="more-link">Узнать больше</span>
+                                <span class="more-link">
+                                    <span>Узнать больше</span>
+                                    <span class="decor"><span></span></span>
+                                </span>
                             </div>
                         </div>
                         <div class="card">
@@ -1917,7 +1923,10 @@
                                 <div class="card__subtitle">Сумочка будет под надежной защитой</div>
                             </div>
                             <div class="card__more">
-                                <span class="more-link">Узнать больше</span>
+                                <span class="more-link">
+                                    <span>Узнать больше</span>
+                                    <span class="decor"><span></span></span>
+                                </span>
                             </div>
                         </div>
                         <div class="card">
@@ -1939,7 +1948,10 @@
                                 <div class="card__subtitle">Больше не развяжутся на пробежке</div>
                             </div>
                             <div class="card__more">
-                                <span class="more-link">Узнать больше</span>
+                                <span class="more-link">
+                                    <span>Узнать больше</span>
+                                    <span class="decor"><span></span></span>
+                                </span>
                             </div>
                         </div>
                     </div>
@@ -1975,7 +1987,10 @@
                                 <div class="card__subtitle">Не подведут даже в самый ответственный момент</div>
                             </div>
                             <div class="card__more">
-                                <span class="more-link">Узнать больше</span>
+                                <span class="more-link">
+                                    <span>Узнать больше</span>
+                                    <span class="decor"><span></span></span>
+                                </span>
                             </div>
                         </div>
                         <div class="card">
@@ -1997,7 +2012,10 @@
                                 <div class="card__subtitle">Останется защелкнутой, даже если рюкзак затрещит</div>
                             </div>
                             <div class="card__more">
-                                <span class="more-link">Узнать больше</span>
+                                <span class="more-link">
+                                    <span>Узнать больше</span>
+                                    <span class="decor"><span></span></span>
+                                </span>
                             </div>
                         </div>
                         <div class="card">
@@ -2019,7 +2037,10 @@
                                 <div class="card__subtitle">Сумочка будет под надежной защитой</div>
                             </div>
                             <div class="card__more">
-                                <span class="more-link">Узнать больше</span>
+                                <span class="more-link">
+                                    <span>Узнать больше</span>
+                                    <span class="decor"><span></span></span>
+                                </span>
                             </div>
                         </div>
                         <div class="card">
@@ -2041,7 +2062,10 @@
                                 <div class="card__subtitle">Больше не развяжутся на пробежке</div>
                             </div>
                             <div class="card__more">
-                                <span class="more-link">Узнать больше</span>
+                                <span class="more-link">
+                                    <span>Узнать больше</span>
+                                    <span class="decor"><span></span></span>
+                                </span>
                             </div>
                         </div>
                     </div>
@@ -2077,7 +2101,10 @@
                                 <div class="card__subtitle">Не подведут даже в самый ответственный момент</div>
                             </div>
                             <div class="card__more">
-                                <span class="more-link">Узнать больше</span>
+                                <span class="more-link">
+                                    <span>Узнать больше</span>
+                                    <span class="decor"><span></span></span>
+                                </span>
                             </div>
                         </div>
                         <div class="card">
@@ -2099,7 +2126,10 @@
                                 <div class="card__subtitle">Останется защелкнутой, даже если рюкзак затрещит</div>
                             </div>
                             <div class="card__more">
-                                <span class="more-link">Узнать больше</span>
+                                <span class="more-link">
+                                    <span>Узнать больше</span>
+                                    <span class="decor"><span></span></span>
+                                </span>
                             </div>
                         </div>
                         <div class="card">
@@ -2121,7 +2151,10 @@
                                 <div class="card__subtitle">Сумочка будет под надежной защитой</div>
                             </div>
                             <div class="card__more">
-                                <span class="more-link">Узнать больше</span>
+                                <span class="more-link">
+                                    <span>Узнать больше</span>
+                                    <span class="decor"><span></span></span>
+                                </span>
                             </div>
                         </div>
                         <div class="card">
@@ -2143,7 +2176,10 @@
                                 <div class="card__subtitle">Больше не развяжутся на пробежке</div>
                             </div>
                             <div class="card__more">
-                                <span class="more-link">Узнать больше</span>
+                                <span class="more-link">
+                                    <span>Узнать больше</span>
+                                    <span class="decor"><span></span></span>
+                                </span>
                             </div>
                         </div>
                     </div>

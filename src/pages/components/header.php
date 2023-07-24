@@ -53,12 +53,8 @@
     <script defer src="js/main.js"></script>
 </head>
 
-<? if (strpos($_SERVER["REQUEST_URI"], "card-product.php")) : ?>
-<body class="card-product-page">
-<? else : ?>
 <body>
-<? endif; ?>
-    <header class="header header-transparent dark-bg fixed-block">
+    <header class="header header-transparent header-transparent--desktop dark-bg dark-bg--desktop fixed-block">
         <div class="container header-container header-nav-container">
             <div class="header-logo">
                 <a class="logo logo-dark" href="javascript:;">
@@ -124,9 +120,9 @@
                     </svg>
                     <span class="btn__text">Позвоните мне</span>
                 </button>
-                <button class="btn-reset btn btn-b-light btn-square">
+                <button class="btn-reset btn btn-b-light btn-square header-profile-user">
                     <svg class="icon btn__icon">
-                        <use href="img/sprite.svg#search"></use>
+                        <use href="img/sprite.svg#user"></use>
                     </svg>
                 </button>
             </div>
@@ -143,14 +139,16 @@
 
             <div class="header-mobile-menu">
                 <button
-                        class="btn-reset burger"
+                        class="btn-reset btn btn-square burger"
                         aria-label="Открыть меню"
                         aria-expanded="false"
                         data-menu-spoiler
-                        data-overlay
                 >
-                    <svg class="icon">
+                    <svg class="icon icon-default">
                         <use href="img/sprite.svg#burger"></use>
+                    </svg>
+                    <svg class="icon icon-selected">
+                        <use href="img/sprite.svg#cross"></use>
                     </svg>
                 </button>
             </div>
@@ -158,38 +156,65 @@
     </header>
 
     <div class="mobile-menu" data-menu>
-        <div class="mobile-menu-close" data-menu-close>
-            <svg class="icon">
-                <use href="img/sprite.svg#cross"></use>
-            </svg>
-        </div>
-
         <div class="mobile-menu__item">
-            поиск
+            <div class="header-search">
+                <form id="" class="form" method="" action="javascript:;">
+                    <div class="input-wrapper input-search-wrapper">
+                        <input
+                                class="input-reset input input-search"
+                                type="search"
+                                name="Поиск"
+                                placeholder="Поиск по каталогу..."
+                                autocomplete="off"
+                        >
+                        <button class="btn-reset btn btn-link input-delete-btn">
+                            <svg class="icon btn__icon icon-xs">
+                                <use href="img/sprite.svg#cross"></use>
+                            </svg>
+                        </button>
+                        <button class="btn-reset btn btn-primary input-search-btn input-search-btn--square" type="submit">
+                            <svg class="icon btn__icon">
+                                <use href="img/sprite.svg#search"></use>
+                            </svg>
+                        </button>
+                    </div>
+                </form>
+            </div>
         </div>
 
-        <ul class="list-reset mobile-menu-list">
-            <li><a class="mobile-menu__item mobile-menu__link" href="javascript:;">доставка</a></li>
-            <li><a class="mobile-menu__item mobile-menu__link" href="javascript:;">оплата</a></li>
-            <li><a class="mobile-menu__item mobile-menu__link" href="javascript:;">Гарантия</a></li>
-            <li><a class="mobile-menu__item mobile-menu__link" href="javascript:;">Акции</a></li>
-            <li><a class="mobile-menu__item mobile-menu__link" href="javascript:;">Распродажа</a></li>
-            <li><a class="mobile-menu__item mobile-menu__link" href="javascript:;">Контакты</a></li>
+        <ul class="mobile-menu__item list-reset mobile-menu-list header-catalog-preview">
+            <li><a class="mobile-menu__link header-catalog-preview__item" href="javascript:;">Продукция</a></li>
+            <li><a class="mobile-menu__link header-catalog-preview__item" href="javascript:;">О производстве</a></li>
+            <li><a class="mobile-menu__link header-catalog-preview__item" href="javascript:;">Доставка и оплата</a></li>
+            <li><a class="mobile-menu__link header-catalog-preview__item" href="javascript:;">Акции</a></li>
+            <li><a class="mobile-menu__link header-catalog-preview__item" href="javascript:;">Новости</a></li>
+            <li><a class="mobile-menu__link header-catalog-preview__item" href="javascript:;">Контакты</a></li>
+            <li>
+                <a class="mobile-menu__link header-catalog-preview__item header-catalog-preview__item--pa" href="javascript:;">
+                    <svg class="icon icon-sm">
+                        <use href="img/sprite.svg#user"></use>
+                    </svg>
+                    <span>Личный кабинет</span>
+                </a>
+            </li>
         </ul>
 
-        <div class="mobile-menu-footer">
-            <div class="mobile-menu__item mobile-menu-login">
-                <button class="btn-reset btn btn-b-light" data-fancybox data-src="#modal-auth">
-                    <span class="btn__text">Войти</span>
-                </button>
-                <button class="btn-reset btn btn-b-dark" data-fancybox data-src="#modal-reg">
-                    <span class="btn__text">Регистрация</span>
-                </button>
+        <div class="mobile-menu__item mobile-menu-footer">
+            <div class="mobile-menu-footer__item header-contacts">
+                <div class="header-contacts__tel">
+					<?/* second status + class="off" */?>
+                    <span class="header-contacts__status on">Сейчас работаем</span>
+                    <a class="header-contacts__number" href="tel:+74951183770">+7 (495) 118-37-70</a>
+                </div>
             </div>
 
-            <div class="mobile-menu__item mobile-menu-contacts">
-                <a class="mobile-menu-contacts__number" href="tel:+74951183770">+7 (111) 111-11-11</a>
-                <a class="link-dashed link-gray mobile-menu-contacts__call" href="javascript:;">заказать звонок</a>
+            <div class="mobile-menu-footer__item">
+                <button class="btn-reset btn btn-primary w-100">
+                    <svg class="icon btn__icon">
+                        <use href="img/sprite.svg#call-calling"></use>
+                    </svg>
+                    <span class="btn__text">Позвоните мне</span>
+                </button>
             </div>
         </div>
     </div>
