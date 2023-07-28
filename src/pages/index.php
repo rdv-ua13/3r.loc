@@ -29,7 +29,7 @@
                                         </li>
                                     </ul>
                                 </div>
-                                <div class="main-banner__btn">
+                                <div class="main-banner__btn visually-hidden tmp">
                                     <a class="btn-reset btn btn-primary" href="javascript:;">
                                         <span class="btn__text">Отравить запрос</span>
                                     </a>
@@ -63,7 +63,7 @@
                                         </li>
                                     </ul>
                                 </div>
-                                <div class="main-banner__btn">
+                                <div class="main-banner__btn visually-hidden tmp">
                                     <a class="btn-reset btn btn-primary" href="javascript:;">
                                         <span class="btn__text">Отравить запрос</span>
                                     </a>
@@ -97,7 +97,7 @@
                                         </li>
                                     </ul>
                                 </div>
-                                <div class="main-banner__btn">
+                                <div class="main-banner__btn visually-hidden tmp">
                                     <a class="btn-reset btn btn-primary" href="javascript:;">
                                         <span class="btn__text">Отравить запрос</span>
                                     </a>
@@ -245,7 +245,7 @@
                 <div class="basic-slider basic-slider-mobile swiper" data-basic-slider>
                     <div class="swiper-wrapper card-list card-list--small card-list--desktop">
                         <div class="swiper-slide">
-                            <div class="card">
+                            <div class="card card-static">
                                 <div class="card__view">
                                     <picture>
                                         <source srcset="img/card-img-5.webp" type="image/webp">
@@ -265,7 +265,7 @@
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="card">
+                            <div class="card card-static">
                                 <div class="card__view">
                                     <picture>
                                         <source srcset="img/card-img-6.webp" type="image/webp">
@@ -285,7 +285,7 @@
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="card">
+                            <div class="card card-static">
                                 <div class="card__view">
                                     <picture>
                                         <source srcset="img/card-img-7.webp" type="image/webp">
@@ -305,7 +305,7 @@
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="card">
+                            <div class="card card-static">
                                 <div class="card__view">
                                     <picture>
                                         <source srcset="img/card-img-8.webp" type="image/webp">
@@ -325,7 +325,7 @@
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="card">
+                            <div class="card card-static">
                                 <div class="card__view">
                                     <picture>
                                         <source srcset="img/card-img-9.webp" type="image/webp">
@@ -345,7 +345,7 @@
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="card">
+                            <div class="card card-static">
                                 <div class="card__view">
                                     <picture>
                                         <source srcset="img/card-img-10.webp" type="image/webp">
@@ -365,7 +365,7 @@
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="card">
+                            <div class="card card-static">
                                 <div class="card__view">
                                     <picture>
                                         <source srcset="img/card-img-9.webp" type="image/webp">
@@ -385,7 +385,7 @@
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="card">
+                            <div class="card card-static">
                                 <div class="card__view">
                                     <picture>
                                         <source srcset="img/card-img-10.webp" type="image/webp">
@@ -405,7 +405,7 @@
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="card">
+                            <div class="card card-static">
                                 <div class="card__view">
                                     <picture>
                                         <source srcset="img/card-img-8.webp" type="image/webp">
@@ -437,7 +437,7 @@
             <div class="h2">Преимущества продукции 3<span class="red-color">R</span></div>
         </div>
         <div class="card-list card-list--big">
-            <div class="card card-advantage">
+            <div class="card card-static card-advantage">
                 <div class="card__view">
                     <svg class="icon">
                         <use href="img/advantage-buildings.svg#advantage-buildings"></use>
@@ -448,7 +448,7 @@
                     <div class="card__subtitle">В течение 20 лет мы являетмся надежным производителем фурнитуры и гарантируем стабильное качество</div>
                 </div>
             </div>
-            <div class="card card-advantage">
+            <div class="card card-static card-advantage">
                 <div class="card__view">
                     <svg class="icon">
                         <use href="img/advantage-timer.svg#advantage-timer"></use>
@@ -459,7 +459,7 @@
                     <div class="card__subtitle">Работая в компании, вы можете иметь возможность развиваться профессионально и строить карьеру</div>
                 </div>
             </div>
-            <div class="card card-advantage">
+            <div class="card card-static card-advantage">
                 <div class="card__view">
                     <svg class="icon">
                         <use href="img/advantage-layer.svg#advantage-layer"></use>
@@ -470,7 +470,7 @@
                     <div class="card__subtitle">Мы производим разные виды продукции, что позволяет закрыть большинство ваших потребностей</div>
                 </div>
             </div>
-            <div class="card card-advantage">
+            <div class="card card-static card-advantage">
                 <div class="card__view">
                     <svg class="icon">
                         <use href="img/advantage-brush.svg#advantage-brush"></use>
@@ -507,19 +507,32 @@
                     </div>
                 </div>
                 <div class="about-item about-view">
-					<?/* tmp */?>
                     <div class="about-video">
-                        <picture>
-                            <source srcset="img/video-preview.webp" type="image/webp">
-                            <img
-                                    loading="lazy"
-                                    src="img/video-preview.png"
-                                    class="image"
-                                    width="630"
-                                    height="355"
-                                    alt="Изображение блока"
-                            >
-                        </picture>
+                        <div class="video-wrapper" data-video>
+                            <?/* playsinline="" controls="" controlslist="nodownload" poster="https://fort-nsk.ru/local/templates/fb-nsk2023/img/play-icon.webp" tabindex="0" */?>
+                            <video class="video-player" width="630" height="355" playsinline="" controls="" controlslist="nodownload" preload="metadata" <?/*poster="img/video-preview.png"*/?> data-video-player>
+                                <source src="demo.mp4" type="video/mp4">
+                            </video>
+                            <div class="video-cover" data-video-cover>
+                                <div class="video-controls">
+                                    <?/*<div class="triangle"></div>*/?>
+                                    <svg class="icon icon-xxl">
+                                        <use href="img/play-circle.svg#play-circle"></use>
+                                    </svg>
+                                </div>
+                                <div class="video-poster">
+                                    <img
+                                        loading="lazy"
+                                        class="image"
+                                        src="img/video-preview.png"
+                                        width="100%"
+                                        height="auto"
+                                        alt="Изображение блока"
+                                    >
+                                </div>
+                                <div class="video-caption">Посмотреть видео о компании</div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -649,6 +662,7 @@
                         </div>
                         <div class="contact-address-info">
                             <span>Москва, ул. Мартынова, д. 62, корпус 6</span>
+                            <span><a class="link link-tdu" href="mailto:2588081@3rzip.ru">2588081@3rzip.ru</a></span>
                             <span><a class="contact-address-phone" href="tel:+74951183770">+7 (495) 118-37-70</a></span>
                         </div>
                     </div>
@@ -675,7 +689,7 @@
                 </div>
             </div>
             <div class="contact-us__item">
-                <form class="contact-form form" action="#" method="">
+                <form class="contact-form form visually-hidden tmp" action="#" method="">
                     <div class="contact-form-design">
                         <svg class="icon">
                             <use href="img/sprite.svg#logo-design"></use>

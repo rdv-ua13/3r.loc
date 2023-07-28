@@ -7,7 +7,15 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="theme-color" content="#111111">
 
-    <title>TITLE</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#00aba9">
+    <meta name="theme-color" content="#ffffff">
+
+    <title>3Rzip швейная фурнитура в Москве: купить оптом молнии, застежки, бегунок - металлические и пластиковые</title>
 
     <link rel="preload" href="fonts/Manrope/Manrope-Thin.ttf" as="font" type="font/ttf" crossorigin>
     <link rel="preload" href="fonts/Manrope/Manrope-Light.ttf" as="font" type="font/ttf" crossorigin>
@@ -53,8 +61,13 @@
     <script defer src="js/main.js"></script>
 </head>
 
-<body>
+<? if(strpos($_SERVER["REQUEST_URI"], "index.php")) : ?>
+<body class="index">
     <header class="header header-transparent header-transparent--desktop dark-bg dark-bg--desktop fixed-block">
+<? else : ?>
+<body>
+    <header class="header fixed-block">
+<? endif; ?>
         <div class="container header-container header-nav-container">
             <div class="header-logo">
                 <a class="logo logo-dark" href="javascript:;">
@@ -68,7 +81,7 @@
                     >
                     <span class="logo-label">Каждой одежке<br>по&nbsp; <span class="logo-highlighted">3R</span> &nbsp;застежке!</span>
                 </a>
-                <a class="logo logo-light" href="javascript:;">
+                <a class="logo logo-light" href="/">
                     <img
                         loading="lazy"
                         class="image"
@@ -81,7 +94,7 @@
                 </a>
             </div>
 
-            <div class="header-search">
+            <div class="header-search visually-hidden tmp">
                 <form id="" class="form" method="" action="javascript:;">
                     <div class="input-wrapper input-search-wrapper">
                         <input
@@ -113,7 +126,7 @@
                 </div>
             </div>
 
-			<div class="header-profile not-logged">
+			<div class="header-profile not-logged visually-hidden tmp">
                 <button class="btn-reset btn btn-primary">
                     <svg class="icon btn__icon">
                         <use href="img/sprite.svg#call-calling"></use>
@@ -129,11 +142,11 @@
 
             <div class="header-catalog">
                 <div class="header-catalog-preview">
-                    <a class="header-catalog-preview__item" href="javascript:;">Продукция</a>
-                    <a class="header-catalog-preview__item" href="javascript:;">о Производстве</a>
-                    <a class="header-catalog-preview__item" href="javascript:;">доставка и оплата</a>
-                    <a class="header-catalog-preview__item" href="javascript:;">Новости</a>
-                    <a class="header-catalog-preview__item" href="javascript:;">Контакты</a>
+                    <a class="header-catalog-preview__item" href="./in-progress-page.php" target="_blank">Продукция</a>
+                    <a class="header-catalog-preview__item" href="./in-progress-page.php" target="_blank">о Производстве</a>
+                    <a class="header-catalog-preview__item" href="./in-progress-page.php" target="_blank">доставка и оплата</a>
+                    <a class="header-catalog-preview__item" href="./in-progress-page.php" target="_blank">Новости</a>
+                    <a class="header-catalog-preview__item" href="./in-progress-page.php" target="_blank">Контакты</a>
                 </div>
             </div>
 
@@ -156,65 +169,67 @@
     </header>
 
     <div class="mobile-menu" data-menu>
-        <div class="mobile-menu__item">
-            <div class="header-search">
-                <form id="" class="form" method="" action="javascript:;">
-                    <div class="input-wrapper input-search-wrapper">
-                        <input
-                                class="input-reset input input-search"
-                                type="search"
-                                name="Поиск"
-                                placeholder="Поиск по каталогу..."
-                                autocomplete="off"
-                        >
-                        <button class="btn-reset btn btn-link input-delete-btn">
-                            <svg class="icon btn__icon icon-xs">
-                                <use href="img/sprite.svg#cross"></use>
-                            </svg>
-                        </button>
-                        <button class="btn-reset btn btn-primary input-search-btn input-search-btn--square" type="submit">
-                            <svg class="icon btn__icon">
-                                <use href="img/sprite.svg#search"></use>
-                            </svg>
-                        </button>
-                    </div>
-                </form>
-            </div>
-        </div>
-
-        <ul class="mobile-menu__item list-reset mobile-menu-list header-catalog-preview">
-            <li><a class="mobile-menu__link header-catalog-preview__item" href="javascript:;">Продукция</a></li>
-            <li><a class="mobile-menu__link header-catalog-preview__item" href="javascript:;">О производстве</a></li>
-            <li><a class="mobile-menu__link header-catalog-preview__item" href="javascript:;">Доставка и оплата</a></li>
-            <li><a class="mobile-menu__link header-catalog-preview__item" href="javascript:;">Акции</a></li>
-            <li><a class="mobile-menu__link header-catalog-preview__item" href="javascript:;">Новости</a></li>
-            <li><a class="mobile-menu__link header-catalog-preview__item" href="javascript:;">Контакты</a></li>
-            <li>
-                <a class="mobile-menu__link header-catalog-preview__item header-catalog-preview__item--pa" href="javascript:;">
-                    <svg class="icon icon-sm">
-                        <use href="img/sprite.svg#user"></use>
-                    </svg>
-                    <span>Личный кабинет</span>
-                </a>
-            </li>
-        </ul>
-
-        <div class="mobile-menu__item mobile-menu-footer">
-            <div class="mobile-menu-footer__item header-contacts">
-                <div class="header-contacts__tel">
-					<?/* second status + class="off" */?>
-                    <span class="header-contacts__status on">Сейчас работаем</span>
-                    <a class="header-contacts__number" href="tel:+74951183770">+7 (495) 118-37-70</a>
+        <div class="mobile-menu-container">
+            <div class="mobile-menu__item visually-hidden tmp">
+                <div class="header-search">
+                    <form id="" class="form" method="" action="javascript:;">
+                        <div class="input-wrapper input-search-wrapper">
+                            <input
+                                    class="input-reset input input-search"
+                                    type="search"
+                                    name="Поиск"
+                                    placeholder="Поиск по каталогу..."
+                                    autocomplete="off"
+                            >
+                            <button class="btn-reset btn btn-link input-delete-btn">
+                                <svg class="icon btn__icon icon-xs">
+                                    <use href="img/sprite.svg#cross"></use>
+                                </svg>
+                            </button>
+                            <button class="btn-reset btn btn-primary input-search-btn input-search-btn--square" type="submit">
+                                <svg class="icon btn__icon">
+                                    <use href="img/sprite.svg#search"></use>
+                                </svg>
+                            </button>
+                        </div>
+                    </form>
                 </div>
             </div>
 
-            <div class="mobile-menu-footer__item">
-                <button class="btn-reset btn btn-primary w-100">
-                    <svg class="icon btn__icon">
-                        <use href="img/sprite.svg#call-calling"></use>
-                    </svg>
-                    <span class="btn__text">Позвоните мне</span>
-                </button>
+            <ul class="mobile-menu__item list-reset mobile-menu-list header-catalog-preview">
+                <li><a class="mobile-menu__link header-catalog-preview__item" href="./in-progress-page.php" target="_blank">Продукция</a></li>
+                <li><a class="mobile-menu__link header-catalog-preview__item" href="./in-progress-page.php" target="_blank">О производстве</a></li>
+                <li><a class="mobile-menu__link header-catalog-preview__item" href="./in-progress-page.php" target="_blank">Доставка и оплата</a></li>
+                <li><a class="mobile-menu__link header-catalog-preview__item" href="./in-progress-page.php" target="_blank">Акции</a></li>
+                <li><a class="mobile-menu__link header-catalog-preview__item" href="./in-progress-page.php" target="_blank">Новости</a></li>
+                <li><a class="mobile-menu__link header-catalog-preview__item" href="./in-progress-page.php" target="_blank">Контакты</a></li>
+                <li>
+                    <a class="mobile-menu__link header-catalog-preview__item header-catalog-preview__item--pa" href="./in-progress-page.php">
+                        <svg class="icon icon-sm">
+                            <use href="img/sprite.svg#user"></use>
+                        </svg>
+                        <span>Личный кабинет</span>
+                    </a>
+                </li>
+            </ul>
+
+            <div class="mobile-menu__item mobile-menu-footer">
+                <div class="mobile-menu-footer__item header-contacts">
+                    <div class="header-contacts__tel">
+                        <?/* second status + class="off" */?>
+                        <span class="header-contacts__status on">Сейчас работаем</span>
+                        <a class="header-contacts__number" href="tel:+74951183770">+7 (495) 118-37-70</a>
+                    </div>
+                </div>
+
+                <div class="mobile-menu-footer__item visually-hidden tmp">
+                    <button class="btn-reset btn btn-primary w-100">
+                        <svg class="icon btn__icon">
+                            <use href="img/sprite.svg#call-calling"></use>
+                        </svg>
+                        <span class="btn__text">Позвоните мне</span>
+                    </button>
+                </div>
             </div>
         </div>
     </div>
