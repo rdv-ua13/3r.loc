@@ -509,13 +509,20 @@
                 <div class="about-item about-view">
                     <div class="about-video">
                         <div class="video-wrapper" data-video>
-                            <?/* playsinline="" controls="" controlslist="nodownload" poster="https://fort-nsk.ru/local/templates/fb-nsk2023/img/play-icon.webp" tabindex="0" */?>
-                            <video class="video-player" width="630" height="355" playsinline="" controls="" controlslist="nodownload" preload="metadata" <?/*poster="img/video-preview.png"*/?> data-video-player>
+                            <video
+                                    class="video-player"
+                                    width="100%"
+                                    height="auto"
+                                    playsinline=""
+                                    controls=""
+                                    controlslist="nodownload"
+                                    preload="metadata"
+                                    data-video-player
+                            >
                                 <source src="demo.mp4" type="video/mp4">
                             </video>
                             <div class="video-cover" data-video-cover>
                                 <div class="video-controls">
-                                    <?/*<div class="triangle"></div>*/?>
                                     <svg class="icon icon-xxl">
                                         <use href="img/play-circle.svg#play-circle"></use>
                                     </svg>
@@ -692,7 +699,7 @@
                 <form class="contact-form form visually-hidden tmp" action="#" method="">
                     <div class="contact-form-design">
                         <svg class="icon">
-                            <use href="img/sprite.svg#logo-design"></use>
+                            <use href="img/logo-design.svg#logo-design"></use>
                         </svg>
                     </div>
                     <div class="gap-md field-wrapper">
@@ -766,137 +773,107 @@
         </div>
         <div class="catalog-extra-slider out-container-x">
             <div class="basic-slider-wrap">
-                <div class="basic-gallery-slider swiper" data-basic-gallery-slider>
+                <div class="basic-gallery-slider partners-slider swiper" data-basic-gallery-slider>
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide grayscale-desktop">
-                            <picture>
-                                <source srcset="img/brand-dkc.webp" type="image/webp">
-                                <img
+                        <div class="swiper-slide partners-slider__item grayscale-desktop">
+                            <img
                                     loading="lazy"
                                     src="img/brand-dkc.png"
                                     class="image"
-                                    width="165"
-                                    height="80"
+                                    width="100%"
+                                    height="auto"
                                     alt="Изображение блока"
-                                >
-                            </picture>
+                            >
                         </div>
-                        <div class="swiper-slide grayscale-desktop">
-                            <picture>
-                                <source srcset="img/brand-legrand.webp" type="image/webp">
-                                <img
+                        <div class="swiper-slide partners-slider__item grayscale-desktop">
+                            <img
                                     loading="lazy"
                                     src="img/brand-legrand.png"
                                     class="image"
                                     width="165"
                                     height="80"
                                     alt="Изображение блока"
-                                >
-                            </picture>
+                            >
                         </div>
-                        <div class="swiper-slide grayscale-desktop">
-                            <picture>
-                                <source srcset="img/brand-arlight.webp" type="image/webp">
-                                <img
+                        <div class="swiper-slide partners-slider__item grayscale-desktop">
+                            <img
                                     loading="lazy"
                                     src="img/brand-arlight.png"
                                     class="image"
                                     width="165"
                                     height="80"
                                     alt="Изображение блока"
-                                >
-                            </picture>
+                            >
                         </div>
-                        <div class="swiper-slide grayscale-desktop">
-                            <picture>
-                                <source srcset="img/brand-schneider-electric.webp" type="image/webp">
-                                <img
+                        <div class="swiper-slide partners-slider__item grayscale-desktop">
+                            <img
                                     loading="lazy"
                                     src="img/brand-schneider-electric.png"
                                     class="image"
                                     width="165"
                                     height="80"
                                     alt="Изображение блока"
-                                >
-                            </picture>
+                            >
                         </div>
-                        <div class="swiper-slide grayscale-desktop">
-                            <picture>
-                                <source srcset="img/brand-philips.webp" type="image/webp">
-                                <img
+                        <div class="swiper-slide partners-slider__item grayscale-desktop">
+                            <img
                                     loading="lazy"
                                     src="img/brand-philips.png"
                                     class="image"
                                     width="165"
                                     height="80"
                                     alt="Изображение блока"
-                                >
-                            </picture>
+                            >
                         </div>
-                        <div class="swiper-slide grayscale-desktop">
-                            <picture>
-                                <source srcset="img/brand-dkc.webp" type="image/webp">
-                                <img
+                        <div class="swiper-slide partners-slider__item grayscale-desktop">
+                            <img
                                     loading="lazy"
                                     src="img/brand-dkc.png"
                                     class="image"
                                     width="165"
                                     height="80"
                                     alt="Изображение блока"
-                                >
-                            </picture>
+                            >
                         </div>
-                        <div class="swiper-slide grayscale-desktop">
-                            <picture>
-                                <source srcset="img/brand-legrand.webp" type="image/webp">
-                                <img
+                        <div class="swiper-slide partners-slider__item grayscale-desktop">
+                            <img
                                     loading="lazy"
                                     src="img/brand-legrand.png"
                                     class="image"
                                     width="165"
                                     height="80"
                                     alt="Изображение блока"
-                                >
-                            </picture>
+                            >
                         </div>
-                        <div class="swiper-slide grayscale-desktop">
-                            <picture>
-                                <source srcset="img/brand-arlight.webp" type="image/webp">
-                                <img
+                        <div class="swiper-slide partners-slider__item grayscale-desktop">
+                            <img
                                     loading="lazy"
                                     src="img/brand-arlight.png"
                                     class="image"
                                     width="165"
                                     height="80"
                                     alt="Изображение блока"
-                                >
-                            </picture>
+                            >
                         </div>
-                        <div class="swiper-slide grayscale-desktop">
-                            <picture>
-                                <source srcset="img/brand-schneider-electric.webp" type="image/webp">
-                                <img
+                        <div class="swiper-slide partners-slider__item grayscale-desktop">
+                            <img
                                     loading="lazy"
                                     src="img/brand-schneider-electric.png"
                                     class="image"
                                     width="165"
                                     height="80"
                                     alt="Изображение блока"
-                                >
-                            </picture>
+                            >
                         </div>
-                        <div class="swiper-slide grayscale-desktop">
-                            <picture>
-                                <source srcset="img/brand-philips.webp" type="image/webp">
-                                <img
+                        <div class="swiper-slide partners-slider__item grayscale-desktop">
+                            <img
                                     loading="lazy"
                                     src="img/brand-philips.png"
                                     class="image"
                                     width="165"
                                     height="80"
                                     alt="Изображение блока"
-                                >
-                            </picture>
+                            >
                         </div>
                     </div>
                 </div>

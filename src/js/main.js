@@ -17,7 +17,6 @@ application.prototype.init = function () {
     this.initSliders();
     this.initVideoPlayer();
     this.initTooltips();
-    this.initMaskedInput();
     this.initInputSearchBehavior();
     this.initCheckall();
 };
@@ -253,63 +252,20 @@ application.prototype.initVideoPlayer = function () {
     if ($('[data-video-player]').length) {
         let videoPlayer = $('[data-video-player]');
 
-        /*$('[data-video-cover]').on('click', function (e) {
-            e.stopPropagation();
-            e.preventDefault();
-        });*/
-
         videoPlayer.on('click', function (i) {
             let $this = this;
-            let videoCover = Array.prototype.slice.call($this.parentNode.children);
+            let videoCover = $(this).siblings('[data-video-cover]');
+            let isPlaying = $this.currentTime > 0 && !$this.paused && !$this.ended
+                && $this.readyState > $this.HAVE_CURRENT_DATA;
 
-            for (let i = videoCover.length; i--;) {
-                if (videoCover[i] === $this) {
-                    videoCover.splice(i, 1);
-                    break;
-                }
-            }
-console.log(videoCover);
-            playPause($this, videoCover);
-
-        });
-
-        $(document).on('click', function (e) {
-            console.log(e.target);
-        });
-
-        function playPause(video, cover) {
-            let isPlaying = video.currentTime > 0 && !video.paused && !video.ended
-                && video.readyState > video.HAVE_CURRENT_DATA;
+            $this.controls = true;
 
             if (!isPlaying) {
-                console.log("paused");
-
-                video.play();
-                video.classList.add('1');
-            } else if (isPlaying) {
-                console.log("played");
-
-                video.pause();
-                video.classList.remove('1');
+                videoCover.addClass('visually-hidden');
+            } else {
+                videoCover.removeClass('visually-hidden');
             }
-
-            /*if (video.paused) {
-                console.log("paused1");
-
-                /!*video.controls = true;*!/
-                /!*video.pause();*!/
-                /!*video.currentTime = 0;
-                video.play();*!/
-                /!*video.autoplay = true;*!/
-                /!*cover.addClass('visually-hidden');*!/
-            } else if (!video.paused) {
-                console.log("played1");
-
-                /!*video.controls = false;*!/
-                /!*video.pause();
-                cover.removeClass('visually-hidden');*!/
-            }*/
-        }
+        });
     }
 };
 
@@ -321,11 +277,6 @@ application.prototype.initTooltips = function () {
             trigger: "mouseenter click",
         });
     }
-};
-
-// Mobile number mask
-application.prototype.initMaskedInput = function () {
-    $(".isPhone").mask("+7 (999) 999-99-99", { autoclear: false });
 };
 
 // Initialize input-search behavior

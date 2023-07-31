@@ -8,10 +8,29 @@
 
     <title>ui page</title>
 
-    <link rel="preload" href="fonts/Inter-Light.ttf" as="font" type="font/ttf" crossorigin>
-    <link rel="preload" href="fonts/Inter-Regular.ttf" as="font" type="font/ttf" crossorigin>
-    <link rel="preload" href="fonts/Inter-SemiBold.ttf" as="font" type="font/ttf" crossorigin>
-    <link rel="preload" href="fonts/Inter-Bold.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="fonts/Manrope/Manrope-Thin.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="fonts/Manrope/Manrope-Light.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="fonts/Manrope/Manrope-Regular.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="fonts/Manrope/Manrope-Medium.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="fonts/Manrope/Manrope-Semibold.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="fonts/Manrope/Manrope-Bold.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="fonts/Manrope/Manrope-ExtraBold.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="fonts/SFPro/SFProDisplay-Thin.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="fonts/SFPro/SFProDisplay-Ultralight.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="fonts/SFPro/SFProDisplay-Light.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="fonts/SFPro/SFProDisplay-Regular.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="fonts/SFPro/SFProDisplay-Medium.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="fonts/SFPro/SFProDisplay-Semibold.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="fonts/SFPro/SFProDisplay-Bold.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="fonts/SFPro/SFProDisplay-Black.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="fonts/SFPro/SFProDisplay-Heavy.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="fonts/Unbounded/static/Unbounded-ExtraLight.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="fonts/Unbounded/static/Unbounded-Light.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="fonts/Unbounded/static/Unbounded-Regular.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="fonts/Unbounded/static/Unbounded-Medium.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="fonts/Unbounded/static/Unbounded-SemiBold.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="fonts/Unbounded/static/Unbounded-Bold.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="fonts/Unbounded/static/Unbounded-Black.ttf" as="font" type="font/ttf" crossorigin>
 
     <link rel="stylesheet" href="css/vendors.css" type="text/css">
     <link rel="stylesheet" href="css/main.css" type="text/css">
@@ -93,6 +112,12 @@
             min-height: 24px;
             height: 24px;
         }
+        .tooltip-ui-iconset .tooltip .icon-free {
+            min-width: 64px;
+            width: auto;
+            min-height: 64px;
+            height: 64px;
+        }
         .tooltip-ui-iconset .tooltip .icon {
             fill: var(--interface1-color);
         }
@@ -102,9 +127,6 @@
     </style>
 </head>
 <body>
-    <div> // tmp - ctrl+F (check mobile design)</div>
-    <br>
-
     <h3 class="text-center">Variables css</h3>
     <h4>Fonts</h4>
     <div style="font-family: var(--font-family-manrope);">Manrope &#8212; var(--font-family-manrope)</div>
@@ -320,7 +342,7 @@
 
     <h3 class="text-center">Icons</h3>
     <div class="container-ui">
-        <h4>
+        <h4 style="min-width: 100%">
             .icon-fill - строго запрещает свойство "stroke"
             <br>
             .icon-stroke - строго запрещает свойство "fill"
@@ -328,375 +350,6 @@
         <div>
             <h4 class="text-center">sprite.svg#id_из_тултип</h4>
             <div class="tooltip-ui-set tooltip-ui-iconset">
-                <span class="tooltip"
-                      data-tippy-content="#search"
-                >
-                    <!--start ui content-->
-                    <svg class="icon">
-                        <use href="img/sprite.svg#search"></use>
-                    </svg>
-                    <!--end ui content-->
-                </span>
-                <span class="tooltip"
-                      data-tippy-content="#shopping-cart-2"
-                >
-                    <!--start ui content-->
-                    <svg class="icon">
-                        <use href="img/sprite.svg#shopping-cart-2"></use>
-                    </svg>
-                    <!--end ui content-->
-                </span>
-                <span class="tooltip"
-                      data-tippy-content="#inbox-filled"
-                >
-                    <!--start ui content-->
-                    <svg class="icon">
-                        <use href="img/sprite.svg#inbox-filled"></use>
-                    </svg>
-                    <!--end ui content-->
-                </span>
-                <span class="tooltip"
-                      data-tippy-content="#inbox-in"
-                >
-                    <!--start ui content-->
-                    <svg class="icon">
-                        <use href="img/sprite.svg#inbox-in"></use>
-                    </svg>
-                    <!--end ui content-->
-                </span>
-                <span class="tooltip"
-                      data-tippy-content="#barchart"
-                >
-                    <!--start ui content-->
-                    <svg class="icon">
-                        <use href="img/sprite.svg#barchart"></use>
-                    </svg>
-                    <!--end ui content-->
-                </span>
-                <span class="tooltip"
-                      data-tippy-content="#burger"
-                >
-                    <!--start ui content-->
-                    <svg class="icon">
-                        <use href="img/sprite.svg#burger"></use>
-                    </svg>
-                    <!--end ui content-->
-                </span>
-                <span class="tooltip"
-                      data-tippy-content="#star"
-                >
-                    <!--start ui content-->
-                    <svg class="icon">
-                        <use href="img/sprite.svg#star"></use>
-                    </svg>
-                    <!--end ui content-->
-                </span>
-                <span class="tooltip"
-                      data-tippy-content="#question"
-                >
-                    <!--start ui content-->
-                    <svg class="icon">
-                        <use href="img/sprite.svg#question"></use>
-                    </svg>
-                    <!--end ui content-->
-                </span>
-                <span class="tooltip"
-                      data-tippy-content="#new-release"
-                >
-                    <!--start ui content-->
-                    <svg class="icon">
-                        <use href="img/sprite.svg#new-release"></use>
-                    </svg>
-                    <!--end ui content-->
-                </span>
-                <span class="tooltip"
-                      data-tippy-content="#history"
-                >
-                    <!--start ui content-->
-                    <svg class="icon">
-                        <use href="img/sprite.svg#history"></use>
-                    </svg>
-                    <!--end ui content-->
-                </span>
-                <span class="tooltip"
-                      data-tippy-content="#filter"
-                >
-                    <!--start ui content-->
-                    <svg class="icon">
-                        <use href="img/sprite.svg#filter"></use>
-                    </svg>
-                    <!--end ui content-->
-                </span>
-                <span class="tooltip"
-                      data-tippy-content="#log-out"
-                >
-                    <!--start ui content-->
-                    <svg class="icon">
-                        <use href="img/sprite.svg#log-out"></use>
-                    </svg>
-                    <!--end ui content-->
-                </span>
-                <span class="tooltip"
-                      data-tippy-content="#catalog"
-                >
-                    <!--start ui content-->
-                    <svg class="icon">
-                        <use href="img/sprite.svg#catalog"></use>
-                    </svg>
-                    <!--end ui content-->
-                </span>
-                <span class="tooltip"
-                      data-tippy-content="#share"
-                >
-                    <!--start ui content-->
-                    <svg class="icon">
-                        <use href="img/sprite.svg#share"></use>
-                    </svg>
-                    <!--end ui content-->
-                </span>
-                <span class="tooltip"
-                      data-tippy-content="#truck"
-                >
-                    <!--start ui content-->
-                    <svg class="icon">
-                        <use href="img/sprite.svg#truck"></use>
-                    </svg>
-                    <!--end ui content-->
-                </span>
-                <span class="tooltip"
-                      data-tippy-content="#pos"
-                >
-                    <!--start ui content-->
-                    <svg class="icon">
-                        <use href="img/sprite.svg#pos"></use>
-                    </svg>
-                    <!--end ui content-->
-                </span>
-                <span class="tooltip"
-                      data-tippy-content="#lightning"
-                >
-                    <!--start ui content-->
-                    <svg class="icon">
-                        <use href="img/sprite.svg#lightning"></use>
-                    </svg>
-                    <!--end ui content-->
-                </span>
-                <span class="tooltip"
-                      data-tippy-content="#bookmark"
-                >
-                    <!--start ui content-->
-                    <svg class="icon">
-                        <use href="img/sprite.svg#bookmark"></use>
-                    </svg>
-                    <!--end ui content-->
-                </span>
-                <span class="tooltip"
-                      data-tippy-content="#bookmark-plus"
-                >
-                    <!--start ui content-->
-                    <svg class="icon">
-                        <use href="img/sprite.svg#bookmark-plus"></use>
-                    </svg>
-                    <!--end ui content-->
-                </span>
-                <span class="tooltip"
-                      data-tippy-content="#bookmarks"
-                >
-                    <!--start ui content-->
-                    <svg class="icon">
-                        <use href="img/sprite.svg#bookmarks"></use>
-                    </svg>
-                    <!--end ui content-->
-                </span>
-                <span class="tooltip"
-                      data-tippy-content="#pin"
-                >
-                    <!--start ui content-->
-                    <svg class="icon">
-                        <use href="img/sprite.svg#pin"></use>
-                    </svg>
-                    <!--end ui content-->
-                </span>
-                <span class="tooltip"
-                      data-tippy-content="#user-square"
-                >
-                    <!--start ui content-->
-                    <svg class="icon">
-                        <use href="img/sprite.svg#user-square"></use>
-                    </svg>
-                    <!--end ui content-->
-                </span>
-                <span class="tooltip"
-                      data-tippy-content="#trash"
-                >
-                    <!--start ui content-->
-                    <svg class="icon">
-                        <use href="img/sprite.svg#trash"></use>
-                    </svg>
-                    <!--end ui content-->
-                </span>
-                <span class="tooltip"
-                      data-tippy-content="#box-2"
-                >
-                    <!--start ui content-->
-                    <svg class="icon">
-                        <use href="img/sprite.svg#box-2"></use>
-                    </svg>
-                    <!--end ui content-->
-                </span>
-                <span class="tooltip"
-                      data-tippy-content="#briefcase"
-                >
-                    <!--start ui content-->
-                    <svg class="icon">
-                        <use href="img/sprite.svg#briefcase"></use>
-                    </svg>
-                    <!--end ui content-->
-                </span>
-                <span class="tooltip"
-                      data-tippy-content="#slash"
-                >
-                    <!--start ui content-->
-                    <svg class="icon">
-                        <use href="img/sprite.svg#slash"></use>
-                    </svg>
-                    <!--end ui content-->
-                </span>
-                <span class="tooltip"
-                      data-tippy-content="#timer"
-                >
-                    <!--start ui content-->
-                    <svg class="icon">
-                        <use href="img/sprite.svg#timer"></use>
-                    </svg>
-                    <!--end ui content-->
-                </span>
-                <span class="tooltip"
-                      data-tippy-content="#printer"
-                >
-                    <!--start ui content-->
-                    <svg class="icon">
-                        <use href="img/sprite.svg#printer"></use>
-                    </svg>
-                    <!--end ui content-->
-                </span>
-                <span class="tooltip"
-                      data-tippy-content="#call-calling"
-                >
-                    <!--start ui content-->
-                    <svg class="icon">
-                        <use href="img/sprite.svg#call-calling"></use>
-                    </svg>
-                    <!--end ui content-->
-                </span>
-                <span class="tooltip"
-                      data-tippy-content="#bulb"
-                >
-                    <!--start ui content-->
-                    <svg class="icon">
-                        <use href="img/sprite.svg#bulb"></use>
-                    </svg>
-                    <!--end ui content-->
-                </span>
-                <span class="tooltip"
-                      data-tippy-content="#copy"
-                >
-                    <!--start ui content-->
-                    <svg class="icon">
-                        <use href="img/sprite.svg#copy"></use>
-                    </svg>
-                    <!--end ui content-->
-                </span>
-                <span class="tooltip"
-                      data-tippy-content="#procent-circle"
-                >
-                    <!--start ui content-->
-                    <svg class="icon">
-                        <use href="img/sprite.svg#procent-circle"></use>
-                    </svg>
-                    <!--end ui content-->
-                </span>
-                <span class="tooltip"
-                      data-tippy-content="#sliders-horiz"
-                >
-                    <!--start ui content-->
-                    <svg class="icon">
-                        <use href="img/sprite.svg#sliders-horiz"></use>
-                    </svg>
-                    <!--end ui content-->
-                </span>
-                <span class="tooltip"
-                      data-tippy-content="#image-plus"
-                >
-                    <!--start ui content-->
-                    <svg class="icon">
-                        <use href="img/sprite.svg#image-plus"></use>
-                    </svg>
-                    <!--end ui content-->
-                </span>
-                <span class="tooltip"
-                      data-tippy-content="#sort-ascending"
-                >
-                    <!--start ui content-->
-                    <svg class="icon">
-                        <use href="img/sprite.svg#sort-ascending"></use>
-                    </svg>
-                    <!--end ui content-->
-                </span>
-                <span class="tooltip"
-                      data-tippy-content="#sort-decending"
-                >
-                    <!--start ui content-->
-                    <svg class="icon">
-                        <use href="img/sprite.svg#sort-decending"></use>
-                    </svg>
-                    <!--end ui content-->
-                </span>
-                <span class="tooltip"
-                      data-tippy-content="#comment-text"
-                >
-                    <!--start ui content-->
-                    <svg class="icon">
-                        <use href="img/sprite.svg#comment-text"></use>
-                    </svg>
-                    <!--end ui content-->
-                </span>
-                <span class="tooltip"
-                      data-tippy-content="#info"
-                >
-                    <!--start ui content-->
-                    <svg class="icon">
-                        <use href="img/sprite.svg#info"></use>
-                    </svg>
-                    <!--end ui content-->
-                </span>
-                <span class="tooltip"
-                      data-tippy-content="#alert-triangle"
-                >
-                    <!--start ui content-->
-                    <svg class="icon">
-                        <use href="img/sprite.svg#alert-triangle"></use>
-                    </svg>
-                    <!--end ui content-->
-                </span>
-                <span class="tooltip"
-                      data-tippy-content="#alert-octagon"
-                >
-                    <!--start ui content-->
-                    <svg class="icon">
-                        <use href="img/sprite.svg#alert-octagon"></use>
-                    </svg>
-                    <!--end ui content-->
-                </span>
-                <span class="tooltip"
-                      data-tippy-content="#arrow-up"
-                >
-                    <!--start ui content-->
-                    <svg class="icon">
-                        <use href="img/sprite.svg#arrow-up"></use>
-                    </svg>
-                    <!--end ui content-->
-                </span>
                 <span class="tooltip"
                       data-tippy-content="#arrow-down"
                 >
@@ -725,11 +378,47 @@
                     <!--end ui content-->
                 </span>
                 <span class="tooltip"
-                      data-tippy-content="#chevron-up"
+                      data-tippy-content="#arrow-up"
                 >
                     <!--start ui content-->
                     <svg class="icon">
-                        <use href="img/sprite.svg#chevron-up"></use>
+                        <use href="img/sprite.svg#arrow-up"></use>
+                    </svg>
+                    <!--end ui content-->
+                </span>
+                <span class="tooltip"
+                      data-tippy-content="#burger"
+                >
+                    <!--start ui content-->
+                    <svg class="icon">
+                        <use href="img/sprite.svg#burger"></use>
+                    </svg>
+                    <!--end ui content-->
+                </span>
+                <span class="tooltip"
+                      data-tippy-content="#check"
+                >
+                    <!--start ui content-->
+                    <svg class="icon">
+                        <use href="img/sprite.svg#check"></use>
+                    </svg>
+                    <!--end ui content-->
+                </span>
+                <span class="tooltip"
+                      data-tippy-content="#checkbox-rec"
+                >
+                    <!--start ui content-->
+                    <svg class="icon">
+                        <use href="img/sprite.svg#checkbox-rec"></use>
+                    </svg>
+                    <!--end ui content-->
+                </span>
+                <span class="tooltip"
+                      data-tippy-content="#check-circle"
+                >
+                    <!--start ui content-->
+                    <svg class="icon">
+                        <use href="img/sprite.svg#check-circle"></use>
                     </svg>
                     <!--end ui content-->
                 </span>
@@ -761,20 +450,11 @@
                     <!--end ui content-->
                 </span>
                 <span class="tooltip"
-                      data-tippy-content="#plus"
+                      data-tippy-content="#chevron-up"
                 >
                     <!--start ui content-->
                     <svg class="icon">
-                        <use href="img/sprite.svg#plus"></use>
-                    </svg>
-                    <!--end ui content-->
-                </span>
-                <span class="tooltip"
-                      data-tippy-content="#minus"
-                >
-                    <!--start ui content-->
-                    <svg class="icon">
-                        <use href="img/sprite.svg#minus"></use>
+                        <use href="img/sprite.svg#chevron-up"></use>
                     </svg>
                     <!--end ui content-->
                 </span>
@@ -788,202 +468,184 @@
                     <!--end ui content-->
                 </span>
                 <span class="tooltip"
-                      data-tippy-content="#check"
+                      data-tippy-content="#filter"
                 >
                     <!--start ui content-->
                     <svg class="icon">
-                        <use href="img/sprite.svg#check"></use>
+                        <use href="img/sprite.svg#filter"></use>
                     </svg>
                     <!--end ui content-->
                 </span>
                 <span class="tooltip"
-                      data-tippy-content="#check-circle"
+                      data-tippy-content="#lock"
                 >
                     <!--start ui content-->
                     <svg class="icon">
-                        <use href="img/sprite.svg#check-circle"></use>
+                        <use href="img/sprite.svg#lock"></use>
                     </svg>
                     <!--end ui content-->
                 </span>
                 <span class="tooltip"
-                      data-tippy-content="#checkbox-rec"
+                      data-tippy-content="#minus"
                 >
                     <!--start ui content-->
                     <svg class="icon">
-                        <use href="img/sprite.svg#checkbox-rec"></use>
+                        <use href="img/sprite.svg#minus"></use>
                     </svg>
                     <!--end ui content-->
                 </span>
                 <span class="tooltip"
-                      data-tippy-content="#excel"
+                      data-tippy-content="#plus"
                 >
                     <!--start ui content-->
                     <svg class="icon">
-                        <use href="img/sprite.svg#excel"></use>
+                        <use href="img/sprite.svg#plus"></use>
                     </svg>
                     <!--end ui content-->
                 </span>
                 <span class="tooltip"
-                      data-tippy-content="#word"
+                      data-tippy-content="#search"
                 >
                     <!--start ui content-->
                     <svg class="icon">
-                        <use href="img/sprite.svg#word"></use>
+                        <use href="img/sprite.svg#search"></use>
                     </svg>
                     <!--end ui content-->
                 </span>
                 <span class="tooltip"
-                      data-tippy-content="#pdf"
+                      data-tippy-content="#search"
                 >
                     <!--start ui content-->
                     <svg class="icon">
-                        <use href="img/sprite.svg#pdf"></use>
+                        <use href="img/sprite.svg#search"></use>
                     </svg>
                     <!--end ui content-->
                 </span>
                 <span class="tooltip"
-                      data-tippy-content="#image"
+                      data-tippy-content="#user"
                 >
                     <!--start ui content-->
                     <svg class="icon">
-                        <use href="img/sprite.svg#image"></use>
+                        <use href="img/sprite.svg#user"></use>
                     </svg>
                     <!--end ui content-->
                 </span>
                 <span class="tooltip"
-                      data-tippy-content="#file-download"
+                      data-tippy-content="#user-square"
                 >
                     <!--start ui content-->
                     <svg class="icon">
-                        <use href="img/sprite.svg#file-download"></use>
+                        <use href="img/sprite.svg#user-square"></use>
                     </svg>
                     <!--end ui content-->
                 </span>
                 <span class="tooltip"
-                      data-tippy-content="#gift"
+                      data-tippy-content="#zoom-in"
                 >
                     <!--start ui content-->
                     <svg class="icon">
-                        <use href="img/sprite.svg#gift"></use>
-                    </svg>
-                    <!--end ui content-->
-                </span>
-                <span class="tooltip"
-                      data-tippy-content="#percentage-circle"
-                >
-                    <!--start ui content-->
-                    <svg class="icon">
-                        <use href="img/sprite.svg#percentage-circle"></use>
+                        <use href="img/sprite.svg#zoom-in"></use>
                     </svg>
                     <!--end ui content-->
                 </span>
             </div>
             <div class="tooltip-ui-set tooltip-ui-iconset">
                 <span class="tooltip"
-                      data-tippy-content="#fill-bookmark-check"
+                      data-tippy-content="#circle-1"
                 >
                     <!--start ui content-->
-                    <svg class="icon">
-                        <use href="img/sprite.svg#fill-bookmark-check"></use>
+                    <svg class="icon icon-free">
+                        <use href="img/sprite.svg#circle-1"></use>
                     </svg>
                     <!--end ui content-->
                 </span>
                 <span class="tooltip"
-                      data-tippy-content="#fill-check-rec"
+                      data-tippy-content="#circle-2"
                 >
                     <!--start ui content-->
-                    <svg class="icon">
-                        <use href="img/sprite.svg#fill-check-rec"></use>
+                    <svg class="icon icon-free">
+                        <use href="img/sprite.svg#circle-2"></use>
                     </svg>
                     <!--end ui content-->
                 </span>
                 <span class="tooltip"
-                      data-tippy-content="#fill-cross-rec"
+                      data-tippy-content="#circle-3"
                 >
                     <!--start ui content-->
-                    <svg class="icon">
-                        <use href="img/sprite.svg#fill-cross-rec"></use>
+                    <svg class="icon icon-free">
+                        <use href="img/sprite.svg#circle-3"></use>
                     </svg>
                     <!--end ui content-->
                 </span>
                 <span class="tooltip"
-                      data-tippy-content="#fill-eye"
+                      data-tippy-content="#line-1"
                 >
                     <!--start ui content-->
-                    <svg class="icon">
-                        <use href="img/sprite.svg#fill-eye"></use>
+                    <svg class="icon icon-free">
+                        <use href="img/sprite.svg#line-1"></use>
                     </svg>
                     <!--end ui content-->
                 </span>
                 <span class="tooltip"
-                      data-tippy-content="#fill-eye-slash"
+                      data-tippy-content="#line-2"
                 >
                     <!--start ui content-->
-                    <svg class="icon">
-                        <use href="img/sprite.svg#fill-eye-slash"></use>
+                    <svg class="icon icon-free">
+                        <use href="img/sprite.svg#line-2"></use>
                     </svg>
                     <!--end ui content-->
                 </span>
                 <span class="tooltip"
-                      data-tippy-content="#fill-grid"
+                      data-tippy-content="#line-3"
                 >
                     <!--start ui content-->
-                    <svg class="icon">
-                        <use href="img/sprite.svg#fill-grid"></use>
+                    <svg class="icon icon-free">
+                        <use href="img/sprite.svg#line-3"></use>
                     </svg>
                     <!--end ui content-->
                 </span>
                 <span class="tooltip"
-                      data-tippy-content="#fill-list"
+                      data-tippy-content="#line-4"
                 >
                     <!--start ui content-->
-                    <svg class="icon">
-                        <use href="img/sprite.svg#fill-list"></use>
+                    <svg class="icon icon-free">
+                        <use href="img/sprite.svg#line-4"></use>
                     </svg>
                     <!--end ui content-->
                 </span>
                 <span class="tooltip"
-                      data-tippy-content="#fill-more-horiz"
+                      data-tippy-content="#line-5"
                 >
                     <!--start ui content-->
-                    <svg class="icon">
-                        <use href="img/sprite.svg#fill-more-horiz"></use>
+                    <svg class="icon icon-free">
+                        <use href="img/sprite.svg#line-5"></use>
                     </svg>
                     <!--end ui content-->
                 </span>
                 <span class="tooltip"
-                      data-tippy-content="#fill-more-vert"
+                      data-tippy-content="#line-6"
                 >
                     <!--start ui content-->
-                    <svg class="icon">
-                        <use href="img/sprite.svg#fill-more-vert"></use>
+                    <svg class="icon icon-free">
+                        <use href="img/sprite.svg#line-6"></use>
                     </svg>
                     <!--end ui content-->
                 </span>
                 <span class="tooltip"
-                      data-tippy-content="#fill-star"
+                      data-tippy-content="#line-7"
                 >
                     <!--start ui content-->
-                    <svg class="icon">
-                        <use href="img/sprite.svg#fill-star"></use>
+                    <svg class="icon icon-free">
+                        <use href="img/sprite.svg#line-7"></use>
                     </svg>
                     <!--end ui content-->
                 </span>
                 <span class="tooltip"
-                      data-tippy-content="#fill-table"
+                      data-tippy-content="#line-8"
                 >
                     <!--start ui content-->
-                    <svg class="icon">
-                        <use href="img/sprite.svg#fill-table"></use>
-                    </svg>
-                    <!--end ui content-->
-                </span>
-                <span class="tooltip"
-                      data-tippy-content="#fill-bonus"
-                >
-                    <!--start ui content-->
-                    <svg class="icon">
-                        <use href="img/sprite.svg#fill-bonus"></use>
+                    <svg class="icon icon-free">
+                        <use href="img/sprite.svg#line-8"></use>
                     </svg>
                     <!--end ui content-->
                 </span>
