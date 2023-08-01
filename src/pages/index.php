@@ -245,7 +245,7 @@
                 <div class="basic-slider basic-slider-mobile swiper" data-basic-slider>
                     <div class="swiper-wrapper card-list card-list--small card-list--desktop">
                         <div class="swiper-slide">
-                            <div class="card card-static">
+                            <div class="card">
                                 <div class="card__view">
                                     <picture>
                                         <source srcset="img/card-img-5.webp" type="image/webp">
@@ -265,7 +265,7 @@
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="card card-static">
+                            <div class="card">
                                 <div class="card__view">
                                     <picture>
                                         <source srcset="img/card-img-6.webp" type="image/webp">
@@ -285,7 +285,7 @@
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="card card-static">
+                            <div class="card">
                                 <div class="card__view">
                                     <picture>
                                         <source srcset="img/card-img-7.webp" type="image/webp">
@@ -305,7 +305,7 @@
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="card card-static">
+                            <div class="card">
                                 <div class="card__view">
                                     <picture>
                                         <source srcset="img/card-img-8.webp" type="image/webp">
@@ -325,7 +325,7 @@
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="card card-static">
+                            <div class="card">
                                 <div class="card__view">
                                     <picture>
                                         <source srcset="img/card-img-9.webp" type="image/webp">
@@ -345,7 +345,7 @@
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="card card-static">
+                            <div class="card">
                                 <div class="card__view">
                                     <picture>
                                         <source srcset="img/card-img-10.webp" type="image/webp">
@@ -365,7 +365,7 @@
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="card card-static">
+                            <div class="card">
                                 <div class="card__view">
                                     <picture>
                                         <source srcset="img/card-img-9.webp" type="image/webp">
@@ -385,7 +385,7 @@
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="card card-static">
+                            <div class="card">
                                 <div class="card__view">
                                     <picture>
                                         <source srcset="img/card-img-10.webp" type="image/webp">
@@ -405,7 +405,7 @@
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="card card-static">
+                            <div class="card">
                                 <div class="card__view">
                                     <picture>
                                         <source srcset="img/card-img-8.webp" type="image/webp">
@@ -437,48 +437,70 @@
             <div class="h2">Преимущества продукции 3<span class="red-color">R</span></div>
         </div>
         <div class="card-list card-list--big">
-            <div class="card card-static card-advantage">
+            <div class="card card-advantage">
                 <div class="card__view">
                     <svg class="icon">
-                        <use href="img/advantage-buildings.svg#advantage-buildings"></use>
+                        <use href="img/advantage-setting.svg#advantage-setting"></use>
                     </svg>
                 </div>
                 <div class="card__descr">
-                    <div class="card__title h4"><span class="red-color">Собственное</span> производство в России</div>
-                    <div class="card__subtitle">В течение 20 лет мы являетмся надежным производителем фурнитуры и гарантируем стабильное качество</div>
+                    <div class="card__title h4"><span class="red-color">Прочность</span></div>
+                    <div class="card__subtitle">Собственная служба контроля качества, состоящая из 3-х этапов</div>
                 </div>
             </div>
-            <div class="card card-static card-advantage">
+            <div class="card card-advantage">
                 <div class="card__view">
                     <svg class="icon">
                         <use href="img/advantage-timer.svg#advantage-timer"></use>
                     </svg>
                 </div>
                 <div class="card__descr">
-                    <div class="card__title h4">Срок производства 14 дней</div>
-                    <div class="card__subtitle">Работая в компании, вы можете иметь возможность развиваться профессионально и строить карьеру</div>
+                    <div class="card__title h4"><span class="red-color">Сроки</span></div>
+                    <div class="card__subtitle">Производим на территории России, за счет этого срок изготовления всего 15 дней</div>
                 </div>
             </div>
-            <div class="card card-static card-advantage">
+            <div class="card card-advantage">
                 <div class="card__view">
                     <svg class="icon">
-                        <use href="img/advantage-layer.svg#advantage-layer"></use>
+                        <use href="img/advantage-wallet.svg#advantage-wallet"></use>
                     </svg>
                 </div>
                 <div class="card__descr">
-                    <div class="card__title h4"><span class="red-color">Широкий</span> ассортимент продукции</div>
-                    <div class="card__subtitle">Мы производим разные виды продукции, что позволяет закрыть большинство ваших потребностей</div>
+                    <div class="card__title h4"><span class="red-color">Цена</span></div>
+                    <div class="card__subtitle">Производим из сертифицированного сырья. Сохраняем цены за счет производства в РФ</div>
                 </div>
             </div>
-            <div class="card card-static card-advantage">
+            <div class="card card-advantage">
                 <div class="card__view">
                     <svg class="icon">
                         <use href="img/advantage-brush.svg#advantage-brush"></use>
                     </svg>
                 </div>
                 <div class="card__descr">
-                    <div class="card__title h4">Самый большой <span class="red-color">цех покраски</span></div>
-                    <div class="card__subtitle">Вы вступаете в коллектив профессионалов, с которыми можно обмениваться опытом знаниями</div>
+                    <div class="card__title h4"><span class="red-color">Цвета</span></div>
+                    <div class="card__subtitle">Обладаем собственной картой цветов, которая насчитывает 600 оттенков.</div>
+                </div>
+            </div>
+            <div class="card card-advantage">
+                <div class="card__view">
+                    <svg class="icon">
+                        <use href="img/advantage-ruler.svg#advantage-ruler"></use>
+                    </svg>
+                </div>
+                <div class="card__descr">
+                    <div class="card__title h4"><span class="red-color">Размер</span></div>
+                    <div class="card__subtitle">Благодаря современному парку оборудования, производим готовую продукцию от 10,00 см. с шагом 0,5 см</div>
+                </div>
+            </div>
+            <div class="card card-advantage">
+                <div class="card__view">
+                    <svg class="icon">
+                        <use href="img/advantage-shapes.svg#advantage-shapes"></use>
+                    </svg>
+                </div>
+                <div class="card__descr">
+                    <div class="card__title h4"><span class="red-color">Логотип</span></div>
+                    <div class="card__subtitle">У нас вы можете персонализировать пуллер, нанести логотип вашей компании или вашего заказчика</div>
                 </div>
             </div>
         </div>
@@ -591,10 +613,10 @@
                                     <div class="card__subtitle">Спешим поделиться с вами радостью! Сегодня нам написали молодожены, которые поделились с нами своим счастьем и поблагодарили нам!</div>
                                 </div>
                                 <div class="card__more">
-                    <span class="more-link">
-                        <span>Читать полностью</span>
-                        <span class="decor"><span></span></span>
-                    </span>
+                                    <span class="more-link">
+                                        <span>Читать полностью</span>
+                                        <span class="decor"><span></span></span>
+                                    </span>
                                 </div>
                             </div>
                         </div>
@@ -618,10 +640,10 @@
                                     <div class="card__subtitle">Меня зовут Марина! Я основала эту фирму после того, как в самый ответственный момент меня подвела продукция YCC</div>
                                 </div>
                                 <div class="card__more">
-                    <span class="more-link">
-                        <span>Читать полностью</span>
-                        <span class="decor"><span></span></span>
-                    </span>
+                                    <span class="more-link">
+                                        <span>Читать полностью</span>
+                                        <span class="decor"><span></span></span>
+                                    </span>
                                 </div>
                             </div>
                         </div>
@@ -641,10 +663,10 @@
                                     </picture>
                                 </div>
                                 <div class="card__more">
-                    <span class="more-link">
-                        <span>Больше новостей</span>
-                        <span class="decor"><span></span></span>
-                    </span>
+                                    <span class="more-link">
+                                        <span>Больше новостей</span>
+                                        <span class="decor"><span></span></span>
+                                    </span>
                                 </div>
                             </div>
                         </div>

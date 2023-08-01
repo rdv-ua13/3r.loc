@@ -396,29 +396,11 @@
                     <!--end ui content-->
                 </span>
                 <span class="tooltip"
-                      data-tippy-content="#check"
+                      data-tippy-content="#call-calling"
                 >
                     <!--start ui content-->
                     <svg class="icon">
-                        <use href="img/sprite.svg#check"></use>
-                    </svg>
-                    <!--end ui content-->
-                </span>
-                <span class="tooltip"
-                      data-tippy-content="#checkbox-rec"
-                >
-                    <!--start ui content-->
-                    <svg class="icon">
-                        <use href="img/sprite.svg#checkbox-rec"></use>
-                    </svg>
-                    <!--end ui content-->
-                </span>
-                <span class="tooltip"
-                      data-tippy-content="#check-circle"
-                >
-                    <!--start ui content-->
-                    <svg class="icon">
-                        <use href="img/sprite.svg#check-circle"></use>
+                        <use href="img/sprite.svg#call-calling"></use>
                     </svg>
                     <!--end ui content-->
                 </span>

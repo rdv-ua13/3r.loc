@@ -243,6 +243,13 @@ application.prototype.initSliders = function () {
             },
         });
     }
+
+    if ($('.nav-breadcrumbs').length) {
+        let sliderNavBreadcrumbs = new Swiper('.nav-breadcrumbs', {
+            spaceBetween: 0,
+            slidesPerView: 'auto',
+        });
+    }
 };
 
 

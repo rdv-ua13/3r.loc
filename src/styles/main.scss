@@ -18,7 +18,16 @@
 	body {
 		&:not(.index) {
 			.main {
-				padding-top: 256px;
+				padding-top: 248px;
+			}
+		}
+	}
+}
+@media (max-width: 991.98px) {
+	body {
+		&:not(.index) {
+			.main {
+				padding-top: 24px;
 			}
 		}
 	}
@@ -86,7 +95,7 @@ body:not(.is-using-mouse) {
 	}
 	.index-slider {
 		.swiper-slide {
-			padding-top: 330px;
+			padding-top: 250px;
 			padding-bottom: 70px;
 		}
 	}
