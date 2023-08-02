@@ -1696,8 +1696,12 @@ input.disabled {
 					height: 100%;
 
 					&__view {
-						min-height: 226px;
-						height: 226px;
+						&,
+						.image,
+						.icon {
+							min-height: 226px;
+							height: 226px;
+						}
 					}
 
 					&.card-info {
@@ -1891,6 +1895,7 @@ input.disabled {
 		display: flex;
 		justify-content: flex-start;
 		align-items: center;
+		border-radius: 12px;
 
 		picture,
 		.image,
@@ -2065,10 +2070,6 @@ input.disabled {
 	.card {
 		border-radius: 16px;
 
-		&__view {
-			border-radius: 12px;
-		}
-
 		&.card-advantage {
 			.card__view {
 				.image,
@@ -2187,9 +2188,6 @@ input.disabled {
 		padding: 16px;
 		border-radius: 12px;
 
-		&__view {
-			border-radius: 8px;
-		}
 		&__title {
 			-webkit-line-clamp: 7;
 		}
@@ -2276,7 +2274,6 @@ input.disabled {
 @media (min-width: 768px) and (max-width: 991.98px) {
 	.card-list {
 		.card {
-			background-color: red;
 			min-width: calc((100vw - 32px - 16px) / 2);
 			width: calc((100vw - 32px - 16px) / 2);
 

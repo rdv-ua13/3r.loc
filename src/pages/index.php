@@ -42,7 +42,7 @@
                     <div class="container">
                         <div class="main-banner">
                             <div class="main-banner__descr">
-                                <div class="main-banner__title h1">Производство, покраска швейной фурнитуры и &nbsp;поставка по всей России</div>
+                                <div class="main-banner__title h1">Производство, покраска швейной фурнитуры и&nbsp;поставка по всей России</div>
                                 <div class="main-banner__subtitle">
                                     <ul class="list-reset main-banner__list">
                                         <li>

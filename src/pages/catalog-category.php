@@ -8,115 +8,129 @@
 
 <div class="">
 	<div class="container">
-		<div class=""> <!-- tmp -->
-			<div class="gap-xxl">
-				<div class="h1">Продукция</span></div>
-			</div>
+        <div class="gap-xxl">
+            <div class="h1">Продукция</span></div>
+        </div>
 
-            <div class="card-list card-list--big">
-                <div class="card">
-                    <div class="card__view">
-                        <picture>
-                            <source srcset="img/card-img-1.webp" type="image/webp">
-                            <img
-                                    loading="lazy"
-                                    src="img/card-img-1.png"
-                                    class="image"
-                                    width="566"
-                                    height="320"
-                                    alt="Изображение блока"
-                            >
-                        </picture>
-                    </div>
-                    <div class="card__descr">
-                        <div class="card__title h3">Застежки-молнии</div>
-                        <div class="card__subtitle">Не подведут даже в самый ответственный момент</div>
-                    </div>
-                    <div class="card__more">
-                    <span class="more-link">
-                        <span>Узнать больше</span>
-                        <span class="decor"><span></span></span>
-                    </span>
-                    </div>
+        <div class="card-list card-list--big">
+            <div class="card">
+                <div class="card__view">
+                    <picture>
+                        <source srcset="img/card-img-1.webp" type="image/webp">
+                        <img
+                                loading="lazy"
+                                src="img/card-img-1.png"
+                                class="image"
+                                width="566"
+                                height="320"
+                                alt="Изображение блока"
+                        >
+                    </picture>
                 </div>
-                <div class="card">
-                    <div class="card__view">
-                        <picture>
-                            <source srcset="img/card-img-2.webp" type="image/webp">
-                            <img
-                                    loading="lazy"
-                                    src="img/card-img-2.png"
-                                    class="image"
-                                    width="566"
-                                    height="320"
-                                    alt="Изображение блока"
-                            >
-                        </picture>
-                    </div>
-                    <div class="card__descr">
-                        <div class="card__title h3">Пластиковая фурнитура</div>
-                        <div class="card__subtitle">Останется защелкнутой, даже если рюкзак затрещит</div>
-                    </div>
-                    <div class="card__more">
-                    <span class="more-link">
-                        <span>Узнать больше</span>
-                        <span class="decor"><span></span></span>
-                    </span>
-                    </div>
+                <div class="card__descr">
+                    <div class="card__title h3">Застежки-молнии</div>
+                    <div class="card__subtitle">Не подведут даже в самый ответственный момент</div>
                 </div>
-                <div class="card">
-                    <div class="card__view">
-                        <picture>
-                            <source srcset="img/card-img-3.webp" type="image/webp">
-                            <img
-                                    loading="lazy"
-                                    src="img/card-img-3.png"
-                                    class="image"
-                                    width="566"
-                                    height="320"
-                                    alt="Изображение блока"
-                            >
-                        </picture>
-                    </div>
-                    <div class="card__descr">
-                        <div class="card__title h3">Кнопки</div>
-                        <div class="card__subtitle">Сумочка будет под надежной защитой</div>
-                    </div>
-                    <div class="card__more">
-                    <span class="more-link">
-                        <span>Узнать больше</span>
-                        <span class="decor"><span></span></span>
-                    </span>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card__view">
-                        <picture>
-                            <source srcset="img/card-img-4.webp" type="image/webp">
-                            <img
-                                    loading="lazy"
-                                    src="img/card-img-4.png"
-                                    class="image"
-                                    width="566"
-                                    height="320"
-                                    alt="Изображение блока"
-                            >
-                        </picture>
-                    </div>
-                    <div class="card__descr">
-                        <div class="card__title h3">Ленты и шнурки</div>
-                        <div class="card__subtitle">Больше не развяжутся на пробежке</div>
-                    </div>
-                    <div class="card__more">
-                    <span class="more-link">
-                        <span>Узнать больше</span>
-                        <span class="decor"><span></span></span>
-                    </span>
-                    </div>
+                <div class="card__more">
+                <span class="more-link">
+                    <span>Узнать больше</span>
+                    <span class="decor"><span></span></span>
+                </span>
                 </div>
             </div>
-		</div>
+            <div class="card">
+                <div class="card__view">
+                    <picture>
+                        <source srcset="img/card-img-2.webp" type="image/webp">
+                        <img
+                                loading="lazy"
+                                src="img/card-img-2.png"
+                                class="image"
+                                width="566"
+                                height="320"
+                                alt="Изображение блока"
+                        >
+                    </picture>
+                </div>
+                <div class="card__descr">
+                    <div class="card__title h3">Пластиковая фурнитура</div>
+                    <div class="card__subtitle">Останется защелкнутой, даже если рюкзак затрещит</div>
+                </div>
+                <div class="card__more">
+                <span class="more-link">
+                    <span>Узнать больше</span>
+                    <span class="decor"><span></span></span>
+                </span>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card__view">
+                    <picture>
+                        <source srcset="img/card-img-3.webp" type="image/webp">
+                        <img
+                                loading="lazy"
+                                src="img/card-img-3.png"
+                                class="image"
+                                width="566"
+                                height="320"
+                                alt="Изображение блока"
+                        >
+                    </picture>
+                </div>
+                <div class="card__descr">
+                    <div class="card__title h3">Кнопки</div>
+                    <div class="card__subtitle">Сумочка будет под надежной защитой</div>
+                </div>
+                <div class="card__more">
+                <span class="more-link">
+                    <span>Узнать больше</span>
+                    <span class="decor"><span></span></span>
+                </span>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card__view">
+                    <picture>
+                        <source srcset="img/card-img-4.webp" type="image/webp">
+                        <img
+                                loading="lazy"
+                                src="img/card-img-4.png"
+                                class="image"
+                                width="566"
+                                height="320"
+                                alt="Изображение блока"
+                        >
+                    </picture>
+                </div>
+                <div class="card__descr">
+                    <div class="card__title h3">Ленты и шнурки</div>
+                    <div class="card__subtitle">Больше не развяжутся на пробежке</div>
+                </div>
+                <div class="card__more">
+                <span class="more-link">
+                    <span>Узнать больше</span>
+                    <span class="decor"><span></span></span>
+                </span>
+                </div>
+            </div>
+        </div>
 	</div>
+</div>
+
+<div class="block-top">
+    <div class="container">
+        <div class="download">
+            <a
+                    class="download-file"
+                    href="img/test.png"
+                    style="background-image: url('img/download-bg.png');"
+                    download=""
+            >
+                <span class="download-file__title">Скачать PDF-каталог</span>
+                <span class="download-file__subtitle">PDF, 3.2 Мб</span>
+            </a>
+        </div>
+    </div>
 </div>
 
 <div class="block block-border-bottom">

@@ -82,6 +82,7 @@ body:not(.is-using-mouse) {
 	background-color: var(--interface1-color);
 
 	.swiper-slide {
+		height: auto;
 		background-repeat: no-repeat;
 		background-position: center center;
 		background-size: cover;
@@ -179,6 +180,96 @@ body:not(.is-using-mouse) {
 	.main-banner {
 		&__descr {
 			gap: 20px;
+		}
+	}
+}
+
+.download {
+	&-file {
+		display: flex;
+		flex-direction: column;
+		overflow: hidden;
+		border-radius: 16px;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+
+		&__title {
+			color: var(--white-color);
+			font-family: var(--font-family-unbounded);
+			font-weight: 400;
+			text-decoration: underline;
+			transition: var(--transition);
+		}
+		&__subtitle {
+			color: rgba(255, 255, 255, 0.7);
+			font-weight: 600;
+		}
+
+		&:hover {
+			.download-file__title {
+				text-decoration: none;
+			}
+		}
+	}
+}
+@media (min-width: 992px) {
+	.download {
+		&-file {
+			gap: 20px;
+			min-height: 320px;
+			padding: 40px 48px;
+
+			&__title {
+				font-size: 36px;
+			}
+			&__subtitle {
+				font-size: 20px;
+			}
+		}
+	}
+}
+@media (min-width: 1200px) {
+	.download {
+		&-file {
+			padding-right: 40%;
+		}
+	}
+}
+@media (max-width: 991.98px) {
+	.download {
+		&-file {
+			gap: 8px;
+			min-height: 150px;
+			padding: 20px 24px;
+
+			&__title {
+				font-size: 20px;
+			}
+			&__subtitle {
+				font-size: 14px;
+			}
+		}
+	}
+}
+@media (max-width: 575.98px) {
+	.download {
+		&-file {
+			padding-right: 30%;
+		}
+	}
+}
+@media (min-width: 576px) and (max-width: 991.98px) {
+	.download {
+		&-file {
+			padding-right: 40%;
+		}
+	}
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	.download {
+		&-file {
+			padding-right: 30%;
 		}
 	}
 }

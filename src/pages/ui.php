@@ -441,6 +441,15 @@
                     <!--end ui content-->
                 </span>
                 <span class="tooltip"
+                      data-tippy-content="#circle-1"
+                >
+                    <!--start ui content-->
+                    <svg class="icon">
+                        <use href="img/sprite.svg#circle-1"></use>
+                    </svg>
+                    <!--end ui content-->
+                </span>
+                <span class="tooltip"
                       data-tippy-content="#cross"
                 >
                     <!--start ui content-->
@@ -527,107 +536,6 @@
                     <!--start ui content-->
                     <svg class="icon">
                         <use href="img/sprite.svg#zoom-in"></use>
-                    </svg>
-                    <!--end ui content-->
-                </span>
-            </div>
-            <div class="tooltip-ui-set tooltip-ui-iconset">
-                <span class="tooltip"
-                      data-tippy-content="#circle-1"
-                >
-                    <!--start ui content-->
-                    <svg class="icon icon-free">
-                        <use href="img/sprite.svg#circle-1"></use>
-                    </svg>
-                    <!--end ui content-->
-                </span>
-                <span class="tooltip"
-                      data-tippy-content="#circle-2"
-                >
-                    <!--start ui content-->
-                    <svg class="icon icon-free">
-                        <use href="img/sprite.svg#circle-2"></use>
-                    </svg>
-                    <!--end ui content-->
-                </span>
-                <span class="tooltip"
-                      data-tippy-content="#circle-3"
-                >
-                    <!--start ui content-->
-                    <svg class="icon icon-free">
-                        <use href="img/sprite.svg#circle-3"></use>
-                    </svg>
-                    <!--end ui content-->
-                </span>
-                <span class="tooltip"
-                      data-tippy-content="#line-1"
-                >
-                    <!--start ui content-->
-                    <svg class="icon icon-free">
-                        <use href="img/sprite.svg#line-1"></use>
-                    </svg>
-                    <!--end ui content-->
-                </span>
-                <span class="tooltip"
-                      data-tippy-content="#line-2"
-                >
-                    <!--start ui content-->
-                    <svg class="icon icon-free">
-                        <use href="img/sprite.svg#line-2"></use>
-                    </svg>
-                    <!--end ui content-->
-                </span>
-                <span class="tooltip"
-                      data-tippy-content="#line-3"
-                >
-                    <!--start ui content-->
-                    <svg class="icon icon-free">
-                        <use href="img/sprite.svg#line-3"></use>
-                    </svg>
-                    <!--end ui content-->
-                </span>
-                <span class="tooltip"
-                      data-tippy-content="#line-4"
-                >
-                    <!--start ui content-->
-                    <svg class="icon icon-free">
-                        <use href="img/sprite.svg#line-4"></use>
-                    </svg>
-                    <!--end ui content-->
-                </span>
-                <span class="tooltip"
-                      data-tippy-content="#line-5"
-                >
-                    <!--start ui content-->
-                    <svg class="icon icon-free">
-                        <use href="img/sprite.svg#line-5"></use>
-                    </svg>
-                    <!--end ui content-->
-                </span>
-                <span class="tooltip"
-                      data-tippy-content="#line-6"
-                >
-                    <!--start ui content-->
-                    <svg class="icon icon-free">
-                        <use href="img/sprite.svg#line-6"></use>
-                    </svg>
-                    <!--end ui content-->
-                </span>
-                <span class="tooltip"
-                      data-tippy-content="#line-7"
-                >
-                    <!--start ui content-->
-                    <svg class="icon icon-free">
-                        <use href="img/sprite.svg#line-7"></use>
-                    </svg>
-                    <!--end ui content-->
-                </span>
-                <span class="tooltip"
-                      data-tippy-content="#line-8"
-                >
-                    <!--start ui content-->
-                    <svg class="icon icon-free">
-                        <use href="img/sprite.svg#line-8"></use>
                     </svg>
                     <!--end ui content-->
                 </span>
