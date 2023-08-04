@@ -87,6 +87,7 @@
             <br>
             <li><a href="catalog-category.php" target="_blank" class="ready">Продукция (категории)</a></li>
             <li><a href="news.php" target="_blank" class="ready">Новости</a></li>
+            <li><a href="about.php" target="_blank" class="ready">О производстве</a></li>
             <br>
 
             <li><a href="ui.php" target="_blank">ui</a></li>

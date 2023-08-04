@@ -19,6 +19,7 @@ application.prototype.init = function () {
     this.initTooltips();
     this.initInputSearchBehavior();
     this.initCheckall();
+    this.initAnimatedCounter();
 };
 
 // Initialize device check
@@ -425,5 +426,32 @@ application.prototype.initCheckall = function () {
                 }
             });
         }
+    }
+};
+
+// Initialize animated counter
+application.prototype.initAnimatedCounter = function () {
+    if ($('.animated-counter').length) {
+        $('.animated-counter').each(function (i) {
+            let
+                counter = document.querySelectorAll('.animated-counter'),
+                value = {
+                    val: parseInt(counter[i].dataset.value)
+                };
+
+            gsap.from(value, {
+                duration: 3,
+                ease: 'circ.out',
+                val: 0,
+                roundProps: 'val',
+                onUpdate: function() {
+                    counter[i].innerText = format_number(value.val);
+                }
+            });
+        });
+
+        function format_number(x) {
+            return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+        };
     }
 };

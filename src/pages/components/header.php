@@ -53,6 +53,7 @@
     <script defer src="js/tippy-bundle.umd.js"></script>    <!-- tippy -->
     <script defer src="js/fancybox.umd.js"></script>    <!-- fancybox -->
     <script defer src="js/select2.js"></script>    <!-- select2 -->
+    <script defer src="js/gsap.min.js"></script>    <!-- gsap -->
 
     <script defer src="js/main.js"></script>
 </head>

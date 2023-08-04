@@ -123,10 +123,7 @@ const includedJsBuild = () => {
             "node_modules/tippy.js/dist/tippy-bundle.umd.js",
             "node_modules/@fancyapps/ui/dist/fancybox.umd.js",
             "node_modules/select2/dist/js/select2.js",
-            "node_modules/readmore-js/readmore.js",
-            "node_modules/flatpickr/dist/flatpickr.min.js",
-            "node_modules/flatpickr/dist/l10n/ru.js",
-            "node_modules/nouislider/dist/nouislider.js",
+            "node_modules/gsap/dist/gsap.min.js",
         ]
     )
         .pipe(dest(path.build.js))
@@ -146,10 +143,7 @@ const libsJsBuild = () => {
             "node_modules/tippy.js/dist/tippy-bundle.umd.js",
             "node_modules/@fancyapps/ui/dist/fancybox.umd.js",
             "node_modules/select2/dist/js/select2.js",
-            "node_modules/readmore-js/readmore.js",
-            "node_modules/flatpickr/dist/flatpickr.min.js",
-            "node_modules/flatpickr/dist/l10n/ru.js",
-            "node_modules/nouislider/dist/nouislider.js",
+            "node_modules/gsap/dist/gsap.min.js",
         ]
     )
         .pipe(concat("libs.min.js"))
