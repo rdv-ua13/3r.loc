@@ -435,17 +435,29 @@ application.prototype.initAnimatedCounter = function () {
         $('.animated-counter').each(function (i) {
             let
                 counter = document.querySelectorAll('.animated-counter'),
-                value = {
-                    val: parseInt(counter[i].dataset.value)
-                };
+                startValue = parseInt(counter[i].dataset.startValue),
+                value = parseInt(counter[i].dataset.value),
+                valueVal = {
+                    val: value
+                },
+                k = (value * 0.01),
+                duration = null;
 
-            gsap.from(value, {
-                duration: 3,
-                ease: 'circ.out',
-                val: 0,
+            if (k > 100) {
+                duration = 2;
+            } else if (k > 10 && k < 100) {
+                duration = 1.5;
+            } else if (k < 10) {
+                duration = 1;
+            }
+
+            gsap.from(valueVal, {
+                duration: duration,
+                ease: 'expo.inOut',
+                val: startValue,
                 roundProps: 'val',
                 onUpdate: function() {
-                    counter[i].innerText = format_number(value.val);
+                    counter[i].innerText = format_number(valueVal.val);
                 }
             });
         });

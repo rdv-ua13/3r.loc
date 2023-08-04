@@ -19,37 +19,37 @@
 	<div class="container">
 		<div class="numbers">
 			<div class="numbers__item has-bg">
-                <div class="numbers__row numbers__value pre-hidden"><span class="animated-counter" data-value="2150000">0</span>+</div>
+                <div class="numbers__row numbers__value pre-hidden"><span class="animated-counter" data-start-value="1900000" data-value="2150000"></span>+</div>
                 <div class="numbers__row numbers__descr">
                     <span>Товаров отгружаем ежемесячно</span>
                 </div>
             </div>
 			<div class="numbers__item numbers__item--dark">
-                <div class="numbers__row numbers__value pre-hidden"><span class="animated-counter" data-value="170">0</span></div>
+                <div class="numbers__row numbers__value pre-hidden"><span class="animated-counter" data-start-value="100" data-value="170"></span></div>
                 <div class="numbers__row numbers__descr">
                     <span>Сотрудников на производстве</span>
                 </div>
             </div>
 			<div class="numbers__item">
-                <div class="numbers__row numbers__value pre-hidden"><span class="animated-counter" data-value="21">0</span></div>
+                <div class="numbers__row numbers__value pre-hidden"><span class="animated-counter" data-start-value="10" data-value="21"></span></div>
                 <div class="numbers__row numbers__descr">
                     <span>Год на рынке швейной фурнитуры</span>
                 </div>
             </div>
 			<div class="numbers__item numbers__item--dark">
-                <div class="numbers__row numbers__value pre-hidden"><span class="animated-counter" data-value="14">0</span></div>
+                <div class="numbers__row numbers__value pre-hidden"><span class="animated-counter" data-start-value="4" data-value="14"></span></div>
                 <div class="numbers__row numbers__descr">
                     <span>В среднем дней на выпуск продукции</span>
                 </div>
             </div>
 			<div class="numbers__item">
-                <div class="numbers__row numbers__value pre-hidden"><span class="animated-counter" data-value="3">0</span></div>
+                <div class="numbers__row numbers__value pre-hidden"><span class="animated-counter" data-start-value="1" data-value="3"></span></div>
                 <div class="numbers__row numbers__descr">
                     <span>Место в отрасли производства молний</span>
                 </div>
             </div>
 			<div class="numbers__item numbers__item--red">
-                <div class="numbers__row numbers__value pre-hidden"><span class="animated-counter" data-value="8250">0</span> м<sup>2</sup></div>
+                <div class="numbers__row numbers__value pre-hidden"><span class="animated-counter" data-start-value="6000" data-value="8250"></span>&nbsp;м<sup>2</sup></div>
                 <div class="numbers__row numbers__descr">
                     <span>Площадь производственных площадей</span>
                 </div>
