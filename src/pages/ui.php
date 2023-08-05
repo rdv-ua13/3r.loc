@@ -321,18 +321,6 @@
         margin-bottom: 72px !important;
     }
 }
-<!--@media (max-width: 991.98px) {
-    .gap-xs,
-    .gap-sm {
-        margin-bottom: 12px !important;
-    }
-    .gap-md,
-    .gap-lg,
-    .gap-lg-plus,
-    .gap-xl {
-        margin-bottom: 16px !important;
-    }
-}-->
         </pre>
     </div>
     <hr style="width: 100%;">

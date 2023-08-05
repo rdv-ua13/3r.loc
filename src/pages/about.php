@@ -6,16 +6,21 @@
 	</div>
 </div>
 
-<div class="">
-	<div class="container">
-		<div class="gap-xxl">
-			<div class="gap-lg-plus h1">О производстве</span></div>
-			<div class="page-subtitle">Производим <span class="red-color">застежки-молнии, кнопки, пластиковую фурнитуру, ленты и шнурки</span> и поставляем по всей России</div>
-		</div>
-	</div>
+<div class="gap-lg-plus">
+    <div class="container">
+        <div class="h1">О производстве</div>
+    </div>
 </div>
 
-<div class="block-bottom">
+<div class="">
+    <div class="container">
+        <div class="">
+            <div class="page-subtitle">Производим <span class="red-color">застежки-молнии, кнопки, пластиковую фурнитуру, ленты и шнурки</span> и поставляем по всей России</div>
+        </div>
+    </div>
+</div>
+
+<div class="block">
 	<div class="container">
 		<div class="numbers">
 			<div class="numbers__item has-bg">
