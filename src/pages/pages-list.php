@@ -85,10 +85,11 @@
             <!--<li class="block-ready">Блок готов</li>-->
             <li><a href="index.php" target="_blank" class="ready">Главная</a></li>
             <br>
+            <li><a href="about.php" target="_blank" class="ready">О производстве</a></li>
+            <li><a href="career.php" target="_blank" class="ready">Карьера в компании</a></li>
+            <li><a href="certificates.php" target="_blank" class="ready">Сертификаты соответствия</a></li>
             <li><a href="catalog-category.php" target="_blank" class="ready">Продукция (категории)</a></li>
             <li><a href="news.php" target="_blank" class="ready">Новости</a></li>
-            <li><a href="about.php" target="_blank" class="ready">О производстве</a></li>
-            <li><a href="certificates.php" target="_blank" class="ready">Сертификаты соответствия</a></li>
             <br>
 
             <li><a href="ui.php" target="_blank">ui</a></li>

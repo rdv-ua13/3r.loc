@@ -190,7 +190,7 @@
                         <div class="card card-advantage">
                             <div class="card__view">
                                 <svg class="icon">
-                                    <use href="img/advantage-setting.svg#advantage-setting"></use>
+                                    <use href="img/advantage-truck.svg#advantage-truck"></use>
                                 </svg>
                             </div>
                             <div class="card__descr">
@@ -201,7 +201,7 @@
                         <div class="card card-advantage">
                             <div class="card__view">
                                 <svg class="icon">
-                                    <use href="img/advantage-timer.svg#advantage-timer"></use>
+                                    <use href="img/advantage-box.svg#advantage-box"></use>
                                 </svg>
                             </div>
                             <div class="card__descr">
