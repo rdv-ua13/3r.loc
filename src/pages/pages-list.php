@@ -90,6 +90,8 @@
             <li><a href="certificates.php" target="_blank" class="ready">Сертификаты соответствия</a></li>
             <li><a href="catalog-category.php" target="_blank" class="ready">Продукция (категории)</a></li>
             <li><a href="news.php" target="_blank" class="ready">Новости</a></li>
+            <li><a href="news-details.php" target="_blank" class="ready">Новости (детальная)</a></li>
+            <li><a href="contacts.php" target="_blank" class="ready">Контакты</a></li>
             <br>
 
             <li><a href="ui.php" target="_blank">ui</a></li>

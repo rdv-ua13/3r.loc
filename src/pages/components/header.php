@@ -55,6 +55,8 @@
     <script defer src="js/select2.js"></script>    <!-- select2 -->
     <script defer src="js/gsap.min.js"></script>    <!-- gsap -->
 
+    <script defer src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU" type="text/javascript"></script>
+
     <script defer src="js/main.js"></script>
 </head>
 

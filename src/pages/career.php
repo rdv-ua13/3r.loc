@@ -191,7 +191,8 @@
                 </div>
             </div>
             <div class="contact-us__item">
-                <form class="contact-form form visually-hidden tmp" action="#" method="">
+                <?/*  visually-hidden tmp */?>
+                <form class="contact-form form" action="#" method="">
                     <div class="contact-form-design">
                         <svg class="icon">
                             <use href="img/logo-design.svg#logo-design"></use>
@@ -234,13 +235,44 @@
                     </div>
                     <div class="gap-md field-wrapper">
                         <div class="titled-input titled-input-label">
-                            <div class="input-title">Сообщение</div>
+                            <div class="input-title">Загрузите файл с резюме</div>
                             <div class="input-wrapper">
-                        <textarea
-                                class="textarea"
-                                name=""
-                                placeholder="Задайте ваш вопрос"
-                        ></textarea>
+                                <div class="dropfile js-upload-cover" data-type="image" data-input-name="filename">
+                                    <label class="dropfile-field">
+                                        <div  class="dropfile-area js-drop-file">
+                                            <input class="visually-hidden dropfile-input js-change-file" type="file" accept="image/*">
+                                            <div class="dropfile-descr">
+                                                <div class="dropfile-descr__view">
+                                                    <svg class="icon">
+                                                        <use href="img/sprite.svg#copy"></use>
+                                                    </svg>
+                                                </div>
+                                                <div class="dropfile-descr__text">
+                                                    <div class="dropfile-descr__title">
+                                                        <span class="red-color">Нажмите для выбора</span>,
+                                                        <div>или перетащите файл в эту область</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="dropfile-image dropfile-attachment">
+
+
+
+											<?/* if ($arResult["arUser"]['UF_COVER']): * /?>
+                                                <div class="dropfile-image__item">
+                                                    <img src="<?= CFile::GetPath($arResult["arUser"]['UF_COVER']) ?>">
+                                                    <div class="dropfile-image__remove js-remove-image">
+                                                        <svg class="icon btn__icon">
+                                                            <use href="<?=SITE_TEMPLATE_PATH?>/img/sprite.svg#trash"></use>
+                                                        </svg>
+                                                    </div>
+                                                    <input type="hidden" name="UF_COVER" value="<?= $arResult["arUser"]['UF_COVER'] ?>">
+                                                </div>
+											<?/* endif; */?>
+                                        </div>
+                                    </label>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -262,3 +294,42 @@
 </div>
 
 <?php include($_SERVER["DOCUMENT_ROOT"] . "/build/" . "components/footer.php"); ?>
+
+
+
+<?/*
+<div class="dropfile js-upload-cover" data-type="image" data-input-name="UF_COVER">
+    <label class="dropfile-field">
+        <div class="dropfile-image">
+			<? if ($arResult["arUser"]['UF_COVER']): ?>
+                <div class="dropfile-image__item">
+                    <img src="<?= CFile::GetPath($arResult["arUser"]['UF_COVER']) ?>">
+                    <div class="dropfile-image__remove js-remove-image">
+                        <svg class="icon btn__icon">
+                            <use href="<?=SITE_TEMPLATE_PATH?>/img/sprite.svg#trash"></use>
+                        </svg>
+                    </div>
+                    <input type="hidden" name="UF_COVER" value="<?= $arResult["arUser"]['UF_COVER'] ?>">
+                </div>
+			<? endif; ?>
+        </div>
+        <div  class="dropfile-area js-drop-file">
+            <input class="visually-hidden dropfile-input js-change-file" type="file" accept="image/*">
+            <div class="dropfile-descr">
+                <div class="dropfile-descr__view">
+                    <svg class="icon">
+                        <use href="<?=SITE_TEMPLATE_PATH?>/img/sprite.svg#add-image"></use>
+                    </svg>
+                </div>
+                <div class="dropfile-descr__text">
+                    <div class="dropfile-descr__title">
+                        Нажмите для загрузки
+                        <span>или перенесите изображение в эту область</span>
+                    </div>
+                    <div class="dropfile-descr__accept">SVG, PNG, JPG (рекомендуемый размер 1330 × 340px)</div>
+                </div>
+            </div>
+        </div>
+    </label>
+</div>
+*/?>
