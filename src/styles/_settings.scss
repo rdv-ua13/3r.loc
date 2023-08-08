@@ -2706,6 +2706,64 @@ input.disabled {
 	}
 }
 
+.back-link {
+	position: relative;
+	display: inline-flex;
+	align-items: center;
+	gap: 16px;
+	color: var(--interface6-color);
+	font-family: var(--font-family-unbounded);
+	font-size: 10px;
+	line-height: 1.4;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+	cursor: pointer;
+	transition: var(--transition);
+
+	.decor {
+		position: relative;
+		min-height: 12px;
+		height: 12px;
+
+		&,
+		span {
+			min-width: 26px;
+			width: 26px;
+		}
+		span {
+			position: absolute;
+			top: 50%;
+			left: 0;
+			transform: translateY(-50%);
+			min-height: 2px;
+			height: 2px;
+			border-radius: 2px;
+			background-color: var(--interface6-color);
+			transition: var(--transition);
+
+			&::before,
+			&::after {
+				content: "";
+				position: absolute;
+				top: 50%;
+				left: 0;
+				min-width: 8px;
+				width: 8px;
+				min-height: 2px;
+				height: 2px;
+				border-radius: 2px;
+				background-color: var(--interface6-color);
+			}
+			&::before {
+				transform: translateY(-4px) rotate(-45deg);
+			}
+			&::after {
+				transform: translateY(2px) rotate(45deg);
+			}
+		}
+	}
+}
+
 .social {
 	&__title {
 		&:not(:last-child) {
