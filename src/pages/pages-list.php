@@ -89,6 +89,8 @@
             <li><a href="career.php" target="_blank" class="ready">Карьера в компании</a></li>
             <li><a href="certificates.php" target="_blank" class="ready">Сертификаты соответствия</a></li>
             <li><a href="catalog-category.php" target="_blank" class="ready">Продукция (категории)</a></li>
+            <li><a href="catalog-lvl-1.php" target="_blank" class="ready">Каталог (ур. 1)</a></li>
+            <li><a href="catalog-lvl-2.php" target="_blank" class="ready">Каталог (ур. 2)</a></li>
             <li><a href="news.php" target="_blank" class="ready">Новости</a></li>
             <li><a href="news-details.php" target="_blank" class="ready">Новости (детальная)</a></li>
             <li><a href="contacts.php" target="_blank" class="ready">Контакты</a></li>

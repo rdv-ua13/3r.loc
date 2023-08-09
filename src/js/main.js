@@ -22,6 +22,13 @@ application.prototype.init = function () {
     this.initAnimatedCounter();
     this.initDeleteTrigger();
     this.initContactsMap();
+    this.initCatalogContentSort();
+    this.initCatalogSidebarFilterViewSwitcher();
+    this.initCheckedRadioInsurances();
+    this.initCatalogSidebarFilterCheckedTags();
+    this.initCatalogSidebarFilter();
+    this.initCatalogSidebarSortOptionsContent();
+    this.initCatalogSidebarApplyFilter();
     /*this.initDropfiles();*/
 };
 
@@ -523,6 +530,227 @@ application.prototype.initContactsMap = function () {
         }
     }
 };
+
+// Initialize catalog content sort
+application.prototype.initCatalogContentSort = function () {
+    if ($('.catalog-sidebar-filter-sort__options').length) {
+        initCatalogContentSortSwitch();
+
+        catalogSettingsSortSelect();
+        $(window).on('resize', catalogSettingsSortSelect);
+
+        $(document).on('click', function (e) {
+            if (!$('.catalog-sidebar-filter-sort__select').is(e.target) &&
+                !$('.catalog-sidebar-filter-sort__options').is(e.target) &&
+                $('.catalog-sidebar-filter-sort__options').has(e.target).length === 0)
+            {
+                closeCatalogContentSettingsSort();
+            }
+        });
+
+        $(document).on('keyup', function (e) {
+            if (e.key == 'Escape') {
+                closeCatalogContentSettingsSort();
+            }
+        });
+
+        function initCatalogContentSortSwitch() {
+            $('.catalog-sidebar-filter-sort__options input[type="radio"]').on('click', function () {
+                if($(this).prop('checked')) {
+                    $(this).closest('.catalog-sidebar-filter-sort__options').find('.catalog-sidebar-filter-sort__options-label').removeClass('active');
+                    $(this).siblings('.catalog-sidebar-filter-sort__options-label').addClass('active');
+                } else {
+                    $(this).siblings('.catalog-sidebar-filter-sort__options-label').removeClass('active');
+                }
+
+                if (window.matchMedia('(max-width: 1199.98px)').matches) {
+                    let selectPlaceholder = $('.catalog-sidebar-filter-sort__options-label.active').text();
+
+                    $('.catalog-sidebar-filter-sort').find('.catalog-sidebar-filter-sort__select-text').text(selectPlaceholder);
+                    $('.catalog-sidebar-filter-sort').find('.catalog-sidebar-filter-sort__select input').val(selectPlaceholder);
+                    closeCatalogContentSettingsSort();
+                }
+            });
+        }
+
+        function catalogSettingsSortSelect() {
+            if (window.matchMedia('(min-width: 1200px)').matches) {
+                closeCatalogContentSettingsSort();
+            } else if (window.matchMedia('(max-width: 1199.98px)').matches) {
+                $('.catalog-sidebar-filter-sort__select').on('click', function () {
+                    if (!$(this).hasClass('active')) {
+                        $(this).addClass('active');
+                        $(this).siblings('.catalog-sidebar-filter-sort__options').addClass('active');
+                    } else if ($(this).hasClass('active')) {
+                        $(this).removeClass('active');
+                        $(this).siblings('.catalog-sidebar-filter-sort__options').removeClass('active');
+                    }
+                });
+            }
+        }
+
+        function closeCatalogContentSettingsSort () {
+            $('.catalog-sidebar-filter-sort__select').removeClass('active');
+            $('.catalog-sidebar-filter-sort__options').removeClass('active');
+        }
+    }
+};
+
+// Initialize catalog sidebar filter view switcher
+application.prototype.initCatalogSidebarFilterViewSwitcher = function () {
+    if ($('[data-filter-option-view]').length && $('[data-filter-option-content]').length) {
+        const viewSwitcherContainer = $('[data-filter-option]');
+        const viewSwitcher = $('[data-filter-option-view]');
+        const viewSwitcherContent = $('[data-filter-option-content]');
+
+        viewSwitcher.on('click', function () {
+            if (!$(this).hasClass('collapse-view-in')) {
+                $(this).addClass('collapse-view-in');
+                $(this).closest(viewSwitcherContainer).find(viewSwitcherContent).addClass('collapse-content-in');
+            } else if ($(this).hasClass('collapse-view-in')) {
+                $(this).removeClass('collapse-view-in');
+                $(this).closest(viewSwitcherContainer).find(viewSwitcherContent).removeClass('collapse-content-in');
+            }
+        });
+    }
+};
+
+// Initialize checked radio insurances
+application.prototype.initCheckedRadioInsurances = function () {
+    if ($('.custom-radio').length) {
+        $('.custom-radio__input').on('click',function () {
+            let name = $(this).attr('name');
+
+            $('.custom-radio__input[name="' + name + '"]').removeClass('checked');
+            $('.custom-radio__input[name="' + name + '"]').not(this).prop('checked', false);
+            $(this).addClass('checked');
+        });
+    }
+};
+
+// Initialize catalog sidebar filter checked tags
+application.prototype.initCatalogSidebarFilterCheckedTags = function () {
+    if ($('.catalog-sidebar-filter__tag').length) {
+        $('.catalog-sidebar-filter__tag input[type="checkbox"]').on('click',function () {
+            $(this).closest('.catalog-sidebar-filter__tag').toggleClass('checked');
+        });
+    }
+};
+
+// Initialize catalog sidebar filter
+application.prototype.initCatalogSidebarFilter = function () {
+    if ($('[data-filter]').length && $('[data-filter-spoiler]').length) {
+        const filter = $('[data-filter]');
+        const filterSpoiler = $('[data-filter-spoiler]');
+        const filterClose = $('[data-filter-close]');
+
+        setResponsiveFilter();
+        setCheckChangeFilter();
+        $(window).on('resize', setResponsiveFilter, setCloseFilter, setCheckChangeFilter);
+
+        filterClose.on('click', function () {
+            setCloseFilter();
+        });
+
+        $(document).on('keyup', function (e) {
+            if (e.key == 'Escape') {
+                setCloseFilter();
+            }
+        });
+
+        function setResponsiveFilter() {
+            if (window.matchMedia('(min-width: 992px)').matches) {
+                setCloseFilter();
+            } else if (window.matchMedia('(max-width: 991.98px)').matches) {
+                filterSpoiler.on('click', function () {
+                    $(this).addClass('active');
+                    filter.addClass('active');
+                });
+            }
+        }
+
+        function setCloseFilter() {
+            filter.removeClass('active');
+            filterSpoiler.removeClass('active');
+        }
+
+        function setCheckChangeFilter() {
+            if (window.matchMedia('(min-width: 992px)').matches) {
+                filter.removeClass('has-filter');
+            } else if (window.matchMedia('(max-width: 991.98px)').matches) {
+                filter.on('change', function () {
+                    filter.addClass('has-filter');
+                    filterSpoiler.addClass('has-filter');
+                });
+            }
+        }
+    }
+};
+
+// Initialize catalog sidebar sort options content
+application.prototype.initCatalogSidebarSortOptionsContent = function () {
+    $('.catalog-sidebar-filter__options-item').each(function(i, e) {
+        $(e).find('.catalog-sidebar-filter__options-search .input-search').on('input', function() {
+            let text = $(this).val().toLowerCase();
+            $(this).parents('.catalog-sidebar-filter__options-item').find('.catalog-sidebar-filter__item .custom-checkbox__label-for').each(function() {
+                if ($(this).text().toLowerCase().indexOf(text) === -1) {
+                    $(this).closest('.catalog-sidebar-filter__item').fadeOut(200);
+                    $(this).closest('.spoiler').addClass('height-auto');
+                    $(this).closest('.catalog-sidebar-filter__options-content-item').find('.spoiler-trigger').addClass('visually-hidden');
+                } else {
+                    $(this).closest('.catalog-sidebar-filter__item').fadeIn(200);
+                    $(this).closest('.spoiler').removeClass('height-auto');
+                    $(this).closest('.catalog-sidebar-filter__options-content-item').find('.spoiler-trigger').removeClass('visually-hidden');
+                }
+            });
+        });
+
+        $(e).find('.catalog-sidebar-filter__options-search .input-search').siblings('.input-delete-btn').on('click', function(e) {
+            e.preventDefault();
+
+            $(this).closest('.catalog-sidebar-filter__options-content').find('.catalog-sidebar-filter__item').fadeIn(200);
+            $(this).closest('.catalog-sidebar-filter__options-content').find('.spoiler').removeClass('height-auto');
+            $(this).closest('.catalog-sidebar-filter__options-content').find('.spoiler-trigger').removeClass('visually-hidden');
+        });
+    });
+
+};
+
+// Initialize catalog sidebar apply filter
+application.prototype.initCatalogSidebarApplyFilter = function () {
+    let trigger = null;
+    let coordsTrigger = null;
+    let wTrigger = null;
+    let hTrigger = null;
+    let html = '<div class="catalog-sidebar-apply-filter">' +
+        '           <div class="catalog-sidebar-apply-filter__title">Показать</div>' +
+        '           <div class="catalog-sidebar-apply-filter__value">2 184 товара</div>' +
+        '       </div>';
+
+    $(document).on('click', '.catalog-sidebar-filter__item .custom-checkbox__input', '.catalog-sidebar-filter__item .custom-checkbox__label-for', function () {
+        let scroll = $(window).scrollTop();
+        trigger = $(this).closest('.custom-checkbox');
+        coordsTrigger = trigger.offset();
+        wTrigger = trigger.outerWidth();
+        hTrigger = trigger.outerHeight();
+
+        $('.catalog-sidebar-apply-filter').remove();
+        $('body').append(html);
+        $('.catalog-sidebar-apply-filter').css({
+            'top': parseInt(coordsTrigger.top + (hTrigger * 0.5)) - scroll + 'px',
+            'left': parseInt(coordsTrigger.left + (wTrigger - 2)) + 'px',
+        });
+        setTimeout(function () {
+            $('.catalog-sidebar-apply-filter').remove();
+        }, 5000);
+
+    });
+
+    $(window).on('scroll', function () {
+        $('.catalog-sidebar-apply-filter').remove();
+    });
+};
+
 
 // Initialize drop files
 application.prototype.initDropfiles = function () {
