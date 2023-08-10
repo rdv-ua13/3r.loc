@@ -22,13 +22,14 @@ application.prototype.init = function () {
     this.initAnimatedCounter();
     this.initDeleteTrigger();
     this.initContactsMap();
+    this.initContactFormSuccess();
+    this.initContactFormSuccessClicked();
     this.initCatalogContentSort();
     this.initCatalogSidebarFilterViewSwitcher();
     this.initCheckedRadioInsurances();
     this.initCatalogSidebarFilterCheckedTags();
     this.initCatalogSidebarFilter();
     this.initCatalogSidebarSortOptionsContent();
-    this.initCatalogSidebarApplyFilter();
     /*this.initDropfiles();*/
 };
 
@@ -531,6 +532,26 @@ application.prototype.initContactsMap = function () {
     }
 };
 
+// Initialize success notification when ".contact-form" is sended
+application.prototype.initContactFormSuccess = function () {
+    $('[data-contact-form-success]').on("click", function () {
+        $(this).closest('.contact-form').find('.contact-form-success').addClass('active');
+    });
+};
+
+// Initialize success notification clicked
+application.prototype.initContactFormSuccessClicked = function () {
+    $('[data-contact-form-success-ok]').on("click", function () {
+        $(this).closest('.contact-form-success').addClass('animated');
+        setTimeout(function () {
+            $('.contact-form-success').removeClass('active');
+        }, 990);
+        setTimeout(function () {
+            $('.contact-form-success').removeClass('animated');
+        }, 1000);
+    });
+};
+
 // Initialize catalog content sort
 application.prototype.initCatalogContentSort = function () {
     if ($('.catalog-sidebar-filter-sort__options').length) {
@@ -714,41 +735,6 @@ application.prototype.initCatalogSidebarSortOptionsContent = function () {
         });
     });
 
-};
-
-// Initialize catalog sidebar apply filter
-application.prototype.initCatalogSidebarApplyFilter = function () {
-    let trigger = null;
-    let coordsTrigger = null;
-    let wTrigger = null;
-    let hTrigger = null;
-    let html = '<div class="catalog-sidebar-apply-filter">' +
-        '           <div class="catalog-sidebar-apply-filter__title">Показать</div>' +
-        '           <div class="catalog-sidebar-apply-filter__value">2 184 товара</div>' +
-        '       </div>';
-
-    $(document).on('click', '.catalog-sidebar-filter__item .custom-checkbox__input', '.catalog-sidebar-filter__item .custom-checkbox__label-for', function () {
-        let scroll = $(window).scrollTop();
-        trigger = $(this).closest('.custom-checkbox');
-        coordsTrigger = trigger.offset();
-        wTrigger = trigger.outerWidth();
-        hTrigger = trigger.outerHeight();
-
-        $('.catalog-sidebar-apply-filter').remove();
-        $('body').append(html);
-        $('.catalog-sidebar-apply-filter').css({
-            'top': parseInt(coordsTrigger.top + (hTrigger * 0.5)) - scroll + 'px',
-            'left': parseInt(coordsTrigger.left + (wTrigger - 2)) + 'px',
-        });
-        setTimeout(function () {
-            $('.catalog-sidebar-apply-filter').remove();
-        }, 5000);
-
-    });
-
-    $(window).on('scroll', function () {
-        $('.catalog-sidebar-apply-filter').remove();
-    });
 };
 
 

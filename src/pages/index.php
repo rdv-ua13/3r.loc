@@ -719,6 +719,17 @@
             </div>
             <div class="contact-us__item">
                 <form class="contact-form form visually-hidden tmp" action="#" method="">
+                    <div class="contact-form-success">
+                        <div class="contact-form-success__view">
+                            <svg class="icon" data-contact-form-success-ok>
+                                <use href="img/sprite.svg#tick-circle"></use>
+                            </svg>
+                        </div>
+                        <div class="contact-form-success__descr">
+                            <div class="contact-form-success__title h3">Ваша заявка отправлена</div>
+                            <div class="contact-form-success__subtitle">Мы свяжемся с вами в ближайшее время</div>
+                        </div>
+                    </div>
                     <div class="contact-form-design">
                         <svg class="icon">
                             <use href="img/logo-design.svg#logo-design"></use>
@@ -778,7 +789,8 @@
                             </span>
                     </div>
                     <div class="field-wrapper">
-                        <button class="btn-reset btn btn-primary" type="submit">
+						<?/* change type to "submit" */?>
+                        <button class="btn-reset btn btn-primary" type="button" data-contact-form-success>
                             <span class="btn__text">Отправить</span>
                         </button>
                     </div>

@@ -271,7 +271,8 @@
 						transition: var(--transition);
 					}
 
-					&:hover {
+					&:hover,
+					&.active {
 						&::before {
 							width: 100%;
 							opacity: 1;

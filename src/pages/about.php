@@ -386,6 +386,17 @@
 			</div>
 			<div class="contact-us__item">
 				<form class="contact-form form visually-hidden tmp" action="#" method="">
+                    <div class="contact-form-success">
+                        <div class="contact-form-success__view">
+                            <svg class="icon" data-contact-form-success-ok>
+                                <use href="img/sprite.svg#tick-circle"></use>
+                            </svg>
+                        </div>
+                        <div class="contact-form-success__descr">
+                            <div class="contact-form-success__title h3">Ваша заявка отправлена</div>
+                            <div class="contact-form-success__subtitle">Мы свяжемся с вами в ближайшее время</div>
+                        </div>
+                    </div>
 					<div class="contact-form-design">
 						<svg class="icon">
 							<use href="img/logo-design.svg#logo-design"></use>
@@ -439,15 +450,16 @@
 						</div>
 					</div>
 					<div class="gap-md field-wrapper">
-					<span class="custom-checkbox">
-						<input id="contactFormAgree" class="custom-checkbox__input" type="checkbox" checked>
-						<label for="contactFormAgree" class="custom-checkbox__label-for">Отправляя заявку, я соглашаюсь с условиями <a class="link link-tdu" href="javascript:;">политики обработки персональных данных</a></label>
-					</span>
+                        <span class="custom-checkbox">
+                            <input id="contactFormAgree" class="custom-checkbox__input" type="checkbox" checked>
+                            <label for="contactFormAgree" class="custom-checkbox__label-for">Отправляя заявку, я соглашаюсь с условиями <a class="link link-tdu" href="javascript:;">политики обработки персональных данных</a></label>
+                        </span>
 					</div>
 					<div class="field-wrapper">
-						<button class="btn-reset btn btn-primary" type="submit">
-							<span class="btn__text">Отправить</span>
-						</button>
+						<?/* change type to "submit" */?>
+                        <button class="btn-reset btn btn-primary" type="button" data-contact-form-success>
+                            <span class="btn__text">Отправить</span>
+                        </button>
 					</div>
 				</form>
 			</div>
