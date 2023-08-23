@@ -125,8 +125,9 @@
                 </div>
             </div>
 
-			<div class="header-profile not-logged visually-hidden tmp">
-                <button class="btn-reset btn btn-primary">
+            <?/* visually-hidden tmp */?>
+			<div class="header-profile not-logged">
+                <button class="btn-reset btn btn-primary" data-fancybox="" data-src="#modal_call_me">
                     <svg class="icon btn__icon">
                         <use href="img/sprite.svg#call-calling"></use>
                     </svg>

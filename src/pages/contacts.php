@@ -18,7 +18,7 @@
             <div class="contacts__item">
                 <div class="gap-lg contacts__title">Офис</div>
                 <div class="gap-lg contacts__descr">
-                    <div class="contacts__descr-item">
+                    <div class="contacts__descr-item contacts__descr-item--address">
                         <div class="contacts__descr-title">Адрес</div>
                         <div class="contacts__descr-content">111524, Москва, ул. Электродная, д. 13А, стр. 2, офис 18</div>
                         <div class="contacts__descr-caption">Часы работы: ПН-ПТ: 9:30 – 18:30, СБ-ВС: выходной</div>
@@ -33,20 +33,20 @@
                     </div>
                 </div>
                 <div class="contacts__map">
-                    <div class="contacts__map-content"></div>
+                    <div class="contacts__map-content" data-coord="55.798186, 37.489652"></div>
                 </div>
             </div>
             <div class="contacts__item">
                 <div class="gap-lg contacts__title">Производство</div>
                 <div class="gap-lg contacts__descr">
-                    <div class="contacts__descr-item">
+                    <div class="contacts__descr-item contacts__descr-item--address">
                         <div class="contacts__descr-title">Адрес</div>
                         <div class="contacts__descr-content">г. Балашиха, мкр. Савино, ул. Савинская, дом 10</div>
                         <div class="contacts__descr-caption">Часы работы: ПН-ПТ: 9:30 – 18:30, СБ-ВС: выходной</div>
                     </div>
                 </div>
                 <div class="contacts__map">
-                    <div class="contacts__map-content"></div>
+                    <div class="contacts__map-content" data-coord="55.798186, 37.489652"></div>
                 </div>
             </div>
         </div>
@@ -65,31 +65,27 @@
 					<div class="gap-lg-plus">
 						<div class="text-bigger">Вы можете обратится к руководителю отдела по почте:</div>
 					</div>
-					<div class="gap-lg-plus">
-                        <div class="contact-us-person">
+                    <div class="contact-us-person">
+                        <div class="contact-us-person__item">
                             <div class="contact-us-person__title">Административный директор</div>
                             <div class="contact-us-person__name">Фещенко Ирина Июстиновна</div>
                             <div class="contact-us-person__data">
                                 <a class="red-color" href="mailto:i.feshenko@3rzip.ru">i.feshenko@3rzip.ru</a>
                             </div>
                         </div>
-					</div>
-					<div class="gap-lg-plus">
-                        <div class="contact-us-person">
+                        <div class="contact-us-person__item">
                             <div class="contact-us-person__title">Коммерческий директор</div>
                             <div class="contact-us-person__name">Коммерческий директор</div>
                             <div class="contact-us-person__data">
                                 <a class="red-color" href="mailto:r.okishev@3rzip.ru">r.okishev@3rzip.ru</a></div>
                         </div>
-					</div>
-					<div class="">
-                        <div class="contact-us-person">
+                        <div class="contact-us-person__item">
                             <div class="contact-us-person__title">Маркетолог</div>
                             <div class="contact-us-person__name">Литвиненко Валерия</div>
                             <div class="contact-us-person__data">
                                 <a class="red-color" href="mailto:v.litvinenko@3rzip.ru">v.litvinenko@3rzip.ru</a></div>
                         </div>
-					</div>
+                    </div>
 				</div>
 			</div>
 			<div class="contact-us__item">

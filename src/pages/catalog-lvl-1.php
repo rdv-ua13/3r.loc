@@ -65,13 +65,13 @@
                 </div>
             </div>
             <div class="catalog-item catalog-grid catalog-grid-has-sort">
-                <form
-                        id=""
-                        class="form catalog-sidebar"
-                        method=""
-                        action="javascript:;"
-                >
-                    <div class="catalog-sidebar-filter-search">
+                <div class="catalog-sidebar">
+                    <form
+                            id=""
+                            class="form catalog-sidebar-filter-search"
+                            method=""
+                            action="javascript:;"
+                    >
                         <div class="input-wrapper input-search-wrapper">
                             <input
                                     class="input-reset input input-search"
@@ -91,7 +91,7 @@
                                 </svg>
                             </button>
                         </div>
-                    </div>
+                    </form>
                     <div class="catalog-sidebar-filter-spoiler" data-filter-spoiler>
                         <button class="btn-reset btn">
                             <svg class="icon btn__icon icon-sm">
@@ -100,7 +100,13 @@
                             <span class="btn__text">Фильтры</span>
                         </button>
                     </div>
-                    <div class="catalog-sidebar-filter" data-filter>
+                    <form
+                            id=""
+                            class="form catalog-sidebar-filter"
+                            method=""
+                            action="javascript:;"
+                            data-filter
+                    >
                         <div class="catalog-sidebar-filter__header">
                             <div class="catalog-sidebar-filter__title">
                                 <svg class="icon icon-md">
@@ -551,8 +557,8 @@
                                 </button>
                             </div>
                         </div>
-                    </div>
-                </form>
+                    </form>
+                </div>
                 <div class="catalog-content">
                     <div class="catalog-content__layout">
                         <div class="catalog-content__grid">

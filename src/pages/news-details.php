@@ -86,7 +86,7 @@
                     </span>
                     <span class="media-details-navigation__title">Legrand INSPIRIA французский дизайн для&nbsp;российского рынка</span>
                 </a>
-                <a class="media-details-navigation__item" href="javascript:;">
+                <a class="media-details-navigation__item next" href="javascript:;">
                     <span class="media-details-navigation__pointer">
                         <span class="decor"><span></span></span>
                         <span>Следующая новость</span>

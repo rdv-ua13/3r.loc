@@ -9,7 +9,7 @@
 <div class="">
 	<div class="container">
         <div class="gap-xxl">
-            <div class="h1">Продукция</span></div>
+            <div class="h1">Продукция</div>
         </div>
 
         <div class="card-list card-list--big">
@@ -127,7 +127,7 @@
                     download=""
             >
                 <span class="download-file__title">Скачать PDF-каталог</span>
-                <span class="download-file__subtitle">PDF, 3.2 Мб</span>
+                <span class="download-file__subtitle"><span class="text-uppercase">PDF</span>, 3.2 Мб</span>
             </a>
         </div>
     </div>

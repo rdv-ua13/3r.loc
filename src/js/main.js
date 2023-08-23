@@ -498,7 +498,8 @@ application.prototype.initContactsMap = function () {
             mapItem.each(function (i) {
                 mapItem.eq(i).attr('id', 'contactsMap' + i);
 
-                let zoomControl = new ymaps.control.ZoomControl({
+                let coord = $(this).data('coord'),
+                    zoomControl = new ymaps.control.ZoomControl({
                     options: {
                         size: 'large',
                         float: 'none',
@@ -517,7 +518,7 @@ application.prototype.initContactsMap = function () {
                     // Параметры карты.
                     {
                         // Географические координаты центра отображаемой карты.
-                        center: [55.798186, 37.489652],
+                        center: [coord],
                         // Масштаб.
                         zoom: 15,
                         controls: ['fullscreenControl'],
