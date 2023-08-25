@@ -18,7 +18,7 @@
 	body {
 		&:not(.index) {
 			.main {
-				padding-top: 248px;
+				padding-top: 212px;
 			}
 		}
 	}
@@ -712,6 +712,154 @@ body:not(.is-using-mouse) {
 	}
 }
 
+.placemark {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	&-icon {
+		position: relative;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background-color: #e61400;
+		border-radius: 50%;
+
+		&-arrow {
+			position: absolute;
+			bottom: -10px;
+			left: 50%;
+			transform: translateX(-50%);
+			background-color: #e61400;
+
+			&::before,
+			&::after {
+				content: "";
+				z-index: 1;
+				position: absolute;
+				top: 0;
+				background-color: #fff;
+			}
+		}
+	}
+	&-point {
+		position: relative;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background-color: #fff;
+		border-radius: 50%;
+		min-width: 6px;
+		width: 6px;
+		min-height: 6px;
+		height: 6px;
+
+		&::before {
+			content: "";
+			z-index: 1;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			min-width: 3px;
+			width: 3px;
+			min-height: 3px;
+			height: 3px;
+			border-radius: 50%;
+			background-color: #e61400;
+		}
+	}
+}
+@media (min-width: 992px) {
+	.placemark {
+		gap: 10px;
+		min-width: 40px;
+		width: 40px;
+
+		&-icon {
+			min-width: 40px;
+			width: 40px;
+			min-height: 40px;
+			height: 40px;
+
+			.icon {
+				min-width: 24px;
+				width: 24px;
+				min-height: 24px;
+				height: 24px;
+			}
+			&-arrow {
+				bottom: -10px;
+				min-width: 8px;
+				width: 8px;
+				min-height: 10px;
+				height: 10px;
+
+				&::before,
+				&::after {
+					min-width: 8px;
+					width: 8px;
+					min-height: 10px;
+					height: 10px;
+				}
+				&::before {
+					left: -4px;
+					border-top-right-radius: 4px 100%;
+				}
+				&::after {
+					right: -4px;
+					border-top-left-radius: 4px 100%;
+				}
+			}
+		}
+	}
+
+}
+@media (max-width: 991.98px) {
+	.placemark {
+		gap: 8px;
+		min-width: 24px;
+		width: 24px;
+
+		&-icon {
+			min-width: 24px;
+			width: 24px;
+			min-height: 24px;
+			height: 24px;
+
+			.icon {
+				min-width: 16px;
+				width: 16px;
+				min-height: 16px;
+				height: 16px;
+			}
+			&-arrow {
+				bottom: -8px;
+				min-width: 6px;
+				width: 6px;
+				min-height: 8px;
+				height: 8px;
+
+				&::before,
+				&::after {
+					min-width: 6px;
+					width: 6px;
+					min-height: 8px;
+					height: 8px;
+				}
+				&::before {
+					left: -3px;
+					border-top-right-radius: 3px 100%;
+				}
+				&::after {
+					right: -3px;
+					border-top-left-radius: 3px 100%;
+				}
+			}
+		}
+	}
+}
+
 .media-details {
 	position: relative;
 
@@ -932,26 +1080,6 @@ body:not(.is-using-mouse) {
 	}
 }
 
-.catalog {
-	&-item {
-		position: relative;
-		
-		&:not(:last-child) {
-			&::before {
-				content: "";
-				position: absolute;
-				bottom: 0;
-				left: 50%;
-				transform: translateX(-50%);
-				min-width: 100vw;
-				width: 100vw;
-				min-height: 1px;
-				height: 1px;
-				background-color: var(--interface10-color);
-			}
-		}
-	}
-}
 .catalog-category {
 	&-details {
 		display: flex;
@@ -1000,6 +1128,23 @@ body:not(.is-using-mouse) {
 	}
 }
 .catalog-grid {
+	position: relative;
+
+	&:not(:first-child) {
+		&::before {
+			content: "";
+			position: absolute;
+			top: 0;
+			left: 50%;
+			transform: translateX(-50%);
+			min-width: 100vw;
+			width: 100vw;
+			min-height: 1px;
+			height: 1px;
+			background-color: var(--interface10-color);
+		}
+	}
+
 	.catalog-sidebar {
 		position: relative;
 		display: flex;
@@ -1022,10 +1167,6 @@ body:not(.is-using-mouse) {
 					white-space: nowrap;
 					cursor: pointer;
 					transition: var(--transition);
-
-					&:hover {
-						background-color: var(--gray6-color);
-					}
 				}
 			}
 		}
@@ -1243,9 +1384,13 @@ body:not(.is-using-mouse) {
 	.catalog-category {
 		&-details {
 			position: relative;
-			min-height: 316px;
+			min-height: 268px;
+			padding-top: 32px;
 			padding-left: 345px;
 
+			&:not(:last-child) {
+				min-height: 316px;
+			}
 			&__breadcrumbs {
 				&:not(:last-child) {
 					margin-bottom: 16px;
@@ -1682,7 +1827,7 @@ body:not(.is-using-mouse) {
 					}
 					&-scrollbar-thumb {
 						border-radius: 2px;
-						background-color: var(--gray5-color);
+						background-color: var(--interface5-color);
 					}
 				}
 				&:not(.active) {

@@ -33,7 +33,7 @@
                     </div>
                 </div>
                 <div class="contacts__map">
-                    <div class="contacts__map-content" data-coord="55.798186, 37.489652"></div>
+                    <div class="contacts__map-content" data-x="55.798186" data-y="37.489652"></div>
                 </div>
             </div>
             <div class="contacts__item">
@@ -46,7 +46,7 @@
                     </div>
                 </div>
                 <div class="contacts__map">
-                    <div class="contacts__map-content" data-coord="55.798186, 37.489652"></div>
+                    <div class="contacts__map-content" data-x="55.798186" data-y="37.489652" data-hint="Адрес"></div>
                 </div>
             </div>
         </div>
