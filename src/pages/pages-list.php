@@ -22,10 +22,6 @@
                 padding-left: 40px;
                 margin-bottom: 20px;
             }
-            img {
-                min-width: 200px;
-                width: 200px;
-            }
             ul {
                 padding-left: 15px;
                 list-style: none;
@@ -70,12 +66,12 @@
     <body>
     <div style="display: flex; align-items:center; margin: 0 0 15px 20px;">
         <div class="logo">
-            <img src="img/logo-dark.svg" width="180" height="50" alt="Логотип компании">
+            <img src="img/logo-bg.png" width="94" height="80" alt="Логотип компании">
         </div>
         <span style="display: inline-flex; align-items:center; font-size: 24px;">
-            <span style="color: forestgreen; font-weight: 600;">n + ui</span>
+            <span style="color: forestgreen; font-weight: 600;">6 + ui</span>
             &nbsp;/&nbsp;
-            <span style="font-size: 24px;">n + ui (всего страниц в макете)</span>
+            <span style="font-size: 24px;">8 + modals + ui (всего страниц в макете)</span>
         </span>
     </div>
     <div style="font-size: 24px;">Готовые разделы отмечены "<span class="block-ready">Блок готов</span>"</div>
@@ -85,15 +81,12 @@
             <!--<li class="block-ready">Блок готов</li>-->
             <li><a href="index.php" target="_blank" class="ready">Главная</a></li>
             <br>
-            <li><a href="about.php" target="_blank" class="ready">О производстве</a></li>
-            <li><a href="career.php" target="_blank" class="ready">Карьера в компании</a></li>
-            <li><a href="certificates.php" target="_blank" class="ready">Сертификаты соответствия</a></li>
-            <li><a href="catalog-category.php" target="_blank" class="ready">Продукция (категории)</a></li>
-            <li><a href="catalog-lvl-1.php" target="_blank" class="ready">Каталог (ур. 1)</a></li>
-            <li><a href="catalog-lvl-2.php" target="_blank" class="ready">Каталог (ур. 2)</a></li>
-            <li><a href="news.php" target="_blank" class="ready">Новости</a></li>
-            <li><a href="news-details.php" target="_blank" class="ready">Новости (детальная)</a></li>
             <li><a href="contacts.php" target="_blank" class="ready">Контакты</a></li>
+            <li><a href="news.php" target="_blank" class="ready">Новости</a></li>
+            <li><a href="certificates.php" target="_blank" class="ready">Сертификаты соответствия</a></li>
+            <li><a href="catalog.php" target="_blank" class="ready">Продукция</a></li>
+            <li><a href="catalog-category.php" target="_blank" class="ready">Продукция (категории)</a></li>
+            <li><a href="catalog-category2.php" target="_blank" class="ready">Продукция (подкатегории)</a></li>
             <br>
 
             <li><a href="ui.php" target="_blank">ui</a></li>

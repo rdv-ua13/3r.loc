@@ -293,33 +293,52 @@
     <div class="container-ui">
         <pre>
 @media (min-width: 992px) {
-    .gap-xs {
-        margin-bottom: 12px !important;
-    }
-    .gap-sm {
-        margin-bottom: 16px !important;
-    }
-    .gap-sm-plus {
-        margin-bottom: 20px !important;
-    }
-    .gap-md {
-        margin-bottom: 24px !important;
-    }
-    .gap-lg {
-        margin-bottom: 32px !important;
-    }
-    .gap-lg-plus {
-        margin-bottom: 40px !important;
-    }
-    .gap-xl {
-        margin-bottom: 48px !important;
-    }
-    .gap-xl-plus {
-        margin-bottom: 60px !important;
-    }
-    .gap-xxl {
-        margin-bottom: 72px !important;
-    }
+	.gap {
+		&-xxs {
+			margin-bottom: 12px !important;
+		}
+		&-xs {
+			margin-bottom: 16px !important;
+		}
+		&-sm {
+			margin-bottom: 20px !important;
+		}
+		&-md {
+			margin-bottom: 24px !important;
+		}
+		&-lg {
+			margin-bottom: 32px !important;
+		}
+		&-xl {
+			margin-bottom: 40px !important;
+		}
+		&-xxl {
+			margin-bottom: 80px !important;
+		}
+	}
+}
+@media (max-width: 991.98px) {
+	.gap {
+		&-xxs {
+			margin-bottom: 8px !important;
+		}
+		&-xs,
+		&-sm {
+			margin-bottom: 12px !important;
+		}
+		&-md {
+			margin-bottom: 16px !important;
+		}
+		&-lg {
+			margin-bottom: 20px !important;
+		}
+		&-xl {
+			margin-bottom: 24px !important;
+		}
+		&-xxl {
+			margin-bottom: 40px !important;
+		}
+	}
 }
         </pre>
     </div>

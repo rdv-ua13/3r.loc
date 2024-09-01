@@ -1,332 +1,770 @@
 <?php include($_SERVER["DOCUMENT_ROOT"] . "/build/" . "components/header.php"); ?>
 
-<div class="gap-sm-plus">
-	<div class="container">
-		<?php include($_SERVER["DOCUMENT_ROOT"] . "/build/" . "components/breadcrumbs.php"); ?>
-	</div>
+<div class="gap-xl">
+    <div class="container">
+        <h1 class="h3 text-uppercase">Застёжки-молнии</h1>
+    </div>
+</div>
+
+<div class="gap-xxl">
+    <div class="container">
+        <div class="card-list-wrapper">
+            <div class="card-list">
+                <a class="card card-category" href="javascript:;">
+                    <span class="card__view">
+                        <img
+                                loading="lazy"
+                                class="image"
+                                src="img/catalog-category-img1.png"
+                                width="370"
+                                height="320"
+                                alt="Изображение блока"
+                        >
+                    </span>
+                    <span class="card__descr">
+                        <span class="card__text-content">
+                            <span class="card__title">Спиральные застёжки-молнии</span>
+                        </span>
+                    </span>
+                </a>
+                <a class="card card-category" href="javascript:;">
+                    <span class="card__view">
+                        <img
+                                loading="lazy"
+                                class="image"
+                                src="img/catalog-category-img2.png"
+                                width="370"
+                                height="320"
+                                alt="Изображение блока"
+                        >
+                    </span>
+                    <span class="card__descr">
+                        <span class="card__text-content">
+                            <span class="card__title">Металлические застёжки-молнии</span>
+                        </span>
+                    </span>
+                </a>
+                <a class="card card-category" href="javascript:;">
+                    <span class="card__view">
+                        <img
+                                loading="lazy"
+                                class="image"
+                                src="img/catalog-category-img3.png"
+                                width="370"
+                                height="320"
+                                alt="Изображение блока"
+                        >
+                    </span>
+                    <span class="card__descr">
+                        <span class="card__text-content">
+                            <span class="card__title">Пластиковые застёжки-молнии</span>
+                        </span>
+                    </span>
+                </a>
+                <a class="card card-category" href="javascript:;">
+                    <span class="card__view">
+                        <img
+                                loading="lazy"
+                                class="image"
+                                src="img/catalog-category-img4.png"
+                                width="370"
+                                height="320"
+                                alt="Изображение блока"
+                        >
+                    </span>
+                    <span class="card__descr">
+                        <span class="card__text-content">
+                            <span class="card__title">Застёжки-молнии  со светоотражающими элементами</span>
+                        </span>
+                    </span>
+                </a>
+                <a class="card card-category" href="javascript:;">
+                    <span class="card__view">
+                        <img
+                                loading="lazy"
+                                class="image"
+                                src="img/catalog-category-img5.png"
+                                width="370"
+                                height="320"
+                                alt="Изображение блока"
+                        >
+                    </span>
+                    <span class="card__descr">
+                        <span class="card__text-content">
+                            <span class="card__title">Застёжки-молнии  с влагостойким покрытием</span>
+                        </span>
+                    </span>
+                </a>
+                <a class="card card-category" href="javascript:;">
+                    <span class="card__view">
+                        <img
+                                loading="lazy"
+                                class="image"
+                                src="img/catalog-category-img6.png"
+                                width="370"
+                                height="320"
+                                alt="Изображение блока"
+                        >
+                    </span>
+                    <span class="card__descr">
+                        <span class="card__text-content">
+                            <span class="card__title">Огнестойкие и термостойкие застёжки-молнии</span>
+                        </span>
+                    </span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="block-top block-bottom--min bgc-white">
+    <div class="container">
+        <div class="h3 text-uppercase text-center">Виды застёжек-молний</div>
+    </div>
+</div>
+
+<div class="block-bottom bgc-white">
+    <div class="zippers-type-wrapper">
+        <div class="container">
+            <div class="card-list-wrapper">
+                <div class="card-list zippers-type">
+                    <div class="card card-subcategory-type">
+                        <span class="card-subcategory-type__header">
+                            <span class="card-subcategory-type__title h4 text-uppercase">Разъёмные o/e</span>
+                            <span class="card-subcategory-type__subtitle">При открывании текстильные<br> ленты полностью разделаются</span>
+                        </span>
+                        <span class="card-subcategory-type__label">
+                            <span class="card-subcategory-type__label-content">Молния с одним слайдером</span>
+                        </span>
+                        <span class="card-subcategory-type__view">
+                            <span class="card-subcategory-type__view-item">
+                                <img
+                                        loading="lazy"
+                                        class="image"
+                                        src="img/zip-single-right-img.png"
+                                        width="100"
+                                        height="370"
+                                        alt="Изображение блока"
+                                >
+                            </span>
+                            <span class="card-subcategory-type__view-item">
+                                <img
+                                        loading="lazy"
+                                        class="image"
+                                        src="img/zip-single-left-img.png"
+                                        width="100"
+                                        height="370"
+                                        alt="Изображение блока"
+                                >
+                            </span>
+                        </span>
+                    </div>
+                    <div class="card card-subcategory-type">
+                        <span class="card-subcategory-type__header">
+                            <span class="card-subcategory-type__title h4 text-uppercase">Неразъёмные c/e</span>
+                            <span class="card-subcategory-type__subtitle">При открывании текстильные<br> ленты не разделяются полностью</span>
+                        </span>
+                        <span class="card-subcategory-type__label">
+                            <span class="card-subcategory-type__label-content">Молния с одним слайдером</span>
+                        </span>
+                        <span class="card-subcategory-type__view">
+                            <span class="card-subcategory-type__view-item">
+                                <img
+                                        loading="lazy"
+                                        class="image"
+                                        src="img/zip-single-standart-img.png"
+                                        width="100"
+                                        height="370"
+                                        alt="Изображение блока"
+                                >
+                            </span>
+                        </span>
+                    </div>
+                    <div class="card card-subcategory-type">
+                        <span class="card-subcategory-type__label">
+                            <span class="card-subcategory-type__label-content">Молния с двумя слайдерами</span>
+                        </span>
+                        <span class="card-subcategory-type__view">
+                            <span class="card-subcategory-type__view-item">
+                                <img
+                                        loading="lazy"
+                                        class="image"
+                                        src="img/zip-double-right-img.png"
+                                        width="100"
+                                        height="370"
+                                        alt="Изображение блока"
+                                >
+                            </span>
+                            <span class="card-subcategory-type__view-item">
+                                <img
+                                        loading="lazy"
+                                        class="image"
+                                        src="img/zip-double-left-img.png"
+                                        width="100"
+                                        height="370"
+                                        alt="Изображение блока"
+                                >
+                            </span>
+                            <span class="card-subcategory-type__view-item">
+                                <img
+                                        loading="lazy"
+                                        class="image"
+                                        src="img/zip-double-tr-img.png"
+                                        width="100"
+                                        height="370"
+                                        alt="Изображение блока"
+                                >
+                            </span>
+                        </span>
+                    </div>
+                    <div class="card card-subcategory-type">
+                        <span class="card-subcategory-type__label">
+                            <span class="card-subcategory-type__label-content">Молния с двумя слайдерами</span>
+                        </span>
+                        <span class="card-subcategory-type__view">
+                            <span class="card-subcategory-type__view-item">
+                                <img
+                                        loading="lazy"
+                                        class="image"
+                                        src="img/zip-double-counter-right-img.png"
+                                        width="100"
+                                        height="370"
+                                        alt="Изображение блока"
+                                >
+                            </span>
+                            <span class="card-subcategory-type__view-item">
+                                <img
+                                        loading="lazy"
+                                        class="image"
+                                        src="img/zip-double-counter-left-img.png"
+                                        width="100"
+                                        height="370"
+                                        alt="Изображение блока"
+                                >
+                            </span>
+                            <span class="card-subcategory-type__view-item">
+                                <img
+                                        loading="lazy"
+                                        class="image"
+                                        src="img/zip-double-counter-tr-img.png"
+                                        width="100"
+                                        height="370"
+                                        alt="Изображение блока"
+                                >
+                            </span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="block-bottom--min bgc-white">
+    <div class="container">
+        <div class="h3 text-uppercase text-center">Структура застёжки-молнии</div>
+    </div>
+</div>
+
+<div class="block-bottom bgc-white">
+    <div class="zippers-structure-wrapper">
+        <div class="container">
+            <div class="zippers-structure">
+                <div class="zippers-structure__view">
+                    <div class="zippers-structure__view-item">
+                        <img
+                            loading="lazy"
+                            class="image"
+                            src="img/zip-structure-img1.png"
+                            width=""
+                            height=""
+                            alt="Изображение блока"
+                        >
+                    </div>
+                    <div class="zippers-structure__view-item">
+                        <img
+                            loading="lazy"
+                            class="image"
+                            src="img/zip-structure-img2.png"
+                            width=""
+                            height=""
+                            alt="Изображение блока"
+                        >
+                    </div>
+                    <div class="zippers-structure__view-item">
+                        <img
+                            loading="lazy"
+                            class="image"
+                            src="img/zip-structure-img3.png"
+                            width=""
+                            height=""
+                            alt="Изображение блока"
+                        >
+                    </div>
+                </div>
+                <div class="zippers-structure__descr">
+                    <ul class="list-reset zippers-structure__count">
+                        <li class="zippers-structure__count-item">
+                            <div class="zippers-structure__count-title">Текстильная лента</div>
+                            <div class="zippers-structure__count-text">Мягкая лента, изготовленная из полиэфира, которая используется в качестве основы для укрепления звеньев и других частей застёжек-молнии</div>
+                        </li>
+                        <li class="zippers-structure__count-item">
+                            <div class="zippers-structure__count-title">Зубцы</div>
+                            <div class="zippers-structure__count-text">Зубцы из металлического или синтетического материала, которыми в результате обработки придана определённая форма</div>
+                        </li>
+                        <li class="zippers-structure__count-item">
+                            <div class="zippers-structure__count-title">Слайдер</div>
+                            <div class="zippers-structure__count-text">Движущаяся часть, позволяющая звеньям замыкаться</div>
+                        </li>
+                        <li class="zippers-structure__count-item">
+                            <div class="zippers-structure__count-title">Пуллер</div>
+                            <div class="zippers-structure__count-text">Часть слайдера, используется для подъёма фиксирующего механизма слайдера, а также выполняет декоративную функцию</div>
+                        </li>
+                        <li class="zippers-structure__count-item">
+                            <div class="zippers-structure__count-title">Верхний ограничитель (TopStop)</div>
+                            <div class="zippers-structure__count-text">Стопорное устройство, которое устанавливается в верхней части застёжки-молнии</div>
+                        </li>
+                        <li class="zippers-structure__count-item">
+                            <div class="zippers-structure__count-title">Нижний ограничитель (BottomStop)</div>
+                            <div class="zippers-structure__count-text">Стопорное устройство, которое устанавливается в нижней части застёжки-молнии под звеном в металлических и пластмассовых молниях и на звено в спиральных молниях. Служит фиксатором хода слайдера и применяется только в неразъёмных молниях</div>
+                        </li>
+                        <li class="zippers-structure__count-item">
+                            <div class="zippers-structure__count-title">Разъёмный механизм</div>
+                            <div class="zippers-structure__count-text">
+                                - PinBox — разъёмный механизм для разъёмной молнии с одним замком. Устанавливается внизу застёжки-молнии и состоит из коробочки и штифта<br>
+                                - Pins — разъёмный механизм для разъёмной молнии с двумя замками. Устанавливается внизу застёжки-молнии и состоит из: штырька и штифта, отличающихся незначительно по форме
+                            </div>
+                        </li>
+                        <li class="zippers-structure__count-item">
+                            <div class="zippers-structure__count-title">Верхний и нижний припуск (свободные концы)</div>
+                            <div class="zippers-structure__count-text">Текстильная лента вверху и внизу застёжки-молнии без установленных звеньев. У неразъёмной молнии есть верхний и нижний припуск, у разъёмной молнии — только верхний </div>
+                        </li>
+                        <li class="zippers-structure__count-item">
+                            <div class="zippers-structure__count-title">Таффета (закрепляющая лента)</div>
+                            <div class="zippers-structure__count-text">Тканая или пластиковая лента, используемая для усиления прочности соединения разъёмного механизма с текстильной лентой, а также для увеличения срока службы застёжки-молнии. Устанавливается в разъёмных молниях</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="block-bottom--min bgc-white">
+    <div class="container">
+        <div class="h3 text-uppercase">Типы молний</div>
+    </div>
+</div>
+
+<div class="block-bottom bgc-white">
+    <div class="zippers-link-wrapper">
+        <div class="container">
+            <div class="zippers-link">
+                <div class="zippers-link__descr">
+                    <div class="zippers-link__descr-title">Тип молний определяется шириной звеньев в застёгнутом виде</div>
+                    <div class="zippers-link__descr-text">Чем больше ширина звена, тем большую нагрузку выдерживает молния</div>
+                </div>
+                <div class="zippers-link__view">
+                    <div class="zippers-link__view-item">
+                        <img
+                                loading="lazy"
+                                class="image"
+                                src="img/zip-type-img1.png"
+                                width="170"
+                                height="150"
+                                alt="Изображение блока"
+                        >
+                        <div class="zippers-link__view-title">Металлическая молния</div>
+                    </div>
+                    <div class="zippers-link__view-item">
+                        <img
+                                loading="lazy"
+                                class="image"
+                                src="img/zip-type-img2.png"
+                                width="170"
+                                height="150"
+                                alt="Изображение блока"
+                        >
+                        <div class="zippers-link__view-title">Пластиковая молния</div>
+                    </div>
+                    <div class="zippers-link__view-item">
+                        <img
+                                loading="lazy"
+                                class="image"
+                                src="img/zip-type-img3.png"
+                                width="170"
+                                height="150"
+                                alt="Изображение блока"
+                        >
+                        <div class="zippers-link__view-title">Стиральная молния</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="block-bottom--min bgc-white">
+    <div class="container">
+        <div class="h3 text-uppercase">Методы измерения длины</div>
+    </div>
+</div>
+
+<div class="block-bottom bgc-white">
+    <div class="zippers-length-wrapper">
+        <div class="container">
+            <div class="zippers-length">
+                <div class="zippers-length__standard">
+                    <div class="zippers-length__standard-view">
+                        <div class="zippers-length__standard-view-content">в соответствии с ГОСТ 28965-91</div>
+                    </div>
+                    <div class="zippers-length__standard-pointer">
+                        <img
+                            loading="lazy"
+                            class="image"
+                            src="img/arrow-r-pointer.png"
+                            width="105"
+                            height="32"
+                            alt="Изображение блока"
+                        >
+                    </div>
+                    <div class="zippers-length__standard-size">
+                        <span>L — длина слайдера </span>
+                        <span>L1 — верхний припуск</span>
+                        <span>L2 — нижний припуск</span>
+                    </div>
+                </div>
+                <div class="zippers-length__measurement">
+                    <div class="zippers-length__measurement-item">
+                        <div class="zippers-length__measurement-view">
+                            <img
+                                loading="lazy"
+                                class="image"
+                                src="img/zip-method-img1.png"
+                                width="550"
+                                height="220"
+                                alt="Изображение блока"
+                            >
+                        </div>
+                        <div class="zippers-length__measurement-descr">
+                            <span class="fw-semibold">Неразъемная молния измеряется</span> от верхнего края слайдера (в застёгнутом состоянии) до нижнего края нижнего ограничителя
+                        </div>
+                    </div>
+                    <div class="zippers-length__measurement-item">
+                        <div class="zippers-length__measurement-view">
+                            <img
+                                loading="lazy"
+                                class="image"
+                                src="img/zip-method-img2.png"
+                                width="550"
+                                height="220"
+                                alt="Изображение блока"
+                            >
+                        </div>
+                        <div class="zippers-length__measurement-descr">
+                            <span class="fw-semibold">Разъёмная молния с одним слайдером измеряется</span> от верхнего края слайдера (в застёгнутом состоянии) до нижнего края разъёмного механизма
+                        </div>
+                    </div>
+                    <div class="zippers-length__measurement-item">
+                        <div class="zippers-length__measurement-view">
+                            <img
+                                loading="lazy"
+                                class="image"
+                                src="img/zip-method-img3.png"
+                                width="550"
+                                height="220"
+                                alt="Изображение блока"
+                            >
+                        </div>
+                        <div class="zippers-length__measurement-descr">
+                            <span class="fw-semibold">Разъёмная молния с двумя слайдерами измеряется</span> от верхнего края верхнего слайдера (в застёгнутом состоянии) до верхнего края нижнего слайдера
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="block-bottom--min bgc-white">
+    <div class="container">
+        <div class="h-icon-wrapper">
+            <div class="h3 text-uppercase">Возможности длины</div>
+            <div class="h-icon mobile-only">
+                <svg class="icon icon-stroke">
+                    <use href="img/i_scroll.svg#i_scroll"></use>
+                </svg>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="block-bottom bgc-white">
+    <div class="zippers-length-wrapper">
+        <div class="container">
+            <div class="zippers-length-opt">
+                <div class="zippers-length-opt__standard">
+                    <img
+                            loading="lazy"
+                            class="image"
+                            src="img/zip-length-opt-img.png"
+                            width="1180"
+                            height="413"
+                            alt="Изображение блока"
+                    >
+                </div>
+                <div class="zippers-length-opt__note">
+                    <div class="zippers-length-opt__note-header">
+                        <div class="zippers-length-opt__note-header-view">
+                            <svg class="icon icon-fill">
+                                <use href="img/i_pin1.svg#i_pin1"></use>
+                            </svg>
+                        </div>
+                        <div class="zippers-length-opt__note-header-title">Примечание:</div>
+                    </div>
+                    <ul class="list-reset zippers-length-opt__note-list">
+                        <li class="zippers-length-opt__note-item">
+                            <div class="zippers-length-opt__note-item-content">Застёжки-молнии изготавливаются в указанный в таблице пределах с шагом 0,5 см</div>
+                        </li>
+                        <li class="zippers-length-opt__note-item">
+                            <div class="zippers-length-opt__note-item-content">По особому заказу возможно изготовление застёжек-молний с длиной более 300,0 см</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="block-bottom--min bgc-white">
+    <div class="container">
+        <div class="h-icon-wrapper">
+            <div class="h3 text-uppercase">Требования к точности размеров</div>
+            <div class="h-icon mobile-only">
+                <svg class="icon icon-stroke">
+                    <use href="img/i_scroll.svg#i_scroll"></use>
+                </svg>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="block-bottom bgc-white">
+    <div class="zippers-length-wrapper">
+        <div class="container">
+            <div class="zippers-length-opt">
+                <div class="zippers-length-opt__standard">
+                    <img
+                            loading="lazy"
+                            class="image"
+                            src="img/zip-size-img.png"
+                            width="1180"
+                            height="413"
+                            alt="Изображение блока"
+                    >
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="gap-xl block-top">
+    <div class="container">
+        <div class="h3 text-uppercase">Основные параметры<br class="desktop-only"> качества застёжки-молнии</div>
+    </div>
+</div>
+
+<div class="gap-xxl">
+    <div class="container">
+        <ul class="list-reset list-count">
+            <li class="list-count__item">
+                <div class="list-count__title">Усилие на разрыв</div>
+                <div class="list-count__text">Проверить этот показатель относительно просто — перегните застёгнутую молнию пополам и потяните за тканевую основу в разные стороны изо всех сил. Качественная молния должна выдержать нагрузку, значительно превышающую ту, что вы можете создать своими руками.</div>
+            </li>
+            <li class="list-count__item">
+                <div class="list-count__title">Кривизна (саблистость).</div>
+                <div class="list-count__text">Если две части молнии положить на ровную поверхность, они должны лежать параллельно друг к другу и не принимать Х-образную форму.</div>
+            </li>
+            <li class="list-count__item">
+                <div class="list-count__title">Волнистость</div>
+                <div class="list-count__text">Если молния, лежащая на ровной поверхности, похожа на «американские горки», лучше выбрать другую. На поверхности под молнией не должно оставаться просветов, и тогда она не будет создавать на готовом изделии лишних складок и неровностей.</div>
+            </li>
+            <li class="list-count__item">
+                <div class="list-count__title">Фиксирование слайдера на звене</div>
+                <div class="list-count__text">(Кроме молний с неавтоматическим слайдером). Нужно проверить молнию на самопроизвольное расстёгивание: потяните за концы текстильной ленты возле слайдера (при направленном вниз пуллере) - молния не должна расстёгиваться.</div>
+            </li>
+            <li class="list-count__item">
+                <div class="list-count__title">Легкость хода слайдера</div>
+                <div class="list-count__text">Слайдер должен легко одеваться и перемещаться по звену.</div>
+            </li>
+            <li class="list-count__item">
+                <div class="list-count__title">Количество прошивок звена</div>
+                <div class="list-count__text">
+                    Только для спиральных молний.<br>
+                    <br>
+                    Один прошив — для рулонки, используемой в одноразовой одежде, или для изделий, где к молнии предъявляются низкие требования к разрывной нагрузке. Такая молния имеет низкую себестоимость.<br>
+                    <br>
+                    Два прошива — для использования в изделиях, в которых предъявляются высокие требования к разрывным нагрузкам молнии. Такая молния относится к средней и высокой ценовой нише.</div>
+            </li>
+            <li class="list-count__item">
+                <div class="list-count__title">Форма звена на металлических молниях</div>
+                <div class="list-count__text">Звенья на металлической молнии должны располагаться прямо и параллельно друг другу, подобно железнодорожным шпалам. Расположение «елочкой», говорит о неплотном закреплении на текстильной ленте.</div>
+            </li>
+            <li class="list-count__item">
+                <div class="list-count__title">Скручивание</div>
+                <div class="list-count__text">В расстёгнутом виде свободные концы молнии не должны образовывать спираль.</div>
+            </li>
+            <li class="list-count__item">
+                <div class="list-count__title">Усадка текстильной ленты</div>
+                <div class="list-count__text">Приобретённую молнию перед использованием измерьте и прогладьте утюгом, желательно с паром. После 2-3 минут проглаживания проведите повторное измерение. Если длина молнии изменилась более чем на 1,5% от первоначальной длины, то такую молнию уже нельзя использовать в изделиях, раскроенных под первоначальный размер молнии.</div>
+            </li>
+            <li class="list-count__item">
+                <div class="list-count__title">Симметрия прошивок звена</div>
+                <div class="list-count__text">Симметрия прошивок влияет на лёгкость хода слайдера и предотвращает расхождение молнии. Симметрия прошивок звена видна с изнаночной стороны.</div>
+            </li>
+            <li class="list-count__item">
+                <div class="list-count__title">Гибкость молнии</div>
+                <div class="list-count__text">Спиральная молния должна быть мягкой и легко сгибаться.</div>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<div class="gap-xl">
+    <div class="container">
+        <div class="h3 text-uppercase">
+            Новости
+            <span class="brand-3r">
+                <span>3</span>
+                <span>R</span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="gap-xxl">
+    <div class="container">
+        <div class="card-list-wrapper">
+            <div class="gap-xl">
+                <div class="card-list">
+                    <a class="card card-default" href="javascript:;">
+                        <span class="card__view">
+                            <img
+                                    loading="lazy"
+                                    class="image"
+                                    src="img/card-news-img1.png"
+                                    width="320"
+                                    height="220"
+                                    alt="Изображение блока"
+                            >
+                            <span class="card__date">22.05.2024</span>
+                        </span>
+                        <span class="card__descr">
+                            <span class="card__text-content">
+                                <span class="card__title">Заголовок новости максимум в 2 строки</span>
+                                <span class="card__text">Более подробное описание новости. Максимум в 3 строки. Более подробное описание новости. Максимум в 3 строки.</span>
+                            </span>
+                            <span class="card__more">
+                                <button class="btn-reset btn btn-primary" type="button">
+                                    <span class="text-content">Читать подробнее</span>
+                                    <svg class="icon icon-fill">
+                                        <use href="img/sprite.svg#arrow-right"></use>
+                                    </svg>
+                                </button>
+                            </span>
+                        </span>
+                    </a>
+                    <a class="card card-default" href="javascript:;">
+                        <span class="card__view">
+                            <img
+                                    loading="lazy"
+                                    class="image"
+                                    src="img/card-news-img1.png"
+                                    width="320"
+                                    height="220"
+                                    alt="Изображение блока"
+                            >
+                            <span class="card__date">22.05.2024</span>
+                        </span>
+                        <span class="card__descr">
+                            <span class="card__text-content">
+                                <span class="card__title">Заголовок новости максимум в 2 строки</span>
+                                <span class="card__text">Более подробное описание новости. Максимум в 3 строки. Более подробное описание новости. Максимум в 3 строки.</span>
+                            </span>
+                            <span class="card__more">
+                                <button class="btn-reset btn btn-primary" type="button">
+                                    <span class="text-content">Читать подробнее</span>
+                                    <svg class="icon icon-fill">
+                                        <use href="img/sprite.svg#arrow-right"></use>
+                                    </svg>
+                                </button>
+                            </span>
+                        </span>
+                    </a>
+                    <a class="card card-default" href="javascript:;">
+                        <span class="card__view">
+                            <img
+                                    loading="lazy"
+                                    class="image"
+                                    src="img/card-news-img1.png"
+                                    width="320"
+                                    height="220"
+                                    alt="Изображение блока"
+                            >
+                            <span class="card__date">22.05.2024</span>
+                        </span>
+                        <span class="card__descr">
+                            <span class="card__text-content">
+                                <span class="card__title">Заголовок новости максимум в 2 строки</span>
+                                <span class="card__text">Более подробное описание новости. Максимум в 3 строки. Более подробное описание новости. Максимум в 3 строки.</span>
+                            </span>
+                            <span class="card__more">
+                                <button class="btn-reset btn btn-primary" type="button">
+                                    <span class="text-content">Читать подробнее</span>
+                                    <svg class="icon icon-fill">
+                                        <use href="img/sprite.svg#arrow-right"></use>
+                                    </svg>
+                                </button>
+                            </span>
+                        </span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="card-list-action">
+                <button class="btn-reset btn" type="button">
+                    <span class="text-content">Показать еще</span>
+                    <svg class="icon icon-fill">
+                        <use href="img/sprite.svg#arrow-down"></use>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
 </div>
 
 <div class="">
-	<div class="container">
-        <div class="gap-xxl">
-            <div class="h1">Продукция</div>
+    <div class="banner-order" style="background-image: url('img/index-bg2.png');">
+        <div class="banner-order-heading">
+            <div class="banner-order-heading__logo">
+                <img
+                        loading="lazy"
+                        class="image"
+                        src="img/logo-stroke.png"
+                        width="175"
+                        height="135"
+                        alt="Изображение блока"
+                >
+            </div>
+            <div class="banner-order-heading__title h3 text-uppercase">удобный поставщик для клиентов</div>
+            <div class="banner-order-heading__subtitle">— всегда вовремя, всё в одном месте и по единому стандарту</div>
         </div>
-
-        <div class="card-list card-list--big">
-            <div class="card">
-                <div class="card__view">
-                    <picture>
-                        <source srcset="img/card-img-1.webp" type="image/webp">
-                        <img
-                                loading="lazy"
-                                src="img/card-img-1.png"
-                                class="image"
-                                width="566"
-                                height="320"
-                                alt="Изображение блока"
-                        >
-                    </picture>
-                </div>
-                <div class="card__descr">
-                    <div class="card__title h3">Застежки-молнии</div>
-                    <div class="card__subtitle">Не подведут даже в самый ответственный момент</div>
-                </div>
-                <div class="card__more">
-                <span class="more-link">
-                    <span>Узнать больше</span>
-                    <span class="decor"><span></span></span>
-                </span>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card__view">
-                    <picture>
-                        <source srcset="img/card-img-2.webp" type="image/webp">
-                        <img
-                                loading="lazy"
-                                src="img/card-img-2.png"
-                                class="image"
-                                width="566"
-                                height="320"
-                                alt="Изображение блока"
-                        >
-                    </picture>
-                </div>
-                <div class="card__descr">
-                    <div class="card__title h3">Пластиковая фурнитура</div>
-                    <div class="card__subtitle">Останется защелкнутой, даже если рюкзак затрещит</div>
-                </div>
-                <div class="card__more">
-                <span class="more-link">
-                    <span>Узнать больше</span>
-                    <span class="decor"><span></span></span>
-                </span>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card__view">
-                    <picture>
-                        <source srcset="img/card-img-3.webp" type="image/webp">
-                        <img
-                                loading="lazy"
-                                src="img/card-img-3.png"
-                                class="image"
-                                width="566"
-                                height="320"
-                                alt="Изображение блока"
-                        >
-                    </picture>
-                </div>
-                <div class="card__descr">
-                    <div class="card__title h3">Кнопки</div>
-                    <div class="card__subtitle">Сумочка будет под надежной защитой</div>
-                </div>
-                <div class="card__more">
-                <span class="more-link">
-                    <span>Узнать больше</span>
-                    <span class="decor"><span></span></span>
-                </span>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card__view">
-                    <picture>
-                        <source srcset="img/card-img-4.webp" type="image/webp">
-                        <img
-                                loading="lazy"
-                                src="img/card-img-4.png"
-                                class="image"
-                                width="566"
-                                height="320"
-                                alt="Изображение блока"
-                        >
-                    </picture>
-                </div>
-                <div class="card__descr">
-                    <div class="card__title h3">Ленты и шнурки</div>
-                    <div class="card__subtitle">Больше не развяжутся на пробежке</div>
-                </div>
-                <div class="card__more">
-                <span class="more-link">
-                    <span>Узнать больше</span>
-                    <span class="decor"><span></span></span>
-                </span>
-                </div>
-            </div>
-        </div>
-	</div>
-</div>
-
-<div class="block-top">
-    <div class="container">
-        <div class="download">
-            <a
-                    class="download-file"
-                    href="img/test.png"
-                    style="background-image: url('img/download-bg.png');"
-                    download=""
-            >
-                <span class="download-file__title">Скачать PDF-каталог</span>
-                <span class="download-file__subtitle"><span class="text-uppercase">PDF</span>, 3.2 Мб</span>
-            </a>
-        </div>
-    </div>
-</div>
-
-<div class="block block-border-bottom">
-    <div class="container">
-        <div class="gap-lg-plus">
-            <div class="h2">Преимущества продукции 3<span class="red-color">R</span></div>
-        </div>
-        <div class="card-list card-list--big">
-            <div class="card card-advantage">
-                <div class="card__view">
-                    <svg class="icon">
-                        <use href="img/advantage-setting.svg#advantage-setting"></use>
-                    </svg>
-                </div>
-                <div class="card__descr">
-                    <div class="card__title h4"><span class="red-color">Прочность</span></div>
-                    <div class="card__subtitle">Собственная служба контроля качества, состоящая из 3-х этапов</div>
-                </div>
-            </div>
-            <div class="card card-advantage">
-                <div class="card__view">
-                    <svg class="icon">
-                        <use href="img/advantage-timer.svg#advantage-timer"></use>
-                    </svg>
-                </div>
-                <div class="card__descr">
-                    <div class="card__title h4"><span class="red-color">Сроки</span></div>
-                    <div class="card__subtitle">Производим на территории России, за счет этого срок изготовления всего 15 дней</div>
-                </div>
-            </div>
-            <div class="card card-advantage">
-                <div class="card__view">
-                    <svg class="icon">
-                        <use href="img/advantage-wallet.svg#advantage-wallet"></use>
-                    </svg>
-                </div>
-                <div class="card__descr">
-                    <div class="card__title h4"><span class="red-color">Цена</span></div>
-                    <div class="card__subtitle">Производим из сертифицированного сырья. Сохраняем цены за счет производства в РФ</div>
-                </div>
-            </div>
-            <div class="card card-advantage">
-                <div class="card__view">
-                    <svg class="icon">
-                        <use href="img/advantage-brush.svg#advantage-brush"></use>
-                    </svg>
-                </div>
-                <div class="card__descr">
-                    <div class="card__title h4"><span class="red-color">Цвета</span></div>
-                    <div class="card__subtitle">Обладаем собственной картой цветов, которая насчитывает 600 оттенков.</div>
-                </div>
-            </div>
-            <div class="card card-advantage">
-                <div class="card__view">
-                    <svg class="icon">
-                        <use href="img/advantage-ruler.svg#advantage-ruler"></use>
-                    </svg>
-                </div>
-                <div class="card__descr">
-                    <div class="card__title h4"><span class="red-color">Размер</span></div>
-                    <div class="card__subtitle">Благодаря современному парку оборудования, производим готовую продукцию от 10,00 см. с шагом 0,5 см</div>
-                </div>
-            </div>
-            <div class="card card-advantage">
-                <div class="card__view">
-                    <svg class="icon">
-                        <use href="img/advantage-shapes.svg#advantage-shapes"></use>
-                    </svg>
-                </div>
-                <div class="card__descr">
-                    <div class="card__title h4"><span class="red-color">Логотип</span></div>
-                    <div class="card__subtitle">У нас вы можете персонализировать пуллер, нанести логотип вашей компании или вашего заказчика</div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="block block-border-bottom">
-    <div class="container">
-        <div class="contact-us">
-            <div class="contact-us__item">
-                <div class="contact-address">
-                    <div class="gap-lg-plus">
-                        <div class="h2">Свяжитесь <span class="red-color">с нами</span></div>
-                    </div>
-                    <div class="gap-lg">
-                        <div class="gap-md">
-                            <div class="h4">Офис в москве</div>
-                        </div>
-                        <div class="contact-address-info">
-                            <span>Москва, ул. Мартынова, д. 62, корпус 6</span>
-                            <span><a class="link link-tdu" href="mailto:2588081@3rzip.ru">2588081@3rzip.ru</a></span>
-                            <span><a class="contact-address-phone" href="tel:+74951183770">+7 (495) 118-37-70</a></span>
-                        </div>
-                    </div>
-                    <div class="">
-                        <div class="social">
-                            <ul class="list-reset social__list">
-                                <li>
-                                    <a class="social-vk" href="javascript:;" target="_blank" aria-label="Наша страничка в Вконтакте">
-                                        <svg class="icon">
-                                            <use href="img/sprite.svg#soc-logo-vk"></use>
-                                        </svg>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a class="social-ok" href="javascript:;" target="_blank" aria-label="Наша страничка в Одноклассники">
-                                        <svg class="icon">
-                                            <use href="img/sprite.svg#soc-logo-ok"></use>
-                                        </svg>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="contact-us__item">
-                <form class="contact-form form visually-hidden tmp" action="#" method="">
-                    <div class="contact-form-success">
-                        <div class="contact-form-success__view">
-                            <svg class="icon" data-contact-form-success-ok>
-                                <use href="img/sprite.svg#tick-circle"></use>
-                            </svg>
-                        </div>
-                        <div class="contact-form-success__descr">
-                            <div class="contact-form-success__title h3">Ваша заявка отправлена</div>
-                            <div class="contact-form-success__subtitle">Мы свяжемся с вами в ближайшее время</div>
-                        </div>
-                    </div>
-                    <div class="contact-form-design">
-                        <svg class="icon">
-                            <use href="img/logo-design.svg#logo-design"></use>
-                        </svg>
-                    </div>
-                    <div class="gap-md field-wrapper">
-                        <div class="h3">Получить консультацию</div>
-                    </div>
-                    <div class="gap-md field-wrapper">
-                        <div class="titled-input titled-input-label">
-                            <div class="input-title">Ваше имя</div>
-                            <div class="input-wrapper">
-                                <input
-                                        class="input-reset input"
-                                        type="text"
-                                        name=""
-                                        value=""
-                                        placeholder="Ваше имя"
-                                        autocomplete="off"
-                                        required
-                                >
-                            </div>
-                        </div>
-                    </div>
-                    <div class="gap-md field-wrapper">
-                        <div class="titled-input titled-input-label">
-                            <div class="input-title">Номер телефона или электронная почта</div>
-                            <div class="input-wrapper">
-                                <input
-                                        class="input-reset input"
-                                        type="text"
-                                        name=""
-                                        value=""
-                                        placeholder="Номер телефона или электронная почта"
-                                        autocomplete="off"
-                                        required
-                                >
-                            </div>
-                        </div>
-                    </div>
-                    <div class="gap-md field-wrapper">
-                        <div class="titled-input titled-input-label">
-                            <div class="input-title">Сообщение</div>
-                            <div class="input-wrapper">
-                                <textarea
-                                        class="textarea"
-                                        name=""
-                                        placeholder="Задайте ваш вопрос"
-                                ></textarea>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="gap-md field-wrapper">
-                        <span class="custom-checkbox">
-                            <input id="contactFormAgree" class="custom-checkbox__input" type="checkbox" checked>
-                            <label for="contactFormAgree" class="custom-checkbox__label-for">Отправляя заявку, я соглашаюсь с условиями <a class="link link-tdu" href="javascript:;">политики обработки персональных данных</a></label>
-                        </span>
-                    </div>
-                    <div class="field-wrapper">
-						<?/* change type to "submit" */?>
-                        <button class="btn-reset btn btn-primary" type="button" data-contact-form-success>
-                            <span class="btn__text">Отправить</span>
-                        </button>
-                    </div>
-                </form>
+        <div class="bg-blur bg-blur-15 banner-order-request">
+            <div class="container banner-order-request__container">
+                <button class="btn-reset btn" type="button">
+                    <span class="text-content">Сделать заказ</span>
+                </button>
+                <div class="banner-order-request__title">Менеджеры отвечают на заявки в день обращения</div>
             </div>
         </div>
     </div>

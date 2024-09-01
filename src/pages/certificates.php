@@ -1,179 +1,99 @@
 <?php include($_SERVER["DOCUMENT_ROOT"] . "/build/" . "components/header.php"); ?>
 
-<div class="gap-sm-plus">
+<div class="gap-xl">
 	<div class="container">
-		<?php include($_SERVER["DOCUMENT_ROOT"] . "/build/" . "components/breadcrumbs.php"); ?>
+        <div class="gap-xs">
+            <h1 class="h3 text-uppercase">Сертификаты</h1>
+        </div>
+        <span class="certificate-subtitle custom-checkbox">
+            <input id="checkbox-certificate-1" class="custom-checkbox__input checked" type="checkbox">
+            <label for="checkbox-certificate-1" class="custom-checkbox__label-for">Сертификаты соответствия — гарантия того, что продукция или услуги соответствуют требованиям государственных стандартов и нормативов</label>
+        </span>
 	</div>
 </div>
 
-<div class="gap-lg-plus">
+<div class="gap-xxl">
 	<div class="container">
-        <div class="h1"><span class="red-color">Сертификаты</span> соответствия</div>
-	</div>
-</div>
-
-<div class="block block--mobile has-bg has-bg--mobile block-gray--mobile">
-	<div class="container">
-		<div class="">
-            <div class="gap-lg h3 mobile-only">Преимущества работы в компании</div>
-            <div class="page-subtitle page-subtitle--fz-sm">Сертификаты соответствия являются гарантией того, что продукция или услуги соответствуют требованиям государственных стандартов и нормативов</div>
-		</div>
-	</div>
-</div>
-
-<div class="block block-border-bottom block-gray--mobile">
-	<div class="container">
-		<div class="certificates">
-            <div class="certificates__item">
-                <div class="certificates__view">
+		<div class="certificate">
+            <div class="certificate__item">
+                <div class="certificate__view">
                     <img
                         loading="lazy"
                         class="image"
-                        src="img/certificates-1.png"
+                        src="img/certificate.png"
                         width="100%"
                         height="auto"
                         alt="Изображение блока"
                     >
                 </div>
-                <div class="certificates__descr">Сертификат соответствия №0104866</div>
+                <div class="certificate__descr">Сертификат соответствия Застёжки молнии металлические</div>
             </div>
-            <div class="certificates__item">
-                <div class="certificates__view">
+            <div class="certificate__item">
+                <div class="certificate__view">
                     <img
                         loading="lazy"
                         class="image"
-                        src="img/certificates-2.png"
+                        src="img/certificate.png"
                         width="100%"
                         height="auto"
                         alt="Изображение блока"
                     >
                 </div>
-                <div class="certificates__descr">Сертификат соответствия №0104855</div>
+                <div class="certificate__descr">Сертификат соответствия Застёжки молнии металлические огнестойкие</div>
+            </div>
+            <div class="certificate__item">
+                <div class="certificate__view">
+                    <img
+                        loading="lazy"
+                        class="image"
+                        src="img/certificate.png"
+                        width="100%"
+                        height="auto"
+                        alt="Изображение блока"
+                    >
+                </div>
+                <div class="certificate__descr">Сертификат соответствия Застёжки молнии спиральные</div>
+            </div>
+            <div class="certificate__item">
+                <div class="certificate__view">
+                    <img
+                        loading="lazy"
+                        class="image"
+                        src="img/certificate.png"
+                        width="100%"
+                        height="auto"
+                        alt="Изображение блока"
+                    >
+                </div>
+                <div class="certificate__descr">Сертификат соответствия Застёжки молнии пластиковые</div>
+            </div>
+            <div class="certificate__item">
+                <div class="certificate__view">
+                    <img
+                        loading="lazy"
+                        class="image"
+                        src="img/certificate.png"
+                        width="100%"
+                        height="auto"
+                        alt="Изображение блока"
+                    >
+                </div>
+                <div class="certificate__descr">Сертификат соответствия Застёжки молнии пластиковые огнестойкие</div>
+            </div>
+            <div class="certificate__item">
+                <div class="certificate__view">
+                    <img
+                        loading="lazy"
+                        class="image"
+                        src="img/certificate.png"
+                        width="100%"
+                        height="auto"
+                        alt="Изображение блока"
+                    >
+                </div>
+                <div class="certificate__descr">Сертификат соответствия Застёжки молнии пластиковые термостойкие</div>
             </div>
         </div>
-	</div>
-</div>
-
-<div class="block block-border-bottom">
-	<div class="container">
-		<div class="contact-us">
-			<div class="contact-us__item">
-				<div class="contact-address">
-					<div class="gap-lg-plus">
-						<div class="h2">Свяжитесь <span class="red-color">с нами</span></div>
-					</div>
-					<div class="gap-lg">
-						<div class="gap-md">
-							<div class="h4">Офис в москве</div>
-						</div>
-						<div class="contact-address-info">
-							<span>Москва, ул. Мартынова, д. 62, корпус 6</span>
-							<span><a class="link link-tdu" href="mailto:2588081@3rzip.ru">2588081@3rzip.ru</a></span>
-							<span><a class="contact-address-phone" href="tel:+74951183770">+7 (495) 118-37-70</a></span>
-						</div>
-					</div>
-					<div class="">
-						<div class="social">
-							<ul class="list-reset social__list">
-								<li>
-									<a class="social-vk" href="javascript:;" target="_blank" aria-label="Наша страничка в Вконтакте">
-										<svg class="icon">
-											<use href="img/sprite.svg#soc-logo-vk"></use>
-										</svg>
-									</a>
-								</li>
-								<li>
-									<a class="social-ok" href="javascript:;" target="_blank" aria-label="Наша страничка в Одноклассники">
-										<svg class="icon">
-											<use href="img/sprite.svg#soc-logo-ok"></use>
-										</svg>
-									</a>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="contact-us__item">
-				<form class="contact-form form visually-hidden tmp" action="#" method="">
-                    <div class="contact-form-success">
-                        <div class="contact-form-success__view">
-                            <svg class="icon" data-contact-form-success-ok>
-                                <use href="img/sprite.svg#tick-circle"></use>
-                            </svg>
-                        </div>
-                        <div class="contact-form-success__descr">
-                            <div class="contact-form-success__title h3">Ваша заявка отправлена</div>
-                            <div class="contact-form-success__subtitle">Мы свяжемся с вами в ближайшее время</div>
-                        </div>
-                    </div>
-					<div class="contact-form-design">
-						<svg class="icon">
-							<use href="img/logo-design.svg#logo-design"></use>
-						</svg>
-					</div>
-					<div class="gap-md field-wrapper">
-						<div class="h3">Получить консультацию</div>
-					</div>
-					<div class="gap-md field-wrapper">
-						<div class="titled-input titled-input-label">
-							<div class="input-title">Ваше имя</div>
-							<div class="input-wrapper">
-								<input
-									class="input-reset input"
-									type="text"
-									name=""
-									value=""
-									placeholder="Ваше имя"
-									autocomplete="off"
-									required
-								>
-							</div>
-						</div>
-					</div>
-					<div class="gap-md field-wrapper">
-						<div class="titled-input titled-input-label">
-							<div class="input-title">Номер телефона или электронная почта</div>
-							<div class="input-wrapper">
-								<input
-									class="input-reset input"
-									type="text"
-									name=""
-									value=""
-									placeholder="Номер телефона или электронная почта"
-									autocomplete="off"
-									required
-								>
-							</div>
-						</div>
-					</div>
-					<div class="gap-md field-wrapper">
-						<div class="titled-input titled-input-label">
-							<div class="input-title">Сообщение</div>
-							<div class="input-wrapper">
-						<textarea
-							class="textarea"
-							name=""
-							placeholder="Задайте ваш вопрос"
-						></textarea>
-							</div>
-						</div>
-					</div>
-					<div class="gap-md field-wrapper">
-                        <span class="custom-checkbox">
-                            <input id="contactFormAgree" class="custom-checkbox__input" type="checkbox" checked>
-                            <label for="contactFormAgree" class="custom-checkbox__label-for">Отправляя заявку, я соглашаюсь с условиями <a class="link link-tdu" href="javascript:;">политики обработки персональных данных</a></label>
-                        </span>
-					</div>
-					<div class="field-wrapper">
-						<?/* change type to "submit" */?>
-                        <button class="btn-reset btn btn-primary" type="button" data-contact-form-success>
-                            <span class="btn__text">Отправить</span>
-                        </button>
-					</div>
-				</form>
-			</div>
-		</div>
 	</div>
 </div>
 

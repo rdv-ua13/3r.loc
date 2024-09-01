@@ -32,13 +32,11 @@ const path = {
         js:                 "build/js/",
         styles:             "build/css/",
         img:                "build/img/",
-        svg:                "build/img/svg/",
     },
     src: {
         php:                "src/pages/**/*.php",
         mainJs:             "src/js/main.js",
         styles:             "src/styles/main.scss",
-        stylesVendor:       "src/styles/vendors.scss",
         img:                "src/img",
         svg:                "src/img/svg/**.svg",
         resources:          "src/resources/**/*.*",
@@ -65,27 +63,6 @@ const phpBuild = () => {
             })
         ))
         .pipe(dest(path.build.build))
-        .pipe(browserSync.stream());
-};
-
-// Сбор стилей вендоров
-const cssVendorBuild = () => {
-    return src(path.src.stylesVendor)
-        .pipe(concat("vendors.css"))
-        .pipe(plumber(
-            notify.onError({
-                title: "CSS",
-                message: "Error: <%= error.message %>"
-            })
-        ))
-        .pipe(sass())
-        .pipe(group_media())
-        .pipe(autoprefixer({
-            cascade: false,
-            grid: true,
-            overrideBrowserslist: ["last 5 versions"]
-        }))
-        .pipe(dest(path.build.styles))
         .pipe(browserSync.stream());
 };
 
@@ -119,11 +96,12 @@ const includedJsBuild = () => {
             "node_modules/jquery-validation/dist/jquery.validate.js",
             "node_modules/jquery-validation/dist/localization/messages_ru.js",
             "node_modules/@popperjs/core/dist/umd/popper.js",
+            "node_modules/@fancyapps/fancybox/dist/jquery.fancybox.js",
             "node_modules/swiper/swiper-bundle.js",
-            "node_modules/tippy.js/dist/tippy-bundle.umd.js",
-            "node_modules/@fancyapps/ui/dist/fancybox.umd.js",
-            "node_modules/select2/dist/js/select2.js",
-            "node_modules/gsap/dist/gsap.min.js",
+            "node_modules/gsap/dist/gsap.js",
+            /*"node_modules/tippy.js/dist/tippy-bundle.umd.js",
+            "node_modules/accordion-js/dist/accordion.js",
+            "node_modules/readmore-js/readmore.js",*/
         ]
     )
         .pipe(dest(path.build.js))
@@ -139,11 +117,12 @@ const libsJsBuild = () => {
             "node_modules/jquery-validation/dist/jquery.validate.js",
             "node_modules/jquery-validation/dist/localization/messages_ru.js",
             "node_modules/@popperjs/core/dist/umd/popper.js",
+            "node_modules/@fancyapps/fancybox/dist/jquery.fancybox.js",
             "node_modules/swiper/swiper-bundle.js",
-            "node_modules/tippy.js/dist/tippy-bundle.umd.js",
-            "node_modules/@fancyapps/ui/dist/fancybox.umd.js",
-            "node_modules/select2/dist/js/select2.js",
-            "node_modules/gsap/dist/gsap.min.js",
+            "node_modules/gsap/dist/gsap.js",
+            /*"node_modules/tippy.js/dist/tippy-bundle.umd.js",
+            "node_modules/accordion-js/dist/accordion.js",
+            "node_modules/readmore-js/readmore.js",*/
         ]
     )
         .pipe(concat("libs.min.js"))
@@ -193,54 +172,7 @@ const svgSprites = () => {
         .pipe(dest(path.build.img));
 };
 
-// Подготовка иконок (удаление атрибутов)
-const svgPreparation = () => {
-    return src(path.src.svg)
-        .pipe(
-            svgmin({
-                js2svg: {
-                    pretty: true,
-                },
-            })
-        )
-        .pipe(
-            cheerio({
-                run: function ($) {
-                    $("[fill]").removeAttr("fill");
-                    $("[stroke]").removeAttr("stroke");
-                    $("[style]").removeAttr("style");
-                },
-                parserOptions: {
-                    xmlMode: true
-                },
-            })
-        )
-        .pipe(replace("&gt;", ">"))
-        .pipe(dest(path.build.svg));
-};
-
-// Обработка картинок (dev)
-const imagesDev = () => {
-    return src([`${path.src.img}/**/**.{jpg,jpeg,png,svg}`, `!${path.src.svg}`])
-        .pipe(image([
-            image.mozjpeg({
-                quality: 80,
-                progressive: true
-            }),
-            image.optipng({
-                optimizationLevel: 2
-            }),
-            image.svgo({
-                plugins: [
-                    {removeViewBox: false},
-                    {cleanupIDs: false}
-                ]
-            })
-        ]))
-        .pipe(dest(path.build.img));
-};
-
-// Обработка картинок (build)
+// Обработка картинок
 const images = () => {
     return src([`${path.src.img}/**/**.{jpg,jpeg,png,svg}`])
         .pipe(image([
@@ -260,7 +192,6 @@ const images = () => {
         ]))
         .pipe(dest(path.build.img));
 };
-
 const webpImages = () => {
     return src([`${path.src.img}/**/**.{jpg,jpeg,png}`])
         .pipe(webp())
@@ -304,8 +235,6 @@ const toProd = (done) => {
     done();
 };
 
-exports.default = series(clean, cacheBuild, phpBuild, cssVendorBuild, cssBuild, includedJsBuild, mainJsBuild, resources, imagesDev, webpImages, svgSprites, watchFiles);
+exports.default = series(clean, cacheBuild, phpBuild, cssBuild, includedJsBuild, mainJsBuild, resources, images, /*webpImages,*/ svgSprites, watchFiles);
 
-exports.svg = series(clean, cacheBuild, phpBuild, svgPreparation, watchFiles);
-
-exports.build = series(toProd, clean, cacheBuild, phpBuild, cssVendorBuild, cssBuild, libsJsBuild, mainJsBuild, resources, images, webpImages, svgSprites, watchFiles);
+exports.build = series(toProd, clean, cacheBuild, phpBuild, cssBuild, libsJsBuild, mainJsBuild, resources, images, webpImages, svgSprites, watchFiles);

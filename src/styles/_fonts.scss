@@ -1,126 +1,4 @@
 @font-face {
-	font-family: 'Manrope';
-	src: url('../fonts/Manrope/Manrope-Thin.eot');
-	src: local('../fonts/Manrope/Manrope Thin'), local('../fonts/Manrope/Manrope-Thin'),
-	url('../fonts/Manrope/Manrope-Thin.eot?#iefix') format('embedded-opentype'),
-	url('../fonts/Manrope/Manrope-Thin.woff2') format('woff2'),
-	url('../fonts/Manrope/Manrope-Thin.woff') format('woff'),
-	url('../fonts/Manrope/Manrope-Thin.ttf') format('truetype');
-	font-weight: 100;
-	font-style: normal;
-	font-display: swap;
-}
-@font-face {
-	font-family: 'Manrope';
-	src: url('../fonts/Manrope/Manrope-Light.eot');
-	src: local('../fonts/Manrope/Manrope Light'), local('../fonts/Manrope/Manrope-Light'),
-	url('../fonts/Manrope/Manrope-Light.eot?#iefix') format('embedded-opentype'),
-	url('../fonts/Manrope/Manrope-Light.woff2') format('woff2'),
-	url('../fonts/Manrope/Manrope-Light.woff') format('woff'),
-	url('../fonts/Manrope/Manrope-Light.ttf') format('truetype');
-	font-weight: 300;
-	font-style: normal;
-	font-display: swap;
-}
-@font-face {
-	font-family: 'Manrope';
-	src: url('../fonts/Manrope/Manrope-Regular.eot');
-	src: local('../fonts/Manrope/Manrope Regular'), local('../fonts/Manrope/Manrope-Regular'),
-	url('../fonts/Manrope/Manrope-Regular.eot?#iefix') format('embedded-opentype'),
-	url('../fonts/Manrope/Manrope-Regular.woff2') format('woff2'),
-	url('../fonts/Manrope/Manrope-Regular.woff') format('woff'),
-	url('../fonts/Manrope/Manrope-Regular.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
-	font-display: swap;
-}
-@font-face {
-	font-family: 'Manrope';
-	src: url('../fonts/Manrope/Manrope-Medium.eot');
-	src: local('../fonts/Manrope/Manrope Medium'), local('../fonts/Manrope/Manrope-Medium'),
-	url('../fonts/Manrope/Manrope-Medium.eot?#iefix') format('embedded-opentype'),
-	url('../fonts/Manrope/Manrope-Medium.woff2') format('woff2'),
-	url('../fonts/Manrope/Manrope-Medium.woff') format('woff'),
-	url('../fonts/Manrope/Manrope-Medium.ttf') format('truetype');
-	font-weight: 500;
-	font-style: normal;
-	font-display: swap;
-}
-@font-face {
-	font-family: 'Manrope';
-	src: url('../fonts/Manrope/Manrope-Semibold.eot');
-	src: local('../fonts/Manrope/Manrope Semibold'), local('../fonts/Manrope/Manrope-Semibold'),
-	url('../fonts/Manrope/Manrope-Semibold.eot?#iefix') format('embedded-opentype'),
-	url('../fonts/Manrope/Manrope-Semibold.woff2') format('woff2'),
-	url('../fonts/Manrope/Manrope-Semibold.woff') format('woff'),
-	url('../fonts/Manrope/Manrope-Semibold.ttf') format('truetype');
-	font-weight: 600;
-	font-style: normal;
-	font-display: swap;
-}
-@font-face {
-	font-family: 'Manrope';
-	src: url('../fonts/Manrope/Manrope-Bold.eot');
-	src: local('Manrope Bold'), local('../fonts/Manrope/Manrope-Bold'),
-	url('../fonts/Manrope/Manrope-Bold.eot?#iefix') format('embedded-opentype'),
-	url('../fonts/Manrope/Manrope-Bold.woff2') format('woff2'),
-	url('../fonts/Manrope/Manrope-Bold.woff') format('woff'),
-	url('../fonts/Manrope/Manrope-Bold.ttf') format('truetype');
-	font-weight: bold;
-	font-style: normal;
-	font-display: swap;
-}
-@font-face {
-	font-family: 'Manrope';
-	src: url('../fonts/Manrope/Manrope-ExtraBold.eot');
-	src: local('../fonts/Manrope/Manrope ExtraBold'), local('../fonts/Manrope/Manrope-ExtraBold'),
-	url('../fonts/Manrope/Manrope-ExtraBold.eot?#iefix') format('embedded-opentype'),
-	url('../fonts/Manrope/Manrope-ExtraBold.woff2') format('woff2'),
-	url('../fonts/Manrope/Manrope-ExtraBold.woff') format('woff'),
-	url('../fonts/Manrope/Manrope-ExtraBold.ttf') format('truetype');
-	font-weight: 800;
-	font-style: normal;
-	font-display: swap;
-}
-
-
-@font-face {
-	font-family: 'SF Pro Display';
-	src: url('../fonts/SFPro/SFProDisplay-Thin.eot');
-	src: local('../fonts/SFPro/SF Pro Display Thin'), local('../fonts/SFPro/SFProDisplay-Thin'),
-	url('../fonts/SFPro/SFProDisplay-Thin.eot?#iefix') format('embedded-opentype'),
-	url('../fonts/SFPro/SFProDisplay-Thin.woff2') format('woff2'),
-	url('../fonts/SFPro/SFProDisplay-Thin.woff') format('woff'),
-	url('../fonts/SFPro/SFProDisplay-Thin.ttf') format('truetype');
-	font-weight: 100;
-	font-style: normal;
-	font-display: swap;
-}
-@font-face {
-	font-family: 'SF Pro Display';
-	src: url('../fonts/SFPro/SFProDisplay-Ultralight.eot');
-	src: local('../fonts/SFPro/SF Pro Display Ultralight'), local('../fonts/SFPro/SFProDisplay-Ultralight'),
-	url('../fonts/SFPro/SFProDisplay-Ultralight.eot?#iefix') format('embedded-opentype'),
-	url('../fonts/SFPro/SFProDisplay-Ultralight.woff2') format('woff2'),
-	url('../fonts/SFPro/SFProDisplay-Ultralight.woff') format('woff'),
-	url('../fonts/SFPro/SFProDisplay-Ultralight.ttf') format('truetype');
-	font-weight: 200;
-	font-style: normal;
-	font-display: swap;
-}
-@font-face {
-	font-family: 'SF Pro Display';
-	src: url('../fonts/SFPro/SFProDisplay-Light.eot');
-	src: local('../fonts/SFPro/SF Pro Display Light'), local('../fonts/SFPro/SFProDisplay-Light'),
-	url('../fonts/SFPro/SFProDisplay-Light.eot?#iefix') format('embedded-opentype'),
-	url('../fonts/SFPro/SFProDisplay-Light.woff2') format('woff2'),
-	url('../fonts/SFPro/SFProDisplay-Light.woff') format('woff'),
-	url('../fonts/SFPro/SFProDisplay-Light.ttf') format('truetype');
-	font-weight: 200;
-	font-style: normal;
-	font-display: swap;
-}
-@font-face {
 	font-family: 'SF Pro Display';
 	src: url('../fonts/SFPro/SFProDisplay-Regular.eot');
 	src: local('../fonts/SFPro/SF Pro Display Regular'), local('../fonts/SFPro/SFProDisplay-Regular'),
@@ -146,18 +24,6 @@
 }
 @font-face {
 	font-family: 'SF Pro Display';
-	src: url('../fonts/SFPro/SFProDisplay-Semibold.eot');
-	src: local('../fonts/SFPro/SF Pro Display Semibold'), local('../fonts/SFPro/SFProDisplay-Semibold'),
-	url('../fonts/SFPro/SFProDisplay-Semibold.eot?#iefix') format('embedded-opentype'),
-	url('../fonts/SFPro/SFProDisplay-Semibold.woff2') format('woff2'),
-	url('../fonts/SFPro/SFProDisplay-Semibold.woff') format('woff'),
-	url('../fonts/SFPro/SFProDisplay-Semibold.ttf') format('truetype');
-	font-weight: 600;
-	font-style: normal;
-	font-display: swap;
-}
-@font-face {
-	font-family: 'SF Pro Display';
 	src: url('../fonts/SFPro/SFProDisplay-Bold.eot');
 	src: local('../fonts/SFPro/SF Pro Display Bold'), local('../fonts/SFPro/SFProDisplay-Bold'),
 	url('../fonts/SFPro/SFProDisplay-Bold.eot?#iefix') format('embedded-opentype'),
@@ -170,99 +36,24 @@
 }
 @font-face {
 	font-family: 'SF Pro Display';
-	src: url('../fonts/SFPro/SFProDisplay-Black.eot');
-	src: local('../fonts/SFPro/SF Pro Display Black'), local('../fonts/SFPro/SFProDisplay-Black'),
-	url('../fonts/SFPro/SFProDisplay-Black.eot?#iefix') format('embedded-opentype'),
-	url('../fonts/SFPro/SFProDisplay-Black.woff2') format('woff2'),
-	url('../fonts/SFPro/SFProDisplay-Black.woff') format('woff'),
-	url('../fonts/SFPro/SFProDisplay-Black.ttf') format('truetype');
-	font-weight: 900;
-	font-style: normal;
-	font-display: swap;
-}
-@font-face {
-	font-family: 'SF Pro Display';
 	src: url('../fonts/SFPro/SFProDisplay-Heavy.eot');
 	src: local('../fonts/SFPro/SF Pro Display Heavy'), local('../fonts/SFPro/SFProDisplay-Heavy'),
 	url('../fonts/SFPro/SFProDisplay-Heavy.eot?#iefix') format('embedded-opentype'),
 	url('../fonts/SFPro/SFProDisplay-Heavy.woff2') format('woff2'),
 	url('../fonts/SFPro/SFProDisplay-Heavy.woff') format('woff'),
 	url('../fonts/SFPro/SFProDisplay-Heavy.ttf') format('truetype');
-	font-weight: 900;
-	font-style: normal;
-	font-display: swap;
-}
-
-
-@font-face {
-	font-family: "Unbounded";
-	src: url("../fonts/Unbounded/static/Unbounded-ExtraLight.ttf");
-	src: local("../fonts/Unbounded/static/Unbounded-ExtraLight"),
-	url("../fonts/Unbounded/static/Unbounded-ExtraLight.ttf") format("truetype");
-	font-weight: 200;
-	font-style: normal;
-	font-display: swap;
-}
-@font-face {
-	font-family: "Unbounded";
-	src: url("../fonts/Unbounded/static/Unbounded-Light.ttf");
-	src: local("../fonts/Unbounded/static/Unbounded-Light"),
-	url("../fonts/Unbounded/static/Unbounded-Light.ttf") format("truetype");
-	font-weight: 300;
-	font-style: normal;
-	font-display: swap;
-}
-@font-face {
-	font-family: "Unbounded";
-	src: url("../fonts/Unbounded/static/Unbounded-Regular.ttf");
-	src: local("../fonts/Unbounded/static/Unbounded-Regular"),
-	url("../fonts/Unbounded/static/Unbounded-Regular.ttf") format("truetype");
-	font-weight: 400;
-	font-style: normal;
-	font-display: swap;
-}
-@font-face {
-	font-family: "Unbounded";
-	src: url("../fonts/Unbounded/static/Unbounded-Medium.ttf");
-	src: local("../fonts/Unbounded/static/Unbounded-Medium"),
-	url("../fonts/Unbounded/static/Unbounded-Medium.ttf") format("truetype");
-	font-weight: 500;
-	font-style: normal;
-	font-display: swap;
-}
-@font-face {
-	font-family: "Unbounded";
-	src: url("../fonts/Unbounded/static/Unbounded-SemiBold.ttf");
-	src: local("../fonts/Unbounded/static/Unbounded-SemiBold"),
-	url("../fonts/Unbounded/static/Unbounded-SemiBold.ttf") format("truetype");
-	font-weight: 600;
-	font-style: normal;
-	font-display: swap;
-}
-@font-face {
-	font-family: "Unbounded";
-	src: url("../fonts/Unbounded/static/Unbounded-Bold.ttf");
-	src: local("../fonts/Unbounded/static/Unbounded-Bold"),
-	url("../fonts/Unbounded/static/Unbounded-Bold.ttf") format("truetype");
-	font-weight: 700;
-	font-style: normal;
-	font-display: swap;
-}
-@font-face {
-	font-family: "Unbounded";
-	src: url("../fonts/Unbounded/static/Unbounded-ExtraBold.ttf");
-	src: local("../fonts/Unbounded/static/Unbounded-ExtraBold"),
-	url("../fonts/Unbounded/static/Unbounded-ExtraBold.ttf") format("truetype");
 	font-weight: 800;
 	font-style: normal;
 	font-display: swap;
 }
+
+
 @font-face {
 	font-family: "Unbounded";
-	src: url("../fonts/Unbounded/static/Unbounded-Black.ttf");
-	src: local("../fonts/Unbounded/static/Unbounded-Black"),
-	url("../fonts/Unbounded/static/Unbounded-Black.ttf") format("truetype");
-	font-weight: 900;
+	src: url("../fonts/Unbounded/Unbounded-Bold.ttf");
+	src: local("../fonts/Unbounded/Unbounded-Bold"),
+	url("../fonts/Unbounded/Unbounded-Bold.ttf") format("truetype");
+	font-weight: 700;
 	font-style: normal;
 	font-display: swap;
 }

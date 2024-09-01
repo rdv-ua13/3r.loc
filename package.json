@@ -40,20 +40,17 @@
     "webpack-stream": "^7.0.0"
   },
   "dependencies": {
-    "@fancyapps/ui": "^4.0.31",
+    "@fancyapps/fancybox": "^3.5.7",
     "@popperjs/core": "^2.11.6",
+    "accordion-js": "^3.3.4",
     "flatpickr": "^4.6.13",
-    "gsap": "^3.12.2",
-    "inputmask": "^5.0.7",
-    "jquery": "^3.6.0",
-    "jquery-validation": "^1.19.3",
+    "jquery": "^3.7.1",
+    "jquery-validation": "^1.20.1",
     "jquery.maskedinput": "^1.4.1",
-    "just-validate": "^3.3.3",
-    "nouislider": "^15.7.0",
-    "rellax": "^1.12.1",
+    "nouislider": "^15.8.1",
     "select2": "^4.1.0-rc.0",
-    "simplebar": "^6.2.5",
-    "swiper": "^7.4.1",
-    "tippy.js": "^6.3.7"
+    "swiper": "^11.1.5",
+    "tippy.js": "^6.3.7",
+    "gsap": "^3.12.5"
   }
 }
