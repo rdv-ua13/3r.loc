@@ -69,7 +69,7 @@
             <img src="img/logo-bg.png" width="94" height="80" alt="Логотип компании">
         </div>
         <span style="display: inline-flex; align-items:center; font-size: 24px;">
-            <span style="color: forestgreen; font-weight: 600;">6 + ui</span>
+            <span style="color: forestgreen; font-weight: 600;">7 + ui</span>
             &nbsp;/&nbsp;
             <span style="font-size: 24px;">8 + modals + ui (всего страниц в макете)</span>
         </span>
@@ -87,6 +87,7 @@
             <li><a href="catalog.php" target="_blank" class="ready">Продукция</a></li>
             <li><a href="catalog-category.php" target="_blank" class="ready">Продукция (категории)</a></li>
             <li><a href="catalog-category2.php" target="_blank" class="ready">Продукция (подкатегории)</a></li>
+            <li><a href="catalog-additional.php" target="_blank" class="ready">Продукция (доп. блоки)</a></li>
             <br>
 
             <li><a href="ui.php" target="_blank">ui</a></li>

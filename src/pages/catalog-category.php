@@ -137,26 +137,12 @@
                             <span class="card-subcategory-type__label-content">Молния с одним слайдером</span>
                         </span>
                         <span class="card-subcategory-type__view">
-                            <span class="card-subcategory-type__view-item">
-                                <img
-                                        loading="lazy"
-                                        class="image"
-                                        src="img/zip-single-right-img.png"
-                                        width="100"
-                                        height="370"
-                                        alt="Изображение блока"
-                                >
-                            </span>
-                            <span class="card-subcategory-type__view-item">
-                                <img
-                                        loading="lazy"
-                                        class="image"
-                                        src="img/zip-single-left-img.png"
-                                        width="100"
-                                        height="370"
-                                        alt="Изображение блока"
-                                >
-                            </span>
+                            <img
+                                    loading="lazy"
+                                    class="image"
+                                    src="img/catalog-category-img3.png"
+                                    alt="Изображение блока"
+                            >
                         </span>
                     </div>
                     <div class="card card-subcategory-type">
@@ -168,16 +154,12 @@
                             <span class="card-subcategory-type__label-content">Молния с одним слайдером</span>
                         </span>
                         <span class="card-subcategory-type__view">
-                            <span class="card-subcategory-type__view-item">
-                                <img
-                                        loading="lazy"
-                                        class="image"
-                                        src="img/zip-single-standart-img.png"
-                                        width="100"
-                                        height="370"
-                                        alt="Изображение блока"
-                                >
-                            </span>
+                            <img
+                                    loading="lazy"
+                                    class="image"
+                                    src="img/zip-single-standart-img.png"
+                                    alt="Изображение блока"
+                            >
                         </span>
                     </div>
                     <div class="card card-subcategory-type">
@@ -185,36 +167,12 @@
                             <span class="card-subcategory-type__label-content">Молния с двумя слайдерами</span>
                         </span>
                         <span class="card-subcategory-type__view">
-                            <span class="card-subcategory-type__view-item">
-                                <img
-                                        loading="lazy"
-                                        class="image"
-                                        src="img/zip-double-right-img.png"
-                                        width="100"
-                                        height="370"
-                                        alt="Изображение блока"
-                                >
-                            </span>
-                            <span class="card-subcategory-type__view-item">
-                                <img
-                                        loading="lazy"
-                                        class="image"
-                                        src="img/zip-double-left-img.png"
-                                        width="100"
-                                        height="370"
-                                        alt="Изображение блока"
-                                >
-                            </span>
-                            <span class="card-subcategory-type__view-item">
-                                <img
-                                        loading="lazy"
-                                        class="image"
-                                        src="img/zip-double-tr-img.png"
-                                        width="100"
-                                        height="370"
-                                        alt="Изображение блока"
-                                >
-                            </span>
+                            <img
+                                    loading="lazy"
+                                    class="image"
+                                    src="img/zip-double-right-img.png"
+                                    alt="Изображение блока"
+                            >
                         </span>
                     </div>
                     <div class="card card-subcategory-type">
@@ -222,36 +180,14 @@
                             <span class="card-subcategory-type__label-content">Молния с двумя слайдерами</span>
                         </span>
                         <span class="card-subcategory-type__view">
-                            <span class="card-subcategory-type__view-item">
-                                <img
-                                        loading="lazy"
-                                        class="image"
-                                        src="img/zip-double-counter-right-img.png"
-                                        width="100"
-                                        height="370"
-                                        alt="Изображение блока"
-                                >
-                            </span>
-                            <span class="card-subcategory-type__view-item">
-                                <img
-                                        loading="lazy"
-                                        class="image"
-                                        src="img/zip-double-counter-left-img.png"
-                                        width="100"
-                                        height="370"
-                                        alt="Изображение блока"
-                                >
-                            </span>
-                            <span class="card-subcategory-type__view-item">
-                                <img
-                                        loading="lazy"
-                                        class="image"
-                                        src="img/zip-double-counter-tr-img.png"
-                                        width="100"
-                                        height="370"
-                                        alt="Изображение блока"
-                                >
-                            </span>
+                            <img
+                                    loading="lazy"
+                                    class="image"
+                                    src="img/zip-double-counter-right-img.png"
+                                    width="100"
+                                    height="370"
+                                    alt="Изображение блока"
+                            >
                         </span>
                     </div>
                 </div>
@@ -416,14 +352,16 @@
             <div class="zippers-length">
                 <div class="zippers-length__standard">
                     <div class="zippers-length__standard-view">
-                        <div class="zippers-length__standard-view-content">в соответствии с ГОСТ 28965-91</div>
+                        <div class="zippers-length__standard-view-content">
+                            <span>в соответствии с ГОСТ 28965-91</span>
+                        </div>
                     </div>
                     <div class="zippers-length__standard-pointer">
                         <img
                             loading="lazy"
                             class="image"
                             src="img/arrow-r-pointer.png"
-                            width="105"
+                            width="100"
                             height="32"
                             alt="Изображение блока"
                         >

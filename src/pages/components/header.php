@@ -29,7 +29,6 @@ $searchSubcategory = '/catalog-category2.php';
     <link rel="preload" href="fonts/SFPro/SFProDisplay-Heavy.ttf" as="font" type="font/ttf" crossorigin>
     <link rel="preload" href="fonts/Unbounded/Unbounded-Bold.ttf" as="font" type="font/ttf" crossorigin>
 
-    <link rel="stylesheet" href="css/vendors.css" type="text/css">
     <link rel="stylesheet" href="css/main.css" type="text/css">
 
     <?/* Подключение библиотек */?>
@@ -38,6 +37,7 @@ $searchSubcategory = '/catalog-category2.php';
     <script defer src="js/popper.js"></script>                  <!-- popper -->
     <script defer src="js/swiper-bundle.js"></script>           <!-- swiper -->
     <script defer src="js/gsap.js"></script>                    <!-- gsap -->
+    <script defer src="js/tippy-bundle.umd.js"></script>        <!-- tippy -->
 
 	<script defer src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU" type="text/javascript"></script>
 

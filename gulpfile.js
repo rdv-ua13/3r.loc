@@ -99,8 +99,8 @@ const includedJsBuild = () => {
             "node_modules/@fancyapps/fancybox/dist/jquery.fancybox.js",
             "node_modules/swiper/swiper-bundle.js",
             "node_modules/gsap/dist/gsap.js",
-            /*"node_modules/tippy.js/dist/tippy-bundle.umd.js",
-            "node_modules/accordion-js/dist/accordion.js",
+            "node_modules/tippy.js/dist/tippy-bundle.umd.js",
+            /*"node_modules/accordion-js/dist/accordion.js",
             "node_modules/readmore-js/readmore.js",*/
         ]
     )
@@ -120,8 +120,8 @@ const libsJsBuild = () => {
             "node_modules/@fancyapps/fancybox/dist/jquery.fancybox.js",
             "node_modules/swiper/swiper-bundle.js",
             "node_modules/gsap/dist/gsap.js",
-            /*"node_modules/tippy.js/dist/tippy-bundle.umd.js",
-            "node_modules/accordion-js/dist/accordion.js",
+            "node_modules/tippy.js/dist/tippy-bundle.umd.js",
+            /*"node_modules/accordion-js/dist/accordion.js",
             "node_modules/readmore-js/readmore.js",*/
         ]
     )
