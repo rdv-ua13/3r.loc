@@ -33,7 +33,7 @@ $searchSubcategory = '/catalog-category2.php';
 
     <?/* Подключение библиотек */?>
     <script defer src="js/jquery.js"></script>                  <!-- jquery -->
-    <script defer src="js/fancybox.umd.js"></script>            <!-- fancybox -->
+    <script defer src="js/jquery.fancybox.js"></script>         <!-- fancybox -->
     <script defer src="js/popper.js"></script>                  <!-- popper -->
     <script defer src="js/swiper-bundle.js"></script>           <!-- swiper -->
     <script defer src="js/gsap.js"></script>                    <!-- gsap -->

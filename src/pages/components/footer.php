@@ -57,5 +57,7 @@
             </div>
         </div>
     </footer>
+
+	<?php include($_SERVER["DOCUMENT_ROOT"] . "/build/" . "components/modals.php"); ?>
 </body>
 </html>

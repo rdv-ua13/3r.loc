@@ -93,14 +93,14 @@ const includedJsBuild = () => {
         [
             "node_modules/jquery/dist/jquery.js",
             "node_modules/jquery.maskedinput/src/jquery.maskedinput.js",
-            "node_modules/jquery-validation/dist/jquery.validate.js",
-            "node_modules/jquery-validation/dist/localization/messages_ru.js",
             "node_modules/@popperjs/core/dist/umd/popper.js",
             "node_modules/@fancyapps/fancybox/dist/jquery.fancybox.js",
             "node_modules/swiper/swiper-bundle.js",
             "node_modules/gsap/dist/gsap.js",
             "node_modules/tippy.js/dist/tippy-bundle.umd.js",
-            /*"node_modules/accordion-js/dist/accordion.js",
+            /*"node_modules/jquery-validation/dist/jquery.validate.js",
+            "node_modules/jquery-validation/dist/localization/messages_ru.js",
+            "node_modules/accordion-js/dist/accordion.js",
             "node_modules/readmore-js/readmore.js",*/
         ]
     )
@@ -114,14 +114,14 @@ const libsJsBuild = () => {
         [
             "node_modules/jquery/dist/jquery.js",
             "node_modules/jquery.maskedinput/src/jquery.maskedinput.js",
-            "node_modules/jquery-validation/dist/jquery.validate.js",
-            "node_modules/jquery-validation/dist/localization/messages_ru.js",
             "node_modules/@popperjs/core/dist/umd/popper.js",
             "node_modules/@fancyapps/fancybox/dist/jquery.fancybox.js",
             "node_modules/swiper/swiper-bundle.js",
             "node_modules/gsap/dist/gsap.js",
             "node_modules/tippy.js/dist/tippy-bundle.umd.js",
-            /*"node_modules/accordion-js/dist/accordion.js",
+            /*"node_modules/jquery-validation/dist/jquery.validate.js",
+            "node_modules/jquery-validation/dist/localization/messages_ru.js",
+            "node_modules/accordion-js/dist/accordion.js",
             "node_modules/readmore-js/readmore.js",*/
         ]
     )

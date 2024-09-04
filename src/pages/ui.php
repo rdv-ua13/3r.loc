@@ -18,7 +18,7 @@
 
 	<?/* Подключение библиотек */?>
     <script defer src="js/jquery.js"></script>                  <!-- jquery -->
-    <script defer src="js/fancybox.umd.js"></script>            <!-- fancybox -->
+    <script defer src="js/jquery.fancybox.js"></script>         <!-- fancybox -->
     <script defer src="js/popper.js"></script>                  <!-- popper -->
     <script defer src="js/swiper-bundle.js"></script>           <!-- swiper -->
     <script defer src="js/gsap.js"></script>                    <!-- gsap -->
@@ -726,18 +726,14 @@
     <h3 class="text-center">Links</h3>
     <div class="container-ui">
         <div>
-            <div class="container-ui">
-                <div>
-                    <!--start ui content-->
-                    <a class="link">Ссылка</a>
-                    <!--end ui content-->
-                </div>
-                <div>
-                    <!--start ui content-->
-                    <a class="link link-tdu">Ссылка</a>
-                    <!--end ui content-->
-                </div>
-            </div>
+            <!--start ui content-->
+            <a class="link">Ссылка</a>
+            <!--end ui content-->
+        </div>
+        <div>
+            <!--start ui content-->
+            <a class="link link-tdu">Ссылка</a>
+            <!--end ui content-->
         </div>
     </div>
     <hr style="width: 100%;">
@@ -781,5 +777,92 @@
     <br>
     <br>
 
+    <h3 class="text-center">Inputs</h3>
+    <div class="flex-start-start">
+        <div class="tooltip" style="align-self: flex-start;" data-tippy-content="default">
+            <!--start ui content-->
+            <div class="input-wrapper">
+                <input
+                        class="input-reset input"
+                        type="text"
+                        name=""
+                        value=""
+                        placeholder="Placeholder"
+                        autocomplete="off"
+                >
+                <div class="input-error-msg">Сообщение об ошибке (без класса ".error" для ".input" display:none)</div>
+            </div>
+            <!--end ui content-->
+        </div>
+        <div class="tooltip" style="align-self: flex-start;" data-tippy-content="error">
+            <!--start ui content-->
+            <div class="input-wrapper">
+                <input
+                        class="input-reset input error"
+                        type="text"
+                        name=""
+                        value=""
+                        placeholder="Placeholder"
+                        autocomplete="off"
+                >
+                <div class="input-error-msg">Сообщение об ошибке</div>
+            </div>
+            <!--end ui content-->
+        </div>
+    </div>
+    <hr style="width: 100%;">
+
+    <br>
+    <br>
+
+    <h3 class="text-center">Popups</h3>
+    <div class="container-ui">
+        <!--start ui content-->
+        <button
+                class="btn-reset btn"
+                type="button"
+                data-fancybox
+                data-src="#modal_request"
+        >
+            <span class="text-content">Popup: Форма</span>
+        </button>
+        <!--end ui content-->
+        <!--start ui content-->
+        <button
+                class="btn-reset btn"
+                type="button"
+                data-fancybox
+                data-src="#modal_details"
+        >
+            <span class="text-content">Popup: Подробнее</span>
+        </button>
+        <!--end ui content-->
+        <!--start ui content-->
+        <button
+                class="btn-reset btn"
+                type="button"
+                data-fancybox
+                data-src="#modal_standard_spiral_zippers"
+        >
+            <span class="text-content">Popup: Стандартные спиральные молнии</span>
+        </button>
+        <!--end ui content-->
+        <!--start ui content-->
+        <button
+                class="btn-reset btn"
+                type="button"
+                data-fancybox
+                data-src="#modal_reversible_spiral_zippers"
+        >
+            <span class="text-content">Popup: Реверсивные спиральные молнии</span>
+        </button>
+        <!--end ui content-->
+    </div>
+    <hr style="width: 100%;">
+
+    <br>
+    <br>
+
+	<?php include($_SERVER["DOCUMENT_ROOT"] . "/build/" . "components/modals.php"); ?>
 </body>
 </html>

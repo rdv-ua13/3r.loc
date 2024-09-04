@@ -1765,6 +1765,9 @@ body:not(.is-using-mouse) {
 		gap: 24px;
 
 		&__standard {
+			display: flex;
+			flex-direction: column;
+
 			.image {
 				height: auto;
 			}

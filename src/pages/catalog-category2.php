@@ -340,6 +340,80 @@
                 </a>
             </div>
         </div>
+
+        <br>
+
+        <div class="card-list card-list--max">
+            <a class="card card-category" href="javascript:;">
+                <span class="card__view">
+                    <img
+                            loading="lazy"
+                            class="image"
+                            src="img/catalog-category-img2.png"
+                            width="370"
+                            height="320"
+                            alt="Изображение блока"
+                    >
+                </span>
+                <span class="card__descr">
+                    <span class="card__text-content">
+                        <span class="card__title text-center">Тип 3</span>
+                    </span>
+                </span>
+            </a>
+            <a class="card card-category" href="javascript:;">
+                <span class="card__view">
+                    <img
+                            loading="lazy"
+                            class="image"
+                            src="img/catalog-category-img2.png"
+                            width="370"
+                            height="320"
+                            alt="Изображение блока"
+                    >
+                </span>
+                <span class="card__descr">
+                    <span class="card__text-content">
+                        <span class="card__title text-center">Тип 4</span>
+                    </span>
+                </span>
+            </a>
+            <a class="card card-category" href="javascript:;">
+                <span class="card__view">
+                    <img
+                            loading="lazy"
+                            class="image"
+                            src="img/catalog-category-img2.png"
+                            width="370"
+                            height="320"
+                            alt="Изображение блока"
+                    >
+                </span>
+                <span class="card__descr">
+                    <span class="card__text-content">
+                        <span class="card__title text-center">Тип 5</span>
+                    </span>
+                </span>
+            </a>
+            <a class="card card-category" href="javascript:;">
+                <span class="card__view">
+                    <img
+                            loading="lazy"
+                            class="image"
+                            src="img/catalog-category-img2.png"
+                            width="370"
+                            height="320"
+                            alt="Изображение блока"
+                    >
+                </span>
+                <span class="card__descr">
+                    <span class="card__text-content">
+                        <span class="card__title text-center">Тип 7</span>
+                    </span>
+                </span>
+            </a>
+        </div>
+
     </div>
 </div>
 
